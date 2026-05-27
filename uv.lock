@@ -190,12 +190,16 @@ source = { virtual = "." }
 dependencies = [
     { name = "andes" },
     { name = "pandapower" },
+    { name = "pyyaml" },
+    { name = "scipy" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "andes", specifier = ">=2.0.0" },
     { name = "pandapower", specifier = ">=3.4.0" },
+    { name = "pyyaml", specifier = ">=6.0" },
+    { name = "scipy", specifier = ">=1.16.3" },
 ]
 
 [[package]]

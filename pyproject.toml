@@ -1,9 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "dynaxlate"
 version = "0.1.0"
-description = "Add your description here"
+description = "Dynamic model translation between PSSE/PSCAD/SSAT and PowerFactory formats"
 requires-python = ">=3.13"
 dependencies = [
     "andes>=2.0.0",
     "pandapower>=3.4.0",
+    "pyyaml>=6.0",
+    "scipy>=1.16.3",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dynaxlate"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
