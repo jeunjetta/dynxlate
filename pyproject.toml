@@ -1,0 +1,9 @@
+[project]
+name = "dynaxlate"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "andes>=2.0.0",
+    "pandapower>=3.4.0",
+]
