@@ -175,6 +175,36 @@ class TestModelRegistry:
         assert any("Saturation" in c or "saturation" in c.lower()
                     for c in mapping.corrections)
 
+    def test_sync_models_tagged_rms(self):
+        """Synchronous machine models are tagged for RMS simulation."""
+        from dynaxlate.model_registry import get_mapping
+        for model_name in ["GENROU", "GENCLS", "ESST3A", "TGOV1"]:
+            mapping = get_mapping(model_name)
+            assert mapping is not None, f"{model_name} not in registry"
+            assert mapping.sim_domain == "rms", f"{model_name} should be rms, got {mapping.sim_domain}"
+
+    def test_ibr_models_tagged_emt(self):
+        """IBR models are tagged for EMT simulation (per EMT/IBR context)."""
+        from dynaxlate.model_registry import get_mapping
+        for model_name in ["REGC_A", "REEC_B"]:
+            mapping = get_mapping(model_name)
+            assert mapping is not None, f"{model_name} not in registry"
+            assert mapping.sim_domain == "emt", f"{model_name} should be emt, got {mapping.sim_domain}"
+
+    def test_repc_tagged_both(self):
+        """REPC_A works in both RMS and EMT domains."""
+        from dynaxlate.model_registry import get_mapping
+        mapping = get_mapping("REPC_A")
+        assert mapping is not None
+        assert mapping.sim_domain == "both"
+
+    def test_ibr_models_have_ppc_corrections(self):
+        """IBR models flag PPC interaction concerns."""
+        from dynaxlate.model_registry import get_mapping
+        mapping = get_mapping("REPC_A")
+        assert any("PPC" in c or "oscillation" in c.lower()
+                    for c in mapping.corrections + mapping.known_issues)
+
 
 class TestComparisonFramework:
     """Test the comparison/verification framework."""

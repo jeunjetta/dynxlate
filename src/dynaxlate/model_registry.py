@@ -30,6 +30,7 @@ class ModelMapping:
     pf_model_class: str          # e.g., "ElmSym", "ElmDsl"
     pf_template: str | None      # DSL template name in PF library
     category: str                # "generator", "exciter", "governor", "pss", "renewable"
+    sim_domain: str = "rms"      # "rms", "emt", or "both" — see plans/emt-ibr-context.md
     parameters: list[ParameterMapping] = field(default_factory=list)
     corrections: list[str] = field(default_factory=list)
     known_issues: list[str] = field(default_factory=list)
@@ -186,12 +187,84 @@ def _load_builtin_registry():
         pf_model_class="ElmSym",
         pf_template="GENCLS",
         category="generator",
+        sim_domain="rms",
         parameters=[
             ParameterMapping("H", "H", scale=1.0, notes="Inertia constant (s)"),
             ParameterMapping("D", "D", scale=1.0, notes="Damping coefficient"),
         ],
         corrections=[
             "Simplest model: only H and D — good for initial testing",
+        ],
+    )
+
+    # === IBR Models (sim_domain: emt) ===
+    # These models NEED EMT simulation for fidelity in weak grids.
+    # See plans/emt-ibr-context.md for justification.
+
+    # REGC_A: Renewable energy generator/converter model A
+    BUILTIN_REGISTRY["REGC_A"] = ModelMapping(
+        psse_model="REGC_A",
+        pf_model_class="ElmDsl",
+        pf_template="REGC_A",
+        category="renewable",
+        sim_domain="emt",
+        parameters=[
+            ParameterMapping("Tg", "Tg", scale=1.0, notes="Converter time constant (s)"),
+            ParameterMapping("Rrpu", "Rrpu", scale=1.0, notes="Low voltage power logic"),
+            ParameterMapping("Iqmax", "Iqmax", scale=1.0, notes="Max q-axis current (pu)"),
+            ParameterMapping("Iqmin", "Iqmin", scale=1.0, notes="Min q-axis current (pu)"),
+            ParameterMapping("Vdip", "Vdip", scale=1.0, notes="Voltage dip threshold"),
+            ParameterMapping("Vup", "Vup", scale=1.0, notes="Voltage up threshold"),
+        ],
+        corrections=[
+            "PLL dynamics in weak grids require EMT resolution",
+            "Current limiting behavior differs between RMS and EMT",
+            "At SCR < 3, RMS results diverge significantly from EMT",
+        ],
+        known_issues=[
+            "PPC interactions with nearby controllers can't be captured in RMS",
+            "Ride-through behavior during voltage dips needs EMT validation",
+        ],
+    )
+
+    # REEC_B: Renewable energy electrical control model B
+    BUILTIN_REGISTRY["REEC_B"] = ModelMapping(
+        psse_model="REEC_B",
+        pf_model_class="ElmDsl",
+        pf_template="REEC_B",
+        category="renewable",
+        sim_domain="emt",
+        parameters=[
+            ParameterMapping("Vdip", "Vdip", scale=1.0, notes="Voltage dip threshold"),
+            ParameterMapping("Vup", "Vup", scale=1.0, notes="Voltage up threshold"),
+            ParameterMapping("Trv", "Trv", scale=1.0, notes="Voltage sensor time constant (s)"),
+            ParameterMapping("Kqv", "Kqv", scale=1.0, notes="Q/_voltage gain"),
+        ],
+        corrections=[
+            "Active current management during faults needs EMT verification",
+            "Reactive power priority vs active power priority is EMT-dependent",
+        ],
+    )
+
+    # REPC_A: Renewable energy plant control model A
+    BUILTIN_REGISTRY["REPC_A"] = ModelMapping(
+        psse_model="REPC_A",
+        pf_model_class="ElmDsl",
+        pf_template="REPC_A",
+        category="renewable",
+        sim_domain="both",
+        parameters=[
+            ParameterMapping("Tfltr", "Tfltr", scale=1.0, notes="Voltage filter time constant (s)"),
+            ParameterMapping("Kp", "Kp", scale=1.0, notes="Proportional gain"),
+            ParameterMapping("Ki", "Ki", scale=1.0, notes="Integral gain"),
+        ],
+        corrections=[
+            "PPC interactions are the #1 cause of IBR oscillations (Dominion case)",
+            "RMS mode OK for steady-state; EMT mode needed for interaction analysis",
+        ],
+        known_issues=[
+            "Multiple REPC_A models in close proximity can interact",
+            "Tuning without considering nearby controllers causes oscillations",
         ],
     )
 
