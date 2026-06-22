@@ -1,4 +1,4 @@
-# Dynaxlate
+# Dynxlate
 
 Dynamic model translation between power systems simulation formats.
 
@@ -12,7 +12,7 @@ Translate transient dynamic models (generators, SVCs, inverters, etc.) from PSSE
 ## Project Structure
 
 ```
-dynaxlate/
+dynxlate/
 ├── plans/           # Research, links, and implementation strategies
 ├── src/             # Translation code
 ├── tests/           # Test harnesses
