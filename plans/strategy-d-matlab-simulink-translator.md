@@ -616,7 +616,6 @@ fprintf('[PASS] System identification achieves %.1f%% fit\n', fit);
 | **DLL pathway for complex models** | If DSL can't express it, C code from Simulink Coder can. PowerFactory's digexfun accepts external DLLs. |
 | **Co-simulation** | PowerFactory digexfun → MATLAB engine mode enables timestep-by-timestep comparison during development. |
 | **MATLAB scripting power** | Numerical analysis, optimization, plotting, reporting — all in one environment. No tool-switching. |
-| **NEM-specific advantages** | AEMO researchers and Australian power systems engineers predominantly use MATLAB. Easier to hand off to colleagues. |
 
 ## Limitations
 
