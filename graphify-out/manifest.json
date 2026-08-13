@@ -1,0 +1,132 @@
+{
+  "models/fortran/usrexc.f": {
+    "mtime": 1781269198.3404787,
+    "ast_hash": "665aff6af8af12e8846206fa8a7c7963",
+    "semantic_hash": "665aff6af8af12e8846206fa8a7c7963"
+  },
+  "models/fortran/usrgov.f": {
+    "mtime": 1781269198.337557,
+    "ast_hash": "0fe9d62dc0f9c912fecdaa3a1119e14a",
+    "semantic_hash": "0fe9d62dc0f9c912fecdaa3a1119e14a"
+  },
+  "models/fortran/usrpss.f": {
+    "mtime": 1781269198.33587,
+    "ast_hash": "6c3db480446020d98d428e7c4cd023ec",
+    "semantic_hash": "6c3db480446020d98d428e7c4cd023ec"
+  },
+  "pyproject.toml": {
+    "mtime": 1779917170.2401075,
+    "ast_hash": "9f2a48464f0e836184c83e0df31a8c93",
+    "semantic_hash": "9f2a48464f0e836184c83e0df31a8c93"
+  },
+  "src/dynaxlate/__init__.py": {
+    "mtime": 1779916726.3245373,
+    "ast_hash": "8fe53f4a92bdb964b6b794fce0ad1401",
+    "semantic_hash": "8fe53f4a92bdb964b6b794fce0ad1401"
+  },
+  "src/dynaxlate/comparison.py": {
+    "mtime": 1779916830.9554753,
+    "ast_hash": "9e709d4975f2ff54e4c073850672e38c",
+    "semantic_hash": "9e709d4975f2ff54e4c073850672e38c"
+  },
+  "src/dynaxlate/dsl_generator.py": {
+    "mtime": 1781269525.2191424,
+    "ast_hash": "a588536dbd609ec24447a9a6c4cd81f4",
+    "semantic_hash": "a588536dbd609ec24447a9a6c4cd81f4"
+  },
+  "src/dynaxlate/dyr_parser.py": {
+    "mtime": 1779917290.9120946,
+    "ast_hash": "05583bbbd4f6b0f285bb1924c139ce92",
+    "semantic_hash": "05583bbbd4f6b0f285bb1924c139ce92"
+  },
+  "src/dynaxlate/fortran_parser.py": {
+    "mtime": 1781269422.4036248,
+    "ast_hash": "cca4f3e59d081f36d472ad9eaca2a855",
+    "semantic_hash": "cca4f3e59d081f36d472ad9eaca2a855"
+  },
+  "src/dynaxlate/model_registry.py": {
+    "mtime": 1779917454.2269819,
+    "ast_hash": "3ab0565455f6a430b3950d83e7d0dc39",
+    "semantic_hash": "3ab0565455f6a430b3950d83e7d0dc39"
+  },
+  "src/dynaxlate/pf_adapter.py": {
+    "mtime": 1779916863.8751438,
+    "ast_hash": "65bb0fc5ef6a3a9efc2f2162e0e75cfb",
+    "semantic_hash": "65bb0fc5ef6a3a9efc2f2162e0e75cfb"
+  },
+  "src/dynaxlate/psse_baseline.py": {
+    "mtime": 1779916726.333537,
+    "ast_hash": "c0e9506d33f4b79f2a00965325321be1",
+    "semantic_hash": "c0e9506d33f4b79f2a00965325321be1"
+  },
+  "tests/test_fortran_udm.py": {
+    "mtime": 1781269607.4059334,
+    "ast_hash": "0a268697d46eb922c388d226fa15722a",
+    "semantic_hash": "0a268697d46eb922c388d226fa15722a"
+  },
+  "tests/test_strategy_a.py": {
+    "mtime": 1779917468.4362078,
+    "ast_hash": "07c9b7acd7142a1bf5350dcef49e5756",
+    "semantic_hash": "07c9b7acd7142a1bf5350dcef49e5756"
+  },
+  "tests/test_strategy_b.py": {
+    "mtime": 1779916932.376458,
+    "ast_hash": "5db033f36daa9d5d82b80c0ef0edf752",
+    "semantic_hash": "5db033f36daa9d5d82b80c0ef0edf752"
+  },
+  "tests/test_strategy_c.py": {
+    "mtime": 1779916957.451984,
+    "ast_hash": "505e16c91615e7e8e02b338148cb569b",
+    "semantic_hash": "505e16c91615e7e8e02b338148cb569b"
+  },
+  "tests/test_strategy_d.py": {
+    "mtime": 1781595356.9158216,
+    "ast_hash": "4d8b2b4bf5bfb3cd0e6d839b9606152f",
+    "semantic_hash": "4d8b2b4bf5bfb3cd0e6d839b9606152f"
+  },
+  "README.md": {
+    "mtime": 1782343946.9373424,
+    "ast_hash": "aa4f4317fff20582b9e0cc1d19305a39",
+    "semantic_hash": ""
+  },
+  "plans/critique.md": {
+    "mtime": 1779916639.8374267,
+    "ast_hash": "5428341724e34dfc57b2f3357b0a099a",
+    "semantic_hash": ""
+  },
+  "plans/emt-ibr-context.md": {
+    "mtime": 1779917421.787659,
+    "ast_hash": "a0c7633d7d02bb4878fa330efc157b42",
+    "semantic_hash": ""
+  },
+  "plans/research.md": {
+    "mtime": 1779916335.7833931,
+    "ast_hash": "cd48855621cf7c42f64fea35d5e2ab59",
+    "semantic_hash": ""
+  },
+  "plans/strategy-a-native-import.md": {
+    "mtime": 1779916360.958038,
+    "ast_hash": "0c9c19569308572cb030ca5bf409c6e9",
+    "semantic_hash": ""
+  },
+  "plans/strategy-b-andes-dsl-generator.md": {
+    "mtime": 1779916400.9418275,
+    "ast_hash": "73500900864e12c05750b9251b9ca35a",
+    "semantic_hash": ""
+  },
+  "plans/strategy-c-cim-intermediate.md": {
+    "mtime": 1779916438.376462,
+    "ast_hash": "87b1c13ed4c10fe730e66cc306f58baa",
+    "semantic_hash": ""
+  },
+  "plans/strategy-d-matlab-simulink-translator.md": {
+    "mtime": 1781594978.1288273,
+    "ast_hash": "b6b1d77f1ecb9db7d6ab15fea9f02582",
+    "semantic_hash": ""
+  },
+  "dynaxlate_explainer.mp4": {
+    "mtime": 1781364602.7368224,
+    "ast_hash": "ef0251c2c075036f118f63f9e9a2947a",
+    "semantic_hash": ""
+  }
+}
