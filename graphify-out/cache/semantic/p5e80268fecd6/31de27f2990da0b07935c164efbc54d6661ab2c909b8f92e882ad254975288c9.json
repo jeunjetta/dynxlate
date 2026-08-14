@@ -1,0 +1,1 @@
+{"nodes": [{"id": "plans_strategy_a_native_import", "label": "Strategy A: Native Import", "file_type": "document", "source_file": "plans/strategy-a-native-import.md", "rationale": "Fastest path using PowerFactory's built-in converter with post-processing."}], "edges": [], "hyperedges": []}

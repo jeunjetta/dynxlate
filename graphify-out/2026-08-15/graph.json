@@ -42,8 +42,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "modelmapping",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_modelmapping"
+      "id": "src_dynaxlate_model_registry_modelmapping",
+      "community_name": "get_mapping"
     },
     {
       "label": "ParameterMapping",
@@ -55,8 +55,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "parametermapping",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_parametermapping"
+      "id": "src_dynaxlate_model_registry_parametermapping",
+      "community_name": "get_mapping"
     },
     {
       "label": "TestModelRegistry",
@@ -68,8 +68,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "testmodelregistry",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry"
+      "id": "tests_test_strategy_a_testmodelregistry",
+      "community_name": "get_mapping"
     },
     {
       "label": "DynamicModelEntry",
@@ -81,8 +81,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "dynamicmodelentry",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dynamicmodelentry"
+      "id": "src_dynaxlate_dyr_parser_dynamicmodelentry",
+      "community_name": "parse_dyr"
     },
     {
       "label": "DYRFile",
@@ -94,8 +94,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "dyrfile",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile"
+      "id": "src_dynaxlate_dyr_parser_dyrfile",
+      "community_name": "parse_dyr"
     },
     {
       "label": "TestDYRParser",
@@ -107,8 +107,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "testdyrparser",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_testdyrparser"
+      "id": "tests_test_strategy_a_testdyrparser",
+      "community_name": "parse_dyr"
     },
     {
       "label": "PowerFlowResult",
@@ -120,8 +120,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "powerflowresult",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_powerflowresult"
+      "id": "src_dynaxlate_psse_baseline_powerflowresult",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "PSSEBaselineRunner",
@@ -133,8 +133,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "pssebaselinerunner",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner"
+      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "SimulationResult",
@@ -146,8 +146,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "simulationresult",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_simulationresult"
+      "id": "src_dynaxlate_psse_baseline_simulationresult",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "TestPSSEBaseline",
@@ -159,8 +159,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "testpssebaseline",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_testpssebaseline"
+      "id": "tests_test_strategy_a_testpssebaseline",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": "TestSystemIdentification",
@@ -172,8 +172,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "testsystemidentification",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_testsystemidentification"
+      "id": "tests_test_strategy_d_testsystemidentification",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": "TestSimulinkBlockMapping",
@@ -185,8 +185,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "testsimulinkblockmapping",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_testsimulinkblockmapping"
+      "id": "tests_test_strategy_d_testsimulinkblockmapping",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": "TestIntegrationWithDynaxlate",
@@ -198,8 +198,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "testintegrationwithdynaxlate",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate"
+      "id": "tests_test_strategy_d_testintegrationwithdynaxlate",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": "TestRoundTripNumerics",
@@ -211,8 +211,8 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "testroundtripnumerics",
-      "community_name": "Numerical Round-Trip Validation",
-      "id": "tests_test_fortran_udm_testroundtripnumerics"
+      "id": "tests_test_fortran_udm_testroundtripnumerics",
+      "community_name": "TestRoundTripNumerics"
     },
     {
       "label": "TestStrategyDDocument",
@@ -224,8 +224,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "teststrategyddocument",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument"
+      "id": "tests_test_strategy_d_teststrategyddocument",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "TestCIMGeneration",
@@ -237,8 +237,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "testcimgeneration",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimgeneration"
+      "id": "tests_test_strategy_c_testcimgeneration",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "TestCIMPowerFactoryImport",
@@ -250,8 +250,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "testcimpowerfactoryimport",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimpowerfactoryimport"
+      "id": "tests_test_strategy_c_testcimpowerfactoryimport",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "TestCIMRoundTrip",
@@ -263,8 +263,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "testcimroundtrip",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimroundtrip"
+      "id": "tests_test_strategy_c_testcimroundtrip",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "TestCIMValidation",
@@ -276,8 +276,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "testcimvalidation",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimvalidation"
+      "id": "tests_test_strategy_c_testcimvalidation",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "TestMATLABAvailability",
@@ -289,8 +289,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "testmatlabavailability",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testmatlabavailability"
+      "id": "tests_test_strategy_d_testmatlabavailability",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "TestMATLABScriptSyntax",
@@ -302,8 +302,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "testmatlabscriptsyntax",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testmatlabscriptsyntax"
+      "id": "tests_test_strategy_d_testmatlabscriptsyntax",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "TestReferences",
@@ -315,8 +315,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "testreferences",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testreferences"
+      "id": "tests_test_strategy_d_testreferences",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "DSLGenerator",
@@ -328,8 +328,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "dslgenerator",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator"
+      "id": "src_dynaxlate_dsl_generator_dslgenerator",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "DSLModel",
@@ -341,8 +341,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "dslmodel",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslmodel"
+      "id": "src_dynaxlate_dsl_generator_dslmodel",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "TestDSLGenerator",
@@ -354,8 +354,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "testdslgenerator",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator"
+      "id": "tests_test_fortran_udm_testdslgenerator",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "PFConnectionConfig",
@@ -367,8 +367,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "pfconnectionconfig",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_pfconnectionconfig"
+      "id": "src_dynaxlate_pf_adapter_pfconnectionconfig",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "PowerFactoryAdapter",
@@ -380,8 +380,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "powerfactoryadapter",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "TestPowerFactoryAdapter",
@@ -393,8 +393,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "testpowerfactoryadapter",
-      "community_name": "PowerFactory API Adapter",
-      "id": "tests_test_strategy_a_testpowerfactoryadapter"
+      "id": "tests_test_strategy_a_testpowerfactoryadapter",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "TestANDESParserIntegration",
@@ -406,8 +406,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "testandesparserintegration",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testandesparserintegration"
+      "id": "tests_test_strategy_b_testandesparserintegration",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "TestDSLSyntaxGeneration",
@@ -419,8 +419,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "testdslsyntaxgeneration",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testdslsyntaxgeneration"
+      "id": "tests_test_strategy_b_testdslsyntaxgeneration",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "TestIncrementalVerification",
@@ -432,8 +432,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "testincrementalverification",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testincrementalverification"
+      "id": "tests_test_strategy_b_testincrementalverification",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "TestModelRegistryCompleteness",
@@ -445,8 +445,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "testmodelregistrycompleteness",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testmodelregistrycompleteness"
+      "id": "tests_test_strategy_b_testmodelregistrycompleteness",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Declaration",
@@ -458,8 +458,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "declaration",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_declaration"
+      "id": "src_dynaxlate_fortran_parser_declaration",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "FortranUDM",
@@ -471,8 +471,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "fortranudm",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_fortranudm"
+      "id": "src_dynaxlate_fortran_parser_fortranudm",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "TestFortranParser",
@@ -484,8 +484,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "testfortranparser",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_testfortranparser"
+      "id": "tests_test_fortran_udm_testfortranparser",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "ComparisonMetric",
@@ -497,8 +497,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "comparisonmetric",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_comparisonmetric"
+      "id": "src_dynaxlate_comparison_comparisonmetric",
+      "community_name": "comparison.py"
     },
     {
       "label": "ComparisonReport",
@@ -510,8 +510,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "comparisonreport",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_comparisonreport"
+      "id": "src_dynaxlate_comparison_comparisonreport",
+      "community_name": "comparison.py"
     },
     {
       "label": "Tolerance",
@@ -523,8 +523,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "tolerance",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_tolerance"
+      "id": "src_dynaxlate_comparison_tolerance",
+      "community_name": "comparison.py"
     },
     {
       "label": "TestComparisonFramework",
@@ -536,8 +536,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "testcomparisonframework",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a_testcomparisonframework"
+      "id": "tests_test_strategy_a_testcomparisonframework",
+      "community_name": "comparison.py"
     },
     {
       "label": "get_mapping()",
@@ -548,8 +548,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "get_mapping()",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_get_mapping"
+      "id": "src_dynaxlate_model_registry_get_mapping",
+      "community_name": "get_mapping"
     },
     {
       "label": "list_supported_models()",
@@ -560,8 +560,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "list_supported_models()",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_list_supported_models"
+      "id": "src_dynaxlate_model_registry_list_supported_models",
+      "community_name": "get_mapping"
     },
     {
       "label": "_load_builtin_registry()",
@@ -572,8 +572,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "_load_builtin_registry()",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_load_builtin_registry"
+      "id": "src_dynaxlate_model_registry_load_builtin_registry",
+      "community_name": "get_mapping"
     },
     {
       "label": "load_registry()",
@@ -584,8 +584,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "load_registry()",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_load_registry"
+      "id": "src_dynaxlate_model_registry_load_registry",
+      "community_name": "get_mapping"
     },
     {
       "label": ".apply()",
@@ -596,8 +596,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".apply()",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_modelmapping_apply"
+      "id": "src_dynaxlate_model_registry_modelmapping_apply",
+      "community_name": "get_mapping"
     },
     {
       "label": ".test_damping_correction_flagged()",
@@ -608,8 +608,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_damping_correction_flagged()",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry_test_damping_correction_flagged"
+      "id": "tests_test_strategy_a_testmodelregistry_test_damping_correction_flagged",
+      "community_name": "get_mapping"
     },
     {
       "label": ".test_genrou_mapping()",
@@ -620,8 +620,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_genrou_mapping()",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry_test_genrou_mapping"
+      "id": "tests_test_strategy_a_testmodelregistry_test_genrou_mapping",
+      "community_name": "get_mapping"
     },
     {
       "label": ".test_ibr_models_have_ppc_corrections()",
@@ -632,8 +632,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_ibr_models_have_ppc_corrections()",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry_test_ibr_models_have_ppc_corrections"
+      "id": "tests_test_strategy_a_testmodelregistry_test_ibr_models_have_ppc_corrections",
+      "community_name": "get_mapping"
     },
     {
       "label": ".test_ibr_models_tagged_emt()",
@@ -644,8 +644,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_ibr_models_tagged_emt()",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry_test_ibr_models_tagged_emt"
+      "id": "tests_test_strategy_a_testmodelregistry_test_ibr_models_tagged_emt",
+      "community_name": "get_mapping"
     },
     {
       "label": ".test_parameter_transform()",
@@ -656,8 +656,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_parameter_transform()",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry_test_parameter_transform"
+      "id": "tests_test_strategy_a_testmodelregistry_test_parameter_transform",
+      "community_name": "get_mapping"
     },
     {
       "label": ".test_registry_has_standard_models()",
@@ -668,8 +668,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_registry_has_standard_models()",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry_test_registry_has_standard_models"
+      "id": "tests_test_strategy_a_testmodelregistry_test_registry_has_standard_models",
+      "community_name": "get_mapping"
     },
     {
       "label": ".test_repc_tagged_both()",
@@ -680,8 +680,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_repc_tagged_both()",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry_test_repc_tagged_both"
+      "id": "tests_test_strategy_a_testmodelregistry_test_repc_tagged_both",
+      "community_name": "get_mapping"
     },
     {
       "label": ".test_saturation_correction_flagged()",
@@ -692,8 +692,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_saturation_correction_flagged()",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry_test_saturation_correction_flagged"
+      "id": "tests_test_strategy_a_testmodelregistry_test_saturation_correction_flagged",
+      "community_name": "get_mapping"
     },
     {
       "label": ".test_sync_models_tagged_rms()",
@@ -704,8 +704,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_sync_models_tagged_rms()",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_testmodelregistry_test_sync_models_tagged_rms"
+      "id": "tests_test_strategy_a_testmodelregistry_test_sync_models_tagged_rms",
+      "community_name": "get_mapping"
     },
     {
       "label": ".to_dict()",
@@ -716,8 +716,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".to_dict()",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dynamicmodelentry_to_dict"
+      "id": "src_dynaxlate_dyr_parser_dynamicmodelentry_to_dict",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".get_bus_model_map()",
@@ -728,8 +728,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".get_bus_model_map()",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile_get_bus_model_map"
+      "id": "src_dynaxlate_dyr_parser_dyrfile_get_bus_model_map",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".get_models_by_bus()",
@@ -740,8 +740,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".get_models_by_bus()",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_bus"
+      "id": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_bus",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".get_models_by_type()",
@@ -752,8 +752,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".get_models_by_type()",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_type"
+      "id": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_type",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".summary()",
@@ -764,8 +764,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".summary()",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile_summary"
+      "id": "src_dynaxlate_dyr_parser_dyrfile_summary",
+      "community_name": "parse_dyr"
     },
     {
       "label": "parse_dyr()",
@@ -776,8 +776,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "parse_dyr()",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_parse_dyr"
+      "id": "src_dynaxlate_dyr_parser_parse_dyr",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".ieee14_dyr()",
@@ -788,8 +788,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".ieee14_dyr()",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_testdyrparser_ieee14_dyr"
+      "id": "tests_test_strategy_a_testdyrparser_ieee14_dyr",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".kundur_dyr()",
@@ -800,8 +800,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".kundur_dyr()",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_testdyrparser_kundur_dyr"
+      "id": "tests_test_strategy_a_testdyrparser_kundur_dyr",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".test_bus_model_map()",
@@ -812,8 +812,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".test_bus_model_map()",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_testdyrparser_test_bus_model_map"
+      "id": "tests_test_strategy_a_testdyrparser_test_bus_model_map",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".test_ieee14_model_types()",
@@ -824,8 +824,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".test_ieee14_model_types()",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_testdyrparser_test_ieee14_model_types"
+      "id": "tests_test_strategy_a_testdyrparser_test_ieee14_model_types",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".test_model_parameters_parsed()",
@@ -836,8 +836,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".test_model_parameters_parsed()",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_testdyrparser_test_model_parameters_parsed"
+      "id": "tests_test_strategy_a_testdyrparser_test_model_parameters_parsed",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".test_parser_extracts_models()",
@@ -848,8 +848,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".test_parser_extracts_models()",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_testdyrparser_test_parser_extracts_models"
+      "id": "tests_test_strategy_a_testdyrparser_test_parser_extracts_models",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".test_parser_identifies_model_types()",
@@ -860,8 +860,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".test_parser_identifies_model_types()",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_testdyrparser_test_parser_identifies_model_types"
+      "id": "tests_test_strategy_a_testdyrparser_test_parser_identifies_model_types",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".test_summary()",
@@ -872,8 +872,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".test_summary()",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_testdyrparser_test_summary"
+      "id": "tests_test_strategy_a_testdyrparser_test_summary",
+      "community_name": "parse_dyr"
     },
     {
       "label": ".compute_eigenvalues()",
@@ -884,8 +884,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": ".compute_eigenvalues()",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_compute_eigenvalues"
+      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_compute_eigenvalues",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": ".__init__()",
@@ -896,8 +896,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": ".__init__()",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_init"
+      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_init",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": ".run_dynamic()",
@@ -908,8 +908,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": ".run_dynamic()",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_dynamic"
+      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_dynamic",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": ".run_power_flow()",
@@ -920,8 +920,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": ".run_power_flow()",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_power_flow"
+      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_power_flow",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": ".run_vref_step()",
@@ -932,8 +932,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": ".run_vref_step()",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_vref_step"
+      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_vref_step",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": ".ieee14_dyr()",
@@ -944,8 +944,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".ieee14_dyr()",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_testpssebaseline_ieee14_dyr"
+      "id": "tests_test_strategy_a_testpssebaseline_ieee14_dyr",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": ".ieee14_raw()",
@@ -956,8 +956,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".ieee14_raw()",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_testpssebaseline_ieee14_raw"
+      "id": "tests_test_strategy_a_testpssebaseline_ieee14_raw",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": ".kundur_dyr()",
@@ -968,8 +968,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".kundur_dyr()",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_testpssebaseline_kundur_dyr"
+      "id": "tests_test_strategy_a_testpssebaseline_kundur_dyr",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": ".kundur_raw()",
@@ -980,8 +980,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".kundur_raw()",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_testpssebaseline_kundur_raw"
+      "id": "tests_test_strategy_a_testpssebaseline_kundur_raw",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": ".test_andes_loads_dyr()",
@@ -992,8 +992,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".test_andes_loads_dyr()",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_testpssebaseline_test_andes_loads_dyr"
+      "id": "tests_test_strategy_a_testpssebaseline_test_andes_loads_dyr",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": ".test_andes_loads_raw()",
@@ -1004,8 +1004,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".test_andes_loads_raw()",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_testpssebaseline_test_andes_loads_raw"
+      "id": "tests_test_strategy_a_testpssebaseline_test_andes_loads_raw",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": ".test_power_flow_converges()",
@@ -1016,8 +1016,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".test_power_flow_converges()",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_testpssebaseline_test_power_flow_converges"
+      "id": "tests_test_strategy_a_testpssebaseline_test_power_flow_converges",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": ".test_power_flow_results_reasonable()",
@@ -1028,8 +1028,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".test_power_flow_results_reasonable()",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_testpssebaseline_test_power_flow_results_reasonable"
+      "id": "tests_test_strategy_a_testpssebaseline_test_power_flow_results_reasonable",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": ".chirp_test_data()",
@@ -1040,8 +1040,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": ".chirp_test_data()",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_testsystemidentification_chirp_test_data"
+      "id": "tests_test_strategy_d_testsystemidentification_chirp_test_data",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": ".step_test_data()",
@@ -1052,8 +1052,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": ".step_test_data()",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_testsystemidentification_step_test_data"
+      "id": "tests_test_strategy_d_testsystemidentification_step_test_data",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": ".test_identify_from_chirp_response()",
@@ -1064,8 +1064,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": ".test_identify_from_chirp_response()",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_testsystemidentification_test_identify_from_chirp_response"
+      "id": "tests_test_strategy_d_testsystemidentification_test_identify_from_chirp_response",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": ".test_identify_from_step_response()",
@@ -1076,8 +1076,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": ".test_identify_from_step_response()",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_testsystemidentification_test_identify_from_step_response"
+      "id": "tests_test_strategy_d_testsystemidentification_test_identify_from_step_response",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": ".test_udm_classification_by_step_shape()",
@@ -1088,8 +1088,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": ".test_udm_classification_by_step_shape()",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_testsystemidentification_test_udm_classification_by_step_shape"
+      "id": "tests_test_strategy_d_testsystemidentification_test_udm_classification_by_step_shape",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": ".true_udm_transfer_function()",
@@ -1100,8 +1100,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": ".true_udm_transfer_function()",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_testsystemidentification_true_udm_transfer_function"
+      "id": "tests_test_strategy_d_testsystemidentification_true_udm_transfer_function",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": ".test_esst3a_lead_lag_equivalent()",
@@ -1112,8 +1112,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": ".test_esst3a_lead_lag_equivalent()",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_esst3a_lead_lag_equivalent"
+      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_esst3a_lead_lag_equivalent",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": ".test_exdc2_pi_controller_equivalent()",
@@ -1124,8 +1124,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": ".test_exdc2_pi_controller_equivalent()",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_exdc2_pi_controller_equivalent"
+      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_exdc2_pi_controller_equivalent",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": ".test_genrou_operational_to_coupled_circuit()",
@@ -1136,8 +1136,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": ".test_genrou_operational_to_coupled_circuit()",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_genrou_operational_to_coupled_circuit"
+      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_genrou_operational_to_coupled_circuit",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": ".test_ieeest_block_structure()",
@@ -1148,8 +1148,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": ".test_ieeest_block_structure()",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_ieeest_block_structure"
+      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_ieeest_block_structure",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": ".test_tgov1_governor_structure()",
@@ -1160,8 +1160,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": ".test_tgov1_governor_structure()",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_tgov1_governor_structure"
+      "id": "tests_test_strategy_d_testsimulinkblockmapping_test_tgov1_governor_structure",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": ".test_comparison_tool_reused()",
@@ -1172,8 +1172,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": ".test_comparison_tool_reused()",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_comparison_tool_reused"
+      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_comparison_tool_reused",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": ".test_dsl_generator_reused()",
@@ -1184,8 +1184,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": ".test_dsl_generator_reused()",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dsl_generator_reused"
+      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dsl_generator_reused",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": ".test_dyr_parser_reused()",
@@ -1196,8 +1196,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": ".test_dyr_parser_reused()",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dyr_parser_reused"
+      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dyr_parser_reused",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": ".test_model_registry_reused()",
@@ -1208,8 +1208,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": ".test_model_registry_reused()",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_reused"
+      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_reused",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": ".test_model_registry_supports_simulink_params()",
@@ -1220,8 +1220,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": ".test_model_registry_supports_simulink_params()",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_supports_simulink_params"
+      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_supports_simulink_params",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": "._simulate_dsl()",
@@ -1232,8 +1232,8 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "._simulate_dsl()",
-      "community_name": "Numerical Round-Trip Validation",
-      "id": "tests_test_fortran_udm_testroundtripnumerics_simulate_dsl"
+      "id": "tests_test_fortran_udm_testroundtripnumerics_simulate_dsl",
+      "community_name": "TestRoundTripNumerics"
     },
     {
       "label": "._simulate_fortran()",
@@ -1244,8 +1244,8 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "._simulate_fortran()",
-      "community_name": "Numerical Round-Trip Validation",
-      "id": "tests_test_fortran_udm_testroundtripnumerics_simulate_fortran"
+      "id": "tests_test_fortran_udm_testroundtripnumerics_simulate_fortran",
+      "community_name": "TestRoundTripNumerics"
     },
     {
       "label": ".test_step_response_matches()",
@@ -1256,8 +1256,8 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": ".test_step_response_matches()",
-      "community_name": "Numerical Round-Trip Validation",
-      "id": "tests_test_fortran_udm_testroundtripnumerics_test_step_response_matches"
+      "id": "tests_test_fortran_udm_testroundtripnumerics_test_step_response_matches",
+      "community_name": "TestRoundTripNumerics"
     },
     {
       "label": ".test_document_exists()",
@@ -1268,8 +1268,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_exists()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_exists"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_exists",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_architecture()",
@@ -1280,8 +1280,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_architecture()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_architecture"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_architecture",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_effort_estimate()",
@@ -1292,8 +1292,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_effort_estimate()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_effort_estimate"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_effort_estimate",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_export_paths()",
@@ -1304,8 +1304,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_export_paths()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_export_paths"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_export_paths",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_integration_recommendation()",
@@ -1316,8 +1316,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_integration_recommendation()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_integration_recommendation"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_integration_recommendation",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_limitations()",
@@ -1328,8 +1328,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_limitations()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_limitations"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_limitations",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_overview()",
@@ -1340,8 +1340,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_overview()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_overview"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_overview",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_phases()",
@@ -1352,8 +1352,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_phases()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_phases"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_phases",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_rationale()",
@@ -1364,8 +1364,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_rationale()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_rationale"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_rationale",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_references()",
@@ -1376,8 +1376,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_references()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_references"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_references",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_system_id()",
@@ -1388,8 +1388,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_system_id()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_system_id"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_system_id",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_has_test_harness()",
@@ -1400,8 +1400,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_has_test_harness()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_test_harness"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_has_test_harness",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_references_digexfun()",
@@ -1412,8 +1412,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_references_digexfun()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_references_digexfun"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_references_digexfun",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_references_fmu()",
@@ -1424,8 +1424,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_references_fmu()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_references_fmu"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_references_fmu",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_references_mupower()",
@@ -1436,8 +1436,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_references_mupower()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_references_mupower"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_references_mupower",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".test_document_size()",
@@ -1448,8 +1448,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".test_document_size()",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_teststrategyddocument_test_document_size"
+      "id": "tests_test_strategy_d_teststrategyddocument_test_document_size",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": ".ieee14_dyr()",
@@ -1460,8 +1460,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".ieee14_dyr()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimgeneration_ieee14_dyr"
+      "id": "tests_test_strategy_c_testcimgeneration_ieee14_dyr",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_cim_dynamics_elements()",
@@ -1472,8 +1472,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_cim_dynamics_elements()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimgeneration_test_cim_dynamics_elements"
+      "id": "tests_test_strategy_c_testcimgeneration_test_cim_dynamics_elements",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_cim_powerflow_elements()",
@@ -1484,8 +1484,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_cim_powerflow_elements()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimgeneration_test_cim_powerflow_elements"
+      "id": "tests_test_strategy_c_testcimgeneration_test_cim_powerflow_elements",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_cim_xml_structure()",
@@ -1496,8 +1496,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_cim_xml_structure()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimgeneration_test_cim_xml_structure"
+      "id": "tests_test_strategy_c_testcimgeneration_test_cim_xml_structure",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_pf_cim_import_gate()",
@@ -1508,8 +1508,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_pf_cim_import_gate()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimpowerfactoryimport_test_pf_cim_import_gate"
+      "id": "tests_test_strategy_c_testcimpowerfactoryimport_test_pf_cim_import_gate",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_pf_cim_powerflow_import()",
@@ -1520,8 +1520,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_pf_cim_powerflow_import()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimpowerfactoryimport_test_pf_cim_powerflow_import"
+      "id": "tests_test_strategy_c_testcimpowerfactoryimport_test_pf_cim_powerflow_import",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_forward_path_works()",
@@ -1532,8 +1532,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_forward_path_works()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimroundtrip_test_forward_path_works"
+      "id": "tests_test_strategy_c_testcimroundtrip_test_forward_path_works",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_round_trip_parameter_preservation()",
@@ -1544,8 +1544,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_round_trip_parameter_preservation()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimroundtrip_test_round_trip_parameter_preservation"
+      "id": "tests_test_strategy_c_testcimroundtrip_test_round_trip_parameter_preservation",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_schema_validation()",
@@ -1556,8 +1556,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_schema_validation()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimvalidation_test_schema_validation"
+      "id": "tests_test_strategy_c_testcimvalidation_test_schema_validation",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_semantic_validation()",
@@ -1568,8 +1568,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_semantic_validation()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimvalidation_test_semantic_validation"
+      "id": "tests_test_strategy_c_testcimvalidation_test_semantic_validation",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": ".test_shacl_validation()",
@@ -1580,8 +1580,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_shacl_validation()",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_testcimvalidation_test_shacl_validation"
+      "id": "tests_test_strategy_c_testcimvalidation_test_shacl_validation",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "cascade_tf()",
@@ -1592,8 +1592,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "cascade_tf()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_cascade_tf"
+      "id": "tests_test_strategy_d_cascade_tf",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_matlab_installed()",
@@ -1604,8 +1604,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_matlab_installed()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testmatlabavailability_test_matlab_installed"
+      "id": "tests_test_strategy_d_testmatlabavailability_test_matlab_installed",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_matlab_system_id()",
@@ -1616,8 +1616,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_matlab_system_id()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testmatlabavailability_test_matlab_system_id"
+      "id": "tests_test_strategy_d_testmatlabavailability_test_matlab_system_id",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_matpower_parses_raw()",
@@ -1628,8 +1628,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_matpower_parses_raw()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testmatlabavailability_test_matpower_parses_raw"
+      "id": "tests_test_strategy_d_testmatlabavailability_test_matpower_parses_raw",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_dyr_parser_syntax()",
@@ -1640,8 +1640,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_dyr_parser_syntax()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testmatlabscriptsyntax_test_dyr_parser_syntax"
+      "id": "tests_test_strategy_d_testmatlabscriptsyntax_test_dyr_parser_syntax",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_export_path_functions()",
@@ -1652,8 +1652,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_export_path_functions()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testmatlabscriptsyntax_test_export_path_functions"
+      "id": "tests_test_strategy_d_testmatlabscriptsyntax_test_export_path_functions",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_matlab_function_structures()",
@@ -1664,8 +1664,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_matlab_function_structures()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testmatlabscriptsyntax_test_matlab_function_structures"
+      "id": "tests_test_strategy_d_testmatlabscriptsyntax_test_matlab_function_structures",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_toolboxes_documented()",
@@ -1676,8 +1676,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_toolboxes_documented()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testmatlabscriptsyntax_test_toolboxes_documented"
+      "id": "tests_test_strategy_d_testmatlabscriptsyntax_test_toolboxes_documented",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_strategy_has_mathworks_references()",
@@ -1688,8 +1688,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_strategy_has_mathworks_references()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testreferences_test_strategy_has_mathworks_references"
+      "id": "tests_test_strategy_d_testreferences_test_strategy_has_mathworks_references",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_strategy_references_matlab_central()",
@@ -1700,8 +1700,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_strategy_references_matlab_central()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testreferences_test_strategy_references_matlab_central"
+      "id": "tests_test_strategy_d_testreferences_test_strategy_references_matlab_central",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".test_strategy_references_powerfactory_interface()",
@@ -1712,8 +1712,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_strategy_references_powerfactory_interface()",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_testreferences_test_strategy_references_powerfactory_interface"
+      "id": "tests_test_strategy_d_testreferences_test_strategy_references_powerfactory_interface",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": ".generate()",
@@ -1724,8 +1724,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".generate()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_generate"
+      "id": "src_dynaxlate_dsl_generator_dslgenerator_generate",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "._subst_arrays()",
@@ -1736,8 +1736,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "._subst_arrays()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_subst_arrays"
+      "id": "src_dynaxlate_dsl_generator_dslgenerator_subst_arrays",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "._subst_funcs()",
@@ -1748,8 +1748,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "._subst_funcs()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_subst_funcs"
+      "id": "src_dynaxlate_dsl_generator_dslgenerator_subst_funcs",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "._subst_signals()",
@@ -1760,8 +1760,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "._subst_signals()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_subst_signals"
+      "id": "src_dynaxlate_dsl_generator_dslgenerator_subst_signals",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".translate_expr()",
@@ -1772,8 +1772,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".translate_expr()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_translate_expr"
+      "id": "src_dynaxlate_dsl_generator_dslgenerator_translate_expr",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "._translate_limiter()",
@@ -1784,8 +1784,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "._translate_limiter()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_translate_limiter"
+      "id": "src_dynaxlate_dsl_generator_dslgenerator_translate_limiter",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "._translate_stmt()",
@@ -1796,8 +1796,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "._translate_stmt()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_translate_stmt"
+      "id": "src_dynaxlate_dsl_generator_dslgenerator_translate_stmt",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".needs_manual_review()",
@@ -1808,8 +1808,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".needs_manual_review()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslmodel_needs_manual_review"
+      "id": "src_dynaxlate_dsl_generator_dslmodel_needs_manual_review",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "_lc()",
@@ -1820,8 +1820,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "_lc()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_lc"
+      "id": "src_dynaxlate_dsl_generator_lc",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "translate_udm()",
@@ -1832,8 +1832,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "translate_udm()",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_translate_udm"
+      "id": "src_dynaxlate_dsl_generator_translate_udm",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_custom_model_name()",
@@ -1844,8 +1844,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_custom_model_name()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_custom_model_name"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_custom_model_name",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_exciter_initial_conditions()",
@@ -1856,8 +1856,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_exciter_initial_conditions()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_exciter_initial_conditions"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_exciter_initial_conditions",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_exciter_translation()",
@@ -1868,8 +1868,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_exciter_translation()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_exciter_translation"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_exciter_translation",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_fortran_intrinsics_mapped()",
@@ -1880,8 +1880,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_fortran_intrinsics_mapped()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_fortran_intrinsics_mapped"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_fortran_intrinsics_mapped",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_governor_continuation_equation()",
@@ -1892,8 +1892,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_governor_continuation_equation()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_governor_continuation_equation"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_governor_continuation_equation",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_governor_limiters_become_min_max()",
@@ -1904,8 +1904,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_governor_limiters_become_min_max()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_governor_limiters_become_min_max"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_governor_limiters_become_min_max",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_governor_signals()",
@@ -1916,8 +1916,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_governor_signals()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_governor_signals"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_governor_signals",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_pss_flags_manual_review()",
@@ -1928,8 +1928,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_pss_flags_manual_review()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_pss_flags_manual_review"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_pss_flags_manual_review",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_todos_embedded_as_comments()",
@@ -1940,8 +1940,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_todos_embedded_as_comments()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_todos_embedded_as_comments"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_todos_embedded_as_comments",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".test_unmapped_machine_quantity_left_intact()",
@@ -1952,8 +1952,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_unmapped_machine_quantity_left_intact()",
-      "community_name": "DSL Code Generator",
-      "id": "tests_test_fortran_udm_testdslgenerator_test_unmapped_machine_quantity_left_intact"
+      "id": "tests_test_fortran_udm_testdslgenerator_test_unmapped_machine_quantity_left_intact",
+      "community_name": "DSLGenerator"
     },
     {
       "label": ".activate_project()",
@@ -1964,8 +1964,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".activate_project()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_activate_project"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_activate_project",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".connect()",
@@ -1976,8 +1976,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".connect()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_connect"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_connect",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".create_project()",
@@ -1988,8 +1988,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".create_project()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_create_project"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_create_project",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".disconnect()",
@@ -2000,8 +2000,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".disconnect()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_disconnect"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_disconnect",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".__enter__()",
@@ -2012,8 +2012,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".__enter__()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_enter"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_enter",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".__exit__()",
@@ -2024,8 +2024,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".__exit__()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_exit"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_exit",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".import_psse()",
@@ -2036,8 +2036,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".import_psse()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_import_psse"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_import_psse",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".__init__()",
@@ -2048,8 +2048,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".__init__()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_init"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_init",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".run_power_flow()",
@@ -2060,8 +2060,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".run_power_flow()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_power_flow"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_power_flow",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".run_rms_simulation()",
@@ -2072,8 +2072,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".run_rms_simulation()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_rms_simulation"
+      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_rms_simulation",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".test_adapter_instantiation()",
@@ -2084,8 +2084,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".test_adapter_instantiation()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "tests_test_strategy_a_testpowerfactoryadapter_test_adapter_instantiation"
+      "id": "tests_test_strategy_a_testpowerfactoryadapter_test_adapter_instantiation",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".test_connect_without_pf_returns_false()",
@@ -2096,8 +2096,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".test_connect_without_pf_returns_false()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "tests_test_strategy_a_testpowerfactoryadapter_test_connect_without_pf_returns_false"
+      "id": "tests_test_strategy_a_testpowerfactoryadapter_test_connect_without_pf_returns_false",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".test_context_manager()",
@@ -2108,8 +2108,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": ".test_context_manager()",
-      "community_name": "PowerFactory API Adapter",
-      "id": "tests_test_strategy_a_testpowerfactoryadapter_test_context_manager"
+      "id": "tests_test_strategy_a_testpowerfactoryadapter_test_context_manager",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": ".ieee14_case()",
@@ -2120,8 +2120,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".ieee14_case()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testandesparserintegration_ieee14_case"
+      "id": "tests_test_strategy_b_testandesparserintegration_ieee14_case",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".test_bus_data_extracted()",
@@ -2132,8 +2132,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_bus_data_extracted()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testandesparserintegration_test_bus_data_extracted"
+      "id": "tests_test_strategy_b_testandesparserintegration_test_bus_data_extracted",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".test_exciter_data_extracted()",
@@ -2144,8 +2144,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_exciter_data_extracted()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testandesparserintegration_test_exciter_data_extracted"
+      "id": "tests_test_strategy_b_testandesparserintegration_test_exciter_data_extracted",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".test_generator_data_extracted()",
@@ -2156,8 +2156,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_generator_data_extracted()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testandesparserintegration_test_generator_data_extracted"
+      "id": "tests_test_strategy_b_testandesparserintegration_test_generator_data_extracted",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".test_governor_data_extracted()",
@@ -2168,8 +2168,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_governor_data_extracted()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testandesparserintegration_test_governor_data_extracted"
+      "id": "tests_test_strategy_b_testandesparserintegration_test_governor_data_extracted",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".test_dsl_output_format()",
@@ -2180,8 +2180,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_dsl_output_format()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testdslsyntaxgeneration_test_dsl_output_format"
+      "id": "tests_test_strategy_b_testdslsyntaxgeneration_test_dsl_output_format",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".test_dynamics_initialize()",
@@ -2192,8 +2192,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_dynamics_initialize()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testincrementalverification_test_dynamics_initialize"
+      "id": "tests_test_strategy_b_testincrementalverification_test_dynamics_initialize",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".test_network_only_powerflow()",
@@ -2204,8 +2204,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_network_only_powerflow()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testincrementalverification_test_network_only_powerflow"
+      "id": "tests_test_strategy_b_testincrementalverification_test_network_only_powerflow",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".all_dyr_models()",
@@ -2216,8 +2216,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".all_dyr_models()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testmodelregistrycompleteness_all_dyr_models"
+      "id": "tests_test_strategy_b_testmodelregistrycompleteness_all_dyr_models",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".test_registry_covers_all_test_models()",
@@ -2228,8 +2228,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_registry_covers_all_test_models()",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_testmodelregistrycompleteness_test_registry_covers_all_test_models"
+      "id": "tests_test_strategy_b_testmodelregistrycompleteness_test_registry_covers_all_test_models",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": ".__init__()",
@@ -2240,8 +2240,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".__init__()",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_init"
+      "id": "src_dynaxlate_dsl_generator_dslgenerator_init",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".con_name()",
@@ -2252,8 +2252,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".con_name()",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_fortranudm_con_name"
+      "id": "src_dynaxlate_fortran_parser_fortranudm_con_name",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".state_name()",
@@ -2264,8 +2264,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".state_name()",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_fortranudm_state_name"
+      "id": "src_dynaxlate_fortran_parser_fortranudm_state_name",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".var_name()",
@@ -2276,8 +2276,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".var_name()",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_fortranudm_var_name"
+      "id": "src_dynaxlate_fortran_parser_fortranudm_var_name",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "_is_comment()",
@@ -2288,8 +2288,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "_is_comment()",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_is_comment"
+      "id": "src_dynaxlate_fortran_parser_is_comment",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "_join_continuations()",
@@ -2300,8 +2300,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "_join_continuations()",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_join_continuations"
+      "id": "src_dynaxlate_fortran_parser_join_continuations",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "parse_fortran_udm()",
@@ -2312,8 +2312,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "parse_fortran_udm()",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "id": "src_dynaxlate_fortran_parser_parse_fortran_udm",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".test_clean_models_have_no_warnings()",
@@ -2324,8 +2324,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_clean_models_have_no_warnings()",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_testfortranparser_test_clean_models_have_no_warnings"
+      "id": "tests_test_fortran_udm_testfortranparser_test_clean_models_have_no_warnings",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".test_continuation_lines_joined()",
@@ -2336,8 +2336,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_continuation_lines_joined()",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_testfortranparser_test_continuation_lines_joined"
+      "id": "tests_test_fortran_udm_testfortranparser_test_continuation_lines_joined",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".test_declaration_units_captured()",
@@ -2348,8 +2348,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_declaration_units_captured()",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_testfortranparser_test_declaration_units_captured"
+      "id": "tests_test_fortran_udm_testfortranparser_test_declaration_units_captured",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".test_mode_blocks_extracted()",
@@ -2360,8 +2360,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_mode_blocks_extracted()",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_testfortranparser_test_mode_blocks_extracted"
+      "id": "tests_test_fortran_udm_testfortranparser_test_mode_blocks_extracted",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".test_non_udm_file_warns()",
@@ -2372,8 +2372,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_non_udm_file_warns()",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_testfortranparser_test_non_udm_file_warns"
+      "id": "tests_test_fortran_udm_testfortranparser_test_non_udm_file_warns",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".test_parses_exciter_declarations()",
@@ -2384,8 +2384,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_parses_exciter_declarations()",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_testfortranparser_test_parses_exciter_declarations"
+      "id": "tests_test_fortran_udm_testfortranparser_test_parses_exciter_declarations",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".test_skipped_do_body_not_emitted()",
@@ -2396,8 +2396,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_skipped_do_body_not_emitted()",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_testfortranparser_test_skipped_do_body_not_emitted"
+      "id": "tests_test_fortran_udm_testfortranparser_test_skipped_do_body_not_emitted",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": ".test_unsupported_constructs_flagged()",
@@ -2408,8 +2408,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_unsupported_constructs_flagged()",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_testfortranparser_test_unsupported_constructs_flagged"
+      "id": "tests_test_fortran_udm_testfortranparser_test_unsupported_constructs_flagged",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "compare_eigenvalues()",
@@ -2420,8 +2420,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare_eigenvalues()",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_compare_eigenvalues"
+      "id": "src_dynaxlate_comparison_compare_eigenvalues",
+      "community_name": "comparison.py"
     },
     {
       "label": "compare_powerflow()",
@@ -2432,8 +2432,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare_powerflow()",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_compare_powerflow"
+      "id": "src_dynaxlate_comparison_compare_powerflow",
+      "community_name": "comparison.py"
     },
     {
       "label": "compare_timeseries()",
@@ -2444,8 +2444,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare_timeseries()",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_compare_timeseries"
+      "id": "src_dynaxlate_comparison_compare_timeseries",
+      "community_name": "comparison.py"
     },
     {
       "label": ".summary()",
@@ -2456,8 +2456,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".summary()",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_comparisonreport_summary"
+      "id": "src_dynaxlate_comparison_comparisonreport_summary",
+      "community_name": "comparison.py"
     },
     {
       "label": ".test_different_signals_fail()",
@@ -2468,8 +2468,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".test_different_signals_fail()",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a_testcomparisonframework_test_different_signals_fail"
+      "id": "tests_test_strategy_a_testcomparisonframework_test_different_signals_fail",
+      "community_name": "comparison.py"
     },
     {
       "label": ".test_identical_signals_pass()",
@@ -2480,8 +2480,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".test_identical_signals_pass()",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a_testcomparisonframework_test_identical_signals_pass"
+      "id": "tests_test_strategy_a_testcomparisonframework_test_identical_signals_pass",
+      "community_name": "comparison.py"
     },
     {
       "label": ".test_powerflow_comparison()",
@@ -2492,8 +2492,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".test_powerflow_comparison()",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a_testcomparisonframework_test_powerflow_comparison"
+      "id": "tests_test_strategy_a_testcomparisonframework_test_powerflow_comparison",
+      "community_name": "comparison.py"
     },
     {
       "label": "model_registry.py",
@@ -2503,8 +2503,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "model_registry.py",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry"
+      "id": "src_dynaxlate_model_registry",
+      "community_name": "get_mapping"
     },
     {
       "label": "Path",
@@ -2514,8 +2514,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "path",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_py_path"
+      "id": "src_dynaxlate_model_registry_py_path",
+      "community_name": "get_mapping"
     },
     {
       "label": "Model Registry: PSSE \u2194 PowerFactory parameter mapping. YAML-driven mapping\u2026",
@@ -2525,8 +2525,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "model registry: psse \u2194 powerfactory parameter mapping. yaml-driven mapping...",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_1"
+      "id": "src_dynaxlate_model_registry_rationale_1",
+      "community_name": "get_mapping"
     },
     {
       "label": "Single parameter mapping from PSSE to PowerFactory.",
@@ -2536,8 +2536,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "single parameter mapping from psse to powerfactory.",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_15"
+      "id": "src_dynaxlate_model_registry_rationale_15",
+      "community_name": "get_mapping"
     },
     {
       "label": "Load model registry from a YAML file. YAML format per model: psse_model: GENROU\u2026",
@@ -2547,8 +2547,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "load model registry from a yaml file. yaml format per model: psse_model: genrou...",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_276"
+      "id": "src_dynaxlate_model_registry_rationale_276",
+      "community_name": "get_mapping"
     },
     {
       "label": "Complete model mapping from PSSE to PowerFactory.",
@@ -2558,8 +2558,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "complete model mapping from psse to powerfactory.",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_28"
+      "id": "src_dynaxlate_model_registry_rationale_28",
+      "community_name": "get_mapping"
     },
     {
       "label": "Look up a model mapping by PSSE model name.",
@@ -2569,8 +2569,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "look up a model mapping by psse model name.",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_316"
+      "id": "src_dynaxlate_model_registry_rationale_316",
+      "community_name": "get_mapping"
     },
     {
       "label": "List all PSSE model names in the registry.",
@@ -2580,8 +2580,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "list all psse model names in the registry.",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_321"
+      "id": "src_dynaxlate_model_registry_rationale_321",
+      "community_name": "get_mapping"
     },
     {
       "label": "Transform PSSE parameter values to PowerFactory values.",
@@ -2591,8 +2591,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "transform psse parameter values to powerfactory values.",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_39"
+      "id": "src_dynaxlate_model_registry_rationale_39",
+      "community_name": "get_mapping"
     },
     {
       "label": "Load built-in model mappings.",
@@ -2602,8 +2602,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "load built-in model mappings.",
-      "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_53"
+      "id": "src_dynaxlate_model_registry_rationale_53",
+      "community_name": "get_mapping"
     },
     {
       "label": "Test the PSSE \u2194 PowerFactory model registry.",
@@ -2613,8 +2613,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "test the psse \u2194 powerfactory model registry.",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_131"
+      "id": "tests_test_strategy_a_rationale_131",
+      "community_name": "get_mapping"
     },
     {
       "label": "Registry contains all standard PSSE models from test files.",
@@ -2624,8 +2624,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "registry contains all standard psse models from test files.",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_134"
+      "id": "tests_test_strategy_a_rationale_134",
+      "community_name": "get_mapping"
     },
     {
       "label": "GENROU has complete parameter mapping.",
@@ -2635,8 +2635,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "genrou has complete parameter mapping.",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_142"
+      "id": "tests_test_strategy_a_rationale_142",
+      "community_name": "get_mapping"
     },
     {
       "label": "Parameter transformation produces correct values.",
@@ -2646,8 +2646,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "parameter transformation produces correct values.",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_155"
+      "id": "tests_test_strategy_a_rationale_155",
+      "community_name": "get_mapping"
     },
     {
       "label": "Damping constant correction is flagged.",
@@ -2657,8 +2657,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "damping constant correction is flagged.",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_165"
+      "id": "tests_test_strategy_a_rationale_165",
+      "community_name": "get_mapping"
     },
     {
       "label": "Saturation model difference is flagged.",
@@ -2668,8 +2668,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "saturation model difference is flagged.",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_172"
+      "id": "tests_test_strategy_a_rationale_172",
+      "community_name": "get_mapping"
     },
     {
       "label": "Synchronous machine models are tagged for RMS simulation.",
@@ -2679,8 +2679,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "synchronous machine models are tagged for rms simulation.",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_179"
+      "id": "tests_test_strategy_a_rationale_179",
+      "community_name": "get_mapping"
     },
     {
       "label": "IBR models are tagged for EMT simulation (per EMT/IBR context).",
@@ -2690,8 +2690,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "ibr models are tagged for emt simulation (per emt/ibr context).",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_187"
+      "id": "tests_test_strategy_a_rationale_187",
+      "community_name": "get_mapping"
     },
     {
       "label": "REPC_A works in both RMS and EMT domains.",
@@ -2701,8 +2701,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "repc_a works in both rms and emt domains.",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_195"
+      "id": "tests_test_strategy_a_rationale_195",
+      "community_name": "get_mapping"
     },
     {
       "label": "IBR models flag PPC interaction concerns.",
@@ -2712,8 +2712,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "ibr models flag ppc interaction concerns.",
-      "community_name": "Model Parameter Mapping",
-      "id": "tests_test_strategy_a_rationale_202"
+      "id": "tests_test_strategy_a_rationale_202",
+      "community_name": "get_mapping"
     },
     {
       "label": "dyr_parser.py",
@@ -2723,8 +2723,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "dyr_parser.py",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser"
+      "id": "src_dynaxlate_dyr_parser",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Path",
@@ -2734,8 +2734,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "path",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_py_path"
+      "id": "src_dynaxlate_dyr_parser_py_path",
+      "community_name": "parse_dyr"
     },
     {
       "label": "DYR Parser: Extract dynamic model data from PSSE .dyr files. Lightweight parser\u2026",
@@ -2745,8 +2745,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "dyr parser: extract dynamic model data from psse .dyr files. lightweight parser...",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_1"
+      "id": "src_dynaxlate_dyr_parser_rationale_1",
+      "community_name": "parse_dyr"
     },
     {
       "label": "A single dynamic model entry from a .dyr file.",
@@ -2756,8 +2756,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "a single dynamic model entry from a .dyr file.",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_15"
+      "id": "src_dynaxlate_dyr_parser_rationale_15",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Convert positional parameters to a named dict using model registry.",
@@ -2767,8 +2767,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "convert positional parameters to a named dict using model registry.",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_23"
+      "id": "src_dynaxlate_dyr_parser_rationale_23",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Parsed PSSE .dyr file.",
@@ -2778,8 +2778,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "parsed psse .dyr file.",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_38"
+      "id": "src_dynaxlate_dyr_parser_rationale_38",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Get all entries for a specific model type.",
@@ -2789,8 +2789,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "get all entries for a specific model type.",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_44"
+      "id": "src_dynaxlate_dyr_parser_rationale_44",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Get all dynamic models connected to a specific bus.",
@@ -2800,8 +2800,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "get all dynamic models connected to a specific bus.",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_48"
+      "id": "src_dynaxlate_dyr_parser_rationale_48",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Get mapping of bus \u2192 list of model types.",
@@ -2811,8 +2811,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "get mapping of bus \u2192 list of model types.",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_52"
+      "id": "src_dynaxlate_dyr_parser_rationale_52",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Get summary statistics of the .dyr file.",
@@ -2822,8 +2822,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "get summary statistics of the .dyr file.",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_59"
+      "id": "src_dynaxlate_dyr_parser_rationale_59",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Parse a PSSE .dyr file into structured data. .dyr format: <bus> '<model_name>'\u2026",
@@ -2833,8 +2833,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "parse a psse .dyr file into structured data. .dyr format: <bus> '<model_name>'...",
-      "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_69"
+      "id": "src_dynaxlate_dyr_parser_rationale_69",
+      "community_name": "parse_dyr"
     },
     {
       "label": "IEEE 14-bus .dyr has expected model types.",
@@ -2844,8 +2844,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "ieee 14-bus .dyr has expected model types.",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_rationale_102"
+      "id": "tests_test_strategy_a_rationale_102",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Parameters are correctly extracted from model entries.",
@@ -2855,8 +2855,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "parameters are correctly extracted from model entries.",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_rationale_108"
+      "id": "tests_test_strategy_a_rationale_108",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Bus-to-model mapping is correct.",
@@ -2866,8 +2866,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "bus-to-model mapping is correct.",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_rationale_117"
+      "id": "tests_test_strategy_a_rationale_117",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Summary statistics are correct.",
@@ -2877,8 +2877,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "summary statistics are correct.",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_rationale_123"
+      "id": "tests_test_strategy_a_rationale_123",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Test the standalone .dyr file parser.",
@@ -2888,8 +2888,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "test the standalone .dyr file parser.",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_rationale_78"
+      "id": "tests_test_strategy_a_rationale_78",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Parser extracts all model entries from .dyr file.",
@@ -2899,8 +2899,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "parser extracts all model entries from .dyr file.",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_rationale_91"
+      "id": "tests_test_strategy_a_rationale_91",
+      "community_name": "parse_dyr"
     },
     {
       "label": "Parser correctly identifies all model types.",
@@ -2910,8 +2910,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "parser correctly identifies all model types.",
-      "community_name": "PSSE DYR Parser",
-      "id": "tests_test_strategy_a_rationale_96"
+      "id": "tests_test_strategy_a_rationale_96",
+      "community_name": "parse_dyr"
     },
     {
       "label": "psse_baseline.py",
@@ -2921,8 +2921,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "psse_baseline.py",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline"
+      "id": "src_dynaxlate_psse_baseline",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "Path",
@@ -2932,8 +2932,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "path",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_py_path"
+      "id": "src_dynaxlate_psse_baseline_py_path",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "PSSE baseline runner using ANDES. Produces Result Set 1: PSSE simulation\u2026",
@@ -2943,8 +2943,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "psse baseline runner using andes. produces result set 1: psse simulation...",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_1"
+      "id": "src_dynaxlate_psse_baseline_rationale_1",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "Run small-signal test: voltage reference step on a generator. This exercises\u2026",
@@ -2954,8 +2954,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "run small-signal test: voltage reference step on a generator. this exercises...",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_106"
+      "id": "src_dynaxlate_psse_baseline_rationale_106",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "# TODO: implement via ANDES event system",
@@ -2965,8 +2965,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "# todo: implement via andes event system",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_110"
+      "id": "src_dynaxlate_psse_baseline_rationale_110",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "Compute eigenvalues at the operating point for small-signal comparison.",
@@ -2976,8 +2976,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "compute eigenvalues at the operating point for small-signal comparison.",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_114"
+      "id": "src_dynaxlate_psse_baseline_rationale_114",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "Time-series result from a simulation.",
@@ -2987,8 +2987,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "time-series result from a simulation.",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_14"
+      "id": "src_dynaxlate_psse_baseline_rationale_14",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "Power flow result at all buses.",
@@ -2998,8 +2998,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "power flow result at all buses.",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_24"
+      "id": "src_dynaxlate_psse_baseline_rationale_24",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "Run PSSE simulations via ANDES for baseline results. Note: ANDES is NOT a PSSE\u2026",
@@ -3009,8 +3009,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "run psse simulations via andes for baseline results. note: andes is not a psse...",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_34"
+      "id": "src_dynaxlate_psse_baseline_rationale_34",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "Run power flow and return bus results.",
@@ -3020,8 +3020,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "run power flow and return bus results.",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_46"
+      "id": "src_dynaxlate_psse_baseline_rationale_46",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "Run dynamic simulation with a 3-phase fault disturbance. Args: fault_bus: Bus\u2026",
@@ -3031,8 +3031,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "run dynamic simulation with a 3-phase fault disturbance. args: fault_bus: bus...",
-      "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_64"
+      "id": "src_dynaxlate_psse_baseline_rationale_64",
+      "community_name": "PSSEBaselineRunner"
     },
     {
       "label": "fixture",
@@ -3042,8 +3042,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "fixture",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_py_fixture"
+      "id": "tests_test_strategy_a_py_fixture",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": "Test PSSE baseline simulation via ANDES.",
@@ -3053,8 +3053,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "test psse baseline simulation via andes.",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_rationale_20"
+      "id": "tests_test_strategy_a_rationale_20",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": "ANDES successfully loads .raw power flow file.",
@@ -3064,8 +3064,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "andes successfully loads .raw power flow file.",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_rationale_39"
+      "id": "tests_test_strategy_a_rationale_39",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": "ANDES successfully loads .dyr with standard models.",
@@ -3075,8 +3075,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "andes successfully loads .dyr with standard models.",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_rationale_47"
+      "id": "tests_test_strategy_a_rationale_47",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": "Power flow converges on the test case.",
@@ -3086,8 +3086,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "power flow converges on the test case.",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_rationale_58"
+      "id": "tests_test_strategy_a_rationale_58",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": "Power flow produces physically reasonable results.",
@@ -3097,8 +3097,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "power flow produces physically reasonable results.",
-      "community_name": "ANDES Baseline Testing",
-      "id": "tests_test_strategy_a_rationale_65"
+      "id": "tests_test_strategy_a_rationale_65",
+      "community_name": "TestPSSEBaseline"
     },
     {
       "label": "fixture",
@@ -3108,8 +3108,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "fixture",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_py_fixture"
+      "id": "tests_test_strategy_d_py_fixture",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": "Test the System Identification concept that enables UDM reverse- engineering\u2026",
@@ -3119,8 +3119,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "test the system identification concept that enables udm reverse- engineering...",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_rationale_299"
+      "id": "tests_test_strategy_d_rationale_299",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": "Simulate a 'black box' UDM \u2014 a 3rd-order transfer function representing\u2026",
@@ -3130,8 +3130,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "simulate a 'black box' udm \u2014 a 3rd-order transfer function representing...",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_rationale_309"
+      "id": "tests_test_strategy_d_rationale_309",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": "Generate step response test data.",
@@ -3141,8 +3141,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "generate step response test data.",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_rationale_317"
+      "id": "tests_test_strategy_d_rationale_317",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": "Generate chirp/sweep response.",
@@ -3152,8 +3152,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "generate chirp/sweep response.",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_rationale_325"
+      "id": "tests_test_strategy_d_rationale_325",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": "Recover transfer function from step response alone.",
@@ -3163,8 +3163,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "recover transfer function from step response alone.",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_rationale_333"
+      "id": "tests_test_strategy_d_rationale_333",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": "Use chirp/sweep to identify frequency response. This demonstrates the MATLAB\u2026",
@@ -3174,8 +3174,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "use chirp/sweep to identify frequency response. this demonstrates the matlab...",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_rationale_356"
+      "id": "tests_test_strategy_d_rationale_356",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": "Classify an unknown UDM by its step response shape.",
@@ -3185,8 +3185,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "classify an unknown udm by its step response shape.",
-      "community_name": "System Identification Testing",
-      "id": "tests_test_strategy_d_rationale_396"
+      "id": "tests_test_strategy_d_rationale_396",
+      "community_name": "TestSystemIdentification"
     },
     {
       "label": "Test that PSSE transfer function blocks map correctly to Simulink equivalents.\u2026",
@@ -3196,8 +3196,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "test that psse transfer function blocks map correctly to simulink equivalents....",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_rationale_139"
+      "id": "tests_test_strategy_d_rationale_139",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": "ESST3A lead-lag block: PSSE TR \u2192 Simulink 1/(1+s*TR). The first block in ESST3A\u2026",
@@ -3207,8 +3207,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "esst3a lead-lag block: psse tr \u2192 simulink 1/(1+s*tr). the first block in esst3a...",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_rationale_144"
+      "id": "tests_test_strategy_d_rationale_144",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": "EXDC2 PI section maps to Simulink PID Controller. EXDC2 has a PI controller:\u2026",
@@ -3218,8 +3218,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "exdc2 pi section maps to simulink pid controller. exdc2 has a pi controller:...",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_rationale_161"
+      "id": "tests_test_strategy_d_rationale_161",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": "TGOV1 governor: PSSE block chain maps to Simulink series. TGOV1: speed\u2026",
@@ -3229,8 +3229,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "tgov1 governor: psse block chain maps to simulink series. tgov1: speed...",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_rationale_191"
+      "id": "tests_test_strategy_d_rationale_191",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": "GENROU \u2192 ElmSym parameter transformation. PSSE GENROU uses operational\u2026",
@@ -3240,8 +3240,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "genrou \u2192 elmsym parameter transformation. psse genrou uses operational...",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_rationale_225"
+      "id": "tests_test_strategy_d_rationale_225",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": "IEEEST stabilizer: Simulink builds the same washout + phase comp. IEEEST:\u2026",
@@ -3251,8 +3251,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "ieeest stabilizer: simulink builds the same washout + phase comp. ieeest:...",
-      "community_name": "Simulink Block Mapping",
-      "id": "tests_test_strategy_d_rationale_256"
+      "id": "tests_test_strategy_d_rationale_256",
+      "community_name": "TestSimulinkBlockMapping"
     },
     {
       "label": "Test that Strategy D integrates with the existing dynaxlate codebase.",
@@ -3262,8 +3262,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "test that strategy d integrates with the existing dynaxlate codebase.",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_rationale_485"
+      "id": "tests_test_strategy_d_rationale_485",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": "Strategy D uses the existing .dyr parser (or MATLAB equivalent).",
@@ -3273,8 +3273,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "strategy d uses the existing .dyr parser (or matlab equivalent).",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_rationale_488"
+      "id": "tests_test_strategy_d_rationale_488",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": "Strategy D uses the existing model registry as its parameter map.",
@@ -3284,8 +3284,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "strategy d uses the existing model registry as its parameter map.",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_rationale_496"
+      "id": "tests_test_strategy_d_rationale_496",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": "Model registry has Simulink-relevant parameters.",
@@ -3295,8 +3295,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "model registry has simulink-relevant parameters.",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_rationale_505"
+      "id": "tests_test_strategy_d_rationale_505",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": "Strategy D's DSL generation can leverage existing code.",
@@ -3306,8 +3306,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "strategy d's dsl generation can leverage existing code.",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_rationale_517"
+      "id": "tests_test_strategy_d_rationale_517",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": "Strategy D reuses the comparison framework.",
@@ -3317,8 +3317,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "strategy d reuses the comparison framework.",
-      "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_rationale_525"
+      "id": "tests_test_strategy_d_rationale_525",
+      "community_name": "TestIntegrationWithDynaxlate"
     },
     {
       "label": "Simulate both representations of USREXC and compare trajectories.",
@@ -3328,8 +3328,8 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "simulate both representations of usrexc and compare trajectories.",
-      "community_name": "Numerical Round-Trip Validation",
-      "id": "tests_test_fortran_udm_rationale_124"
+      "id": "tests_test_fortran_udm_rationale_124",
+      "community_name": "TestRoundTripNumerics"
     },
     {
       "label": "Direct port of the Fortran MODE 2/3 equations (explicit Euler).",
@@ -3339,8 +3339,8 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "direct port of the fortran mode 2/3 equations (explicit euler).",
-      "community_name": "Numerical Round-Trip Validation",
-      "id": "tests_test_fortran_udm_rationale_129"
+      "id": "tests_test_fortran_udm_rationale_129",
+      "community_name": "TestRoundTripNumerics"
     },
     {
       "label": "Evaluate the generated DSL equations numerically.",
@@ -3350,8 +3350,8 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "evaluate the generated dsl equations numerically.",
-      "community_name": "Numerical Round-Trip Validation",
-      "id": "tests_test_fortran_udm_rationale_145"
+      "id": "tests_test_fortran_udm_rationale_145",
+      "community_name": "TestRoundTripNumerics"
     },
     {
       "label": "__init__.py",
@@ -3361,8 +3361,8 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "__init__.py",
-      "community_name": "Package Initialization",
-      "id": "src_dynaxlate_init"
+      "id": "src_dynaxlate_init",
+      "community_name": "__init__.py"
     },
     {
       "label": "Dynaxlate \u2014 Dynamic Model Translation between Power System Simulation Formats.\u2026",
@@ -3372,8 +3372,8 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "dynaxlate \u2014 dynamic model translation between power system simulation formats....",
-      "community_name": "Package Initialization",
-      "id": "src_dynaxlate_init_rationale_1"
+      "id": "src_dynaxlate_init_rationale_1",
+      "community_name": "__init__.py"
     },
     {
       "label": "usrexc.f",
@@ -3383,8 +3383,8 @@
       "_origin": "ast",
       "community": 19,
       "norm_label": "usrexc.f",
-      "community_name": "Excitation System Source",
-      "id": "models_fortran_usrexc"
+      "id": "models_fortran_usrexc",
+      "community_name": "usrexc.f"
     },
     {
       "label": "Document must mention digexfun interface for C DLL export.",
@@ -3394,8 +3394,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must mention digexfun interface for c dll export.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_101"
+      "id": "tests_test_strategy_d_rationale_101",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must mention FMU/FMI export pathway.",
@@ -3405,8 +3405,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must mention fmu/fmi export pathway.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_106"
+      "id": "tests_test_strategy_d_rationale_106",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must describe phased implementation plan.",
@@ -3416,8 +3416,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must describe phased implementation plan.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_111"
+      "id": "tests_test_strategy_d_rationale_111",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must include effort estimates.",
@@ -3427,8 +3427,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must include effort estimates.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_118"
+      "id": "tests_test_strategy_d_rationale_118",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must describe integration with other strategies.",
@@ -3438,8 +3438,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must describe integration with other strategies.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_123"
+      "id": "tests_test_strategy_d_rationale_123",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document should be substantial (at least 10KB of content).",
@@ -3449,8 +3449,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document should be substantial (at least 10kb of content).",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_128"
+      "id": "tests_test_strategy_d_rationale_128",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Verify the strategy document is complete and well-structured.",
@@ -3460,8 +3460,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "verify the strategy document is complete and well-structured.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_43"
+      "id": "tests_test_strategy_d_rationale_43",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Strategy D document must exist.",
@@ -3471,8 +3471,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "strategy d document must exist.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_48"
+      "id": "tests_test_strategy_d_rationale_48",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must contain an overview section.",
@@ -3482,8 +3482,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must contain an overview section.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_53"
+      "id": "tests_test_strategy_d_rationale_53",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must explain why MATLAB/Simulink is the right choice.",
@@ -3493,8 +3493,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must explain why matlab/simulink is the right choice.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_58"
+      "id": "tests_test_strategy_d_rationale_58",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must show the system architecture diagram.",
@@ -3504,8 +3504,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must show the system architecture diagram.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_63"
+      "id": "tests_test_strategy_d_rationale_63",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must describe all 4 export paths.",
@@ -3515,8 +3515,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must describe all 4 export paths.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_68"
+      "id": "tests_test_strategy_d_rationale_68",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must describe System Identification for UDMs.",
@@ -3526,8 +3526,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must describe system identification for udms.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_75"
+      "id": "tests_test_strategy_d_rationale_75",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must include a MATLAB test harness section.",
@@ -3537,8 +3537,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must include a matlab test harness section.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_80"
+      "id": "tests_test_strategy_d_rationale_80",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must list limitations.",
@@ -3548,8 +3548,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must list limitations.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_85"
+      "id": "tests_test_strategy_d_rationale_85",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must include references to MathWorks tools.",
@@ -3559,8 +3559,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must include references to mathworks tools.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_90"
+      "id": "tests_test_strategy_d_rationale_90",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "Document must mention MATPOWER for .raw parsing.",
@@ -3570,8 +3570,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "document must mention matpower for .raw parsing.",
-      "community_name": "Strategy D Documentation",
-      "id": "tests_test_strategy_d_rationale_96"
+      "id": "tests_test_strategy_d_rationale_96",
+      "community_name": "TestStrategyDDocument"
     },
     {
       "label": "usrgov.f",
@@ -3581,8 +3581,8 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "usrgov.f",
-      "community_name": "Governor Model Source",
-      "id": "models_fortran_usrgov"
+      "id": "models_fortran_usrgov",
+      "community_name": "usrgov.f"
     },
     {
       "label": "usrpss.f",
@@ -3592,8 +3592,8 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "usrpss.f",
-      "community_name": "Stabilizer Model Source",
-      "id": "models_fortran_usrpss"
+      "id": "models_fortran_usrpss",
+      "community_name": "usrpss.f"
     },
     {
       "label": "dynaxlate",
@@ -3606,8 +3606,8 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "dynaxlate",
-      "community_name": "Dynaxlate Core",
-      "id": "pkg_dynaxlate"
+      "id": "pkg_dynaxlate",
+      "community_name": "dynaxlate"
     },
     {
       "label": "test_strategy_c.py",
@@ -3617,8 +3617,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "test_strategy_c.py",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c"
+      "id": "tests_test_strategy_c",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "fixture",
@@ -3628,8 +3628,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "fixture",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_py_fixture"
+      "id": "tests_test_strategy_c_py_fixture",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "Strategy C Test Harness: CIM Intermediate Format. Tests the IEC 61970 CIM-based\u2026",
@@ -3639,8 +3639,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "strategy c test harness: cim intermediate format. tests the iec 61970 cim-based...",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_1"
+      "id": "tests_test_strategy_c_rationale_1",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "Test generation of CIM XML from PSSE data.",
@@ -3650,8 +3650,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "test generation of cim xml from psse data.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_17"
+      "id": "tests_test_strategy_c_rationale_17",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "Generated CIM XML has correct root structure. Target: IEC 61970-452 CIM XML\u2026",
@@ -3661,8 +3661,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "generated cim xml has correct root structure. target: iec 61970-452 cim xml...",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_25"
+      "id": "tests_test_strategy_c_rationale_25",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "CIM XML includes power flow topology elements.",
@@ -3672,8 +3672,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "cim xml includes power flow topology elements.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_41"
+      "id": "tests_test_strategy_c_rationale_41",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "CIM XML includes dynamics profile (61970-302) elements.",
@@ -3683,8 +3683,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "cim xml includes dynamics profile (61970-302) elements.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_45"
+      "id": "tests_test_strategy_c_rationale_45",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "Test CIM XML validation.",
@@ -3694,8 +3694,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "test cim xml validation.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_50"
+      "id": "tests_test_strategy_c_rationale_50",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "Generated CIM XML passes IEC 61970 schema validation.",
@@ -3705,8 +3705,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "generated cim xml passes iec 61970 schema validation.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_53"
+      "id": "tests_test_strategy_c_rationale_53",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "CIM XML passes SHACL shape validation.",
@@ -3716,8 +3716,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "cim xml passes shacl shape validation.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_57"
+      "id": "tests_test_strategy_c_rationale_57",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "Parameter values are in physically reasonable ranges.",
@@ -3727,8 +3727,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "parameter values are in physically reasonable ranges.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_61"
+      "id": "tests_test_strategy_c_rationale_61",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "Test PowerFactory's CIM import capability.",
@@ -3738,8 +3738,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "test powerfactory's cim import capability.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_66"
+      "id": "tests_test_strategy_c_rationale_66",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "PowerFactory can import CIM XML with dynamics profile. This is the CRITICAL\u2026",
@@ -3749,8 +3749,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "powerfactory can import cim xml with dynamics profile. this is the critical...",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_69"
+      "id": "tests_test_strategy_c_rationale_69",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "PowerFactory CIM import produces correct power flow.",
@@ -3760,8 +3760,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "powerfactory cim import produces correct power flow.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_82"
+      "id": "tests_test_strategy_c_rationale_82",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "Test CIM round-trip fidelity (deferred from initial scope).",
@@ -3771,8 +3771,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "test cim round-trip fidelity (deferred from initial scope).",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_87"
+      "id": "tests_test_strategy_c_rationale_87",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "PSSE \u2192 CIM \u2192 PF forward path produces results.",
@@ -3782,8 +3782,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "psse \u2192 cim \u2192 pf forward path produces results.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_90"
+      "id": "tests_test_strategy_c_rationale_90",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "Round-trip PSSE \u2192 CIM \u2192 PF \u2192 CIM \u2192 PSSE preserves parameters.",
@@ -3793,8 +3793,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "round-trip psse \u2192 cim \u2192 pf \u2192 cim \u2192 psse preserves parameters.",
-      "community_name": "CIM Export Strategy",
-      "id": "tests_test_strategy_c_rationale_94"
+      "id": "tests_test_strategy_c_rationale_94",
+      "community_name": "TestCIMGeneration"
     },
     {
       "label": "skipif",
@@ -3804,8 +3804,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "skipif",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "skipif"
+      "id": "skipif",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "test_strategy_d.py",
@@ -3815,8 +3815,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "test_strategy_d.py",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d"
+      "id": "tests_test_strategy_d",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Strategy D Test Harness: MATLAB/Simulink as Universal Translation Hub. Tests\u2026",
@@ -3826,8 +3826,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "strategy d test harness: matlab/simulink as universal translation hub. tests...",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_1"
+      "id": "tests_test_strategy_d_rationale_1",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Cascade (series) multiple transfer functions by convolving numerator and\u2026",
@@ -3837,8 +3837,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "cascade (series) multiple transfer functions by convolving numerator and...",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_27"
+      "id": "tests_test_strategy_d_rationale_27",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Basic structural checks on MATLAB scripts in the strategy plan.",
@@ -3848,8 +3848,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "basic structural checks on matlab scripts in the strategy plan.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_450"
+      "id": "tests_test_strategy_d_rationale_450",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Validate MATLAB .dyr parser function structure.",
@@ -3859,8 +3859,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "validate matlab .dyr parser function structure.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_453"
+      "id": "tests_test_strategy_d_rationale_453",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Validate MATLAB function syntax in the plan.",
@@ -3870,8 +3870,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "validate matlab function syntax in the plan.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_460"
+      "id": "tests_test_strategy_d_rationale_460",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Validate MATLAB export function structures.",
@@ -3881,8 +3881,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "validate matlab export function structures.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_467"
+      "id": "tests_test_strategy_d_rationale_467",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "All required MATLAB toolboxes should be documented.",
@@ -3892,8 +3892,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "all required matlab toolboxes should be documented.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_474"
+      "id": "tests_test_strategy_d_rationale_474",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Check if MATLAB is available in the environment. These tests are marked as\u2026",
@@ -3903,8 +3903,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "check if matlab is available in the environment. these tests are marked as...",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_535"
+      "id": "tests_test_strategy_d_rationale_535",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Check MATLAB is available via command line.",
@@ -3914,8 +3914,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "check matlab is available via command line.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_546"
+      "id": "tests_test_strategy_d_rationale_546",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Check MATPOWER can parse a PSSE .raw file.",
@@ -3925,8 +3925,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "check matpower can parse a psse .raw file.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_560"
+      "id": "tests_test_strategy_d_rationale_560",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Test System Identification Toolbox tfest on known TF.",
@@ -3936,8 +3936,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "test system identification toolbox tfest on known tf.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_576"
+      "id": "tests_test_strategy_d_rationale_576",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Verify MathWorks references in the strategy document are valid.",
@@ -3947,8 +3947,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "verify mathworks references in the strategy document are valid.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_599"
+      "id": "tests_test_strategy_d_rationale_599",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Strategy document references mathworks.com sufficiently.",
@@ -3958,8 +3958,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "strategy document references mathworks.com sufficiently.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_602"
+      "id": "tests_test_strategy_d_rationale_602",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Strategy references MATLAB Central / community.",
@@ -3969,8 +3969,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "strategy references matlab central / community.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_609"
+      "id": "tests_test_strategy_d_rationale_609",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Strategy references DIgSILENT documentation.",
@@ -3980,8 +3980,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "strategy references digsilent documentation.",
-      "community_name": "MATLAB Strategy Harness",
-      "id": "tests_test_strategy_d_rationale_615"
+      "id": "tests_test_strategy_d_rationale_615",
+      "community_name": "test_strategy_d.py"
     },
     {
       "label": "Fortran logical-IF limiter -> min/max. IF (X .GT. LIM) X = LIM -> x = min(x,\u2026",
@@ -3991,8 +3991,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "fortran logical-if limiter -> min/max. if (x .gt. lim) x = lim -> x = min(x,...",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_112"
+      "id": "src_dynaxlate_dsl_generator_rationale_112",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "Return (lhs, rhs) in DSL form, or None if not translatable.",
@@ -4002,8 +4002,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "return (lhs, rhs) in dsl form, or none if not translatable.",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_146"
+      "id": "src_dynaxlate_dsl_generator_rationale_146",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "Lowercase identifiers (DSL convention) but keep function names intact.",
@@ -4013,8 +4013,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "lowercase identifiers (dsl convention) but keep function names intact.",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_234"
+      "id": "src_dynaxlate_dsl_generator_rationale_234",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "Convenience: parse a Fortran UDM file and generate its DSL model.",
@@ -4024,8 +4024,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "convenience: parse a fortran udm file and generate its dsl model.",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_239"
+      "id": "src_dynaxlate_dsl_generator_rationale_239",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "Generated PowerFactory DSL model.",
@@ -4035,8 +4035,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "generated powerfactory dsl model.",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_49"
+      "id": "src_dynaxlate_dsl_generator_rationale_49",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "Generate PowerFactory DSL source from a parsed Fortran UDM.",
@@ -4046,8 +4046,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "generate powerfactory dsl source from a parsed fortran udm.",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_64"
+      "id": "src_dynaxlate_dsl_generator_rationale_64",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "Replace CON/STATE/DSTATE/VAR array refs with declared names.",
@@ -4057,8 +4057,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "replace con/state/dstate/var array refs with declared names.",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_74"
+      "id": "src_dynaxlate_dsl_generator_rationale_74",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "Replace PSSE machine quantities QUANT(MC) with DSL signal names.",
@@ -4068,8 +4068,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "replace psse machine quantities quant(mc) with dsl signal names.",
-      "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_90"
+      "id": "src_dynaxlate_dsl_generator_rationale_90",
+      "community_name": "DSLGenerator"
     },
     {
       "label": "pf_adapter.py",
@@ -4079,8 +4079,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "pf_adapter.py",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter"
+      "id": "src_dynaxlate_pf_adapter",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "PowerFactory Adapter: Abstraction layer for PowerFactory Python API. Handles\u2026",
@@ -4090,8 +4090,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "powerfactory adapter: abstraction layer for powerfactory python api. handles...",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_1"
+      "id": "src_dynaxlate_pf_adapter_rationale_1",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Import PSSE .raw/.dyr files via PowerFactory's native import. Args: raw_path:\u2026",
@@ -4101,8 +4101,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "import psse .raw/.dyr files via powerfactory's native import. args: raw_path:...",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_111"
+      "id": "src_dynaxlate_pf_adapter_rationale_111",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Run power flow on the active project. Returns bus voltage results.",
@@ -4112,8 +4112,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "run power flow on the active project. returns bus voltage results.",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_141"
+      "id": "src_dynaxlate_pf_adapter_rationale_141",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Run RMS (transient stability) simulation with a fault. Args: fault_bus: Bus\u2026",
@@ -4123,8 +4123,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "run rms (transient stability) simulation with a fault. args: fault_bus: bus...",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_158"
+      "id": "src_dynaxlate_pf_adapter_rationale_158",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "PowerFactory connection configuration.",
@@ -4134,8 +4134,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "powerfactory connection configuration.",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_19"
+      "id": "src_dynaxlate_pf_adapter_rationale_19",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Abstraction layer for PowerFactory Python API. Handles: - Application\u2026",
@@ -4145,8 +4145,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "abstraction layer for powerfactory python api. handles: - application...",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_28"
+      "id": "src_dynaxlate_pf_adapter_rationale_28",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Connect to PowerFactory application. Returns True if connection successful.",
@@ -4156,8 +4156,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "connect to powerfactory application. returns true if connection successful.",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_45"
+      "id": "src_dynaxlate_pf_adapter_rationale_45",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Disconnect from PowerFactory.",
@@ -4167,8 +4167,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "disconnect from powerfactory.",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_72"
+      "id": "src_dynaxlate_pf_adapter_rationale_72",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Create a new PowerFactory project.",
@@ -4178,8 +4178,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "create a new powerfactory project.",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_84"
+      "id": "src_dynaxlate_pf_adapter_rationale_84",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Activate an existing PowerFactory project.",
@@ -4189,8 +4189,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "activate an existing powerfactory project.",
-      "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_97"
+      "id": "src_dynaxlate_pf_adapter_rationale_97",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Test PowerFactory adapter (mocked, since PF may not be installed).",
@@ -4200,8 +4200,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "test powerfactory adapter (mocked, since pf may not be installed).",
-      "community_name": "PowerFactory API Adapter",
-      "id": "tests_test_strategy_a_rationale_246"
+      "id": "tests_test_strategy_a_rationale_246",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Adapter can be instantiated without PowerFactory.",
@@ -4211,8 +4211,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "adapter can be instantiated without powerfactory.",
-      "community_name": "PowerFactory API Adapter",
-      "id": "tests_test_strategy_a_rationale_249"
+      "id": "tests_test_strategy_a_rationale_249",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Connection fails gracefully when PowerFactory is not installed.",
@@ -4222,8 +4222,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "connection fails gracefully when powerfactory is not installed.",
-      "community_name": "PowerFactory API Adapter",
-      "id": "tests_test_strategy_a_rationale_256"
+      "id": "tests_test_strategy_a_rationale_256",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "Context manager works even without PowerFactory.",
@@ -4233,8 +4233,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "context manager works even without powerfactory.",
-      "community_name": "PowerFactory API Adapter",
-      "id": "tests_test_strategy_a_rationale_264"
+      "id": "tests_test_strategy_a_rationale_264",
+      "community_name": "PowerFactoryAdapter"
     },
     {
       "label": "test_strategy_b.py",
@@ -4244,8 +4244,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "test_strategy_b.py",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b"
+      "id": "tests_test_strategy_b",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "fixture",
@@ -4255,8 +4255,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "fixture",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_py_fixture"
+      "id": "tests_test_strategy_b_py_fixture",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Strategy B Test Harness: ANDES Parser + DSL Code Generation + Model Registry.\u2026",
@@ -4266,8 +4266,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "strategy b test harness: andes parser + dsl code generation + model registry....",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_1"
+      "id": "tests_test_strategy_b_rationale_1",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Generated DSL code has valid structure.",
@@ -4277,8 +4277,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "generated dsl code has valid structure.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_100"
+      "id": "tests_test_strategy_b_rationale_100",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Test incremental verification: network \u2192 gens \u2192 exciters \u2192 governors.",
@@ -4288,8 +4288,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "test incremental verification: network \u2192 gens \u2192 exciters \u2192 governors.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_116"
+      "id": "tests_test_strategy_b_rationale_116",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Network topology (no dynamics) produces correct power flow.",
@@ -4299,8 +4299,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "network topology (no dynamics) produces correct power flow.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_119"
+      "id": "tests_test_strategy_b_rationale_119",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Dynamic models converge during initialization.",
@@ -4310,8 +4310,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "dynamic models converge during initialization.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_129"
+      "id": "tests_test_strategy_b_rationale_129",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Test ANDES as the structured parser for .raw/.dyr files.",
@@ -4321,8 +4321,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "test andes as the structured parser for .raw/.dyr files.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_17"
+      "id": "tests_test_strategy_b_rationale_17",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Load IEEE 14-bus case via ANDES.",
@@ -4332,8 +4332,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "load ieee 14-bus case via andes.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_21"
+      "id": "tests_test_strategy_b_rationale_21",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "ANDES extracts bus data correctly.",
@@ -4343,8 +4343,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "andes extracts bus data correctly.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_31"
+      "id": "tests_test_strategy_b_rationale_31",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "ANDES extracts generator data correctly.",
@@ -4354,8 +4354,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "andes extracts generator data correctly.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_39"
+      "id": "tests_test_strategy_b_rationale_39",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "ANDES extracts exciter data correctly.",
@@ -4365,8 +4365,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "andes extracts exciter data correctly.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_45"
+      "id": "tests_test_strategy_b_rationale_45",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "ANDES extracts governor data correctly.",
@@ -4376,8 +4376,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "andes extracts governor data correctly.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_55"
+      "id": "tests_test_strategy_b_rationale_55",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Test model registry covers all models in test .dyr files.",
@@ -4387,8 +4387,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "test model registry covers all models in test .dyr files.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_65"
+      "id": "tests_test_strategy_b_rationale_65",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Get all model types from all test .dyr files.",
@@ -4398,8 +4398,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "get all model types from all test .dyr files.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_69"
+      "id": "tests_test_strategy_b_rationale_69",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Every model in test .dyr files has a registry entry (or is explicitly excluded).",
@@ -4409,8 +4409,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "every model in test .dyr files has a registry entry (or is explicitly excluded).",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_78"
+      "id": "tests_test_strategy_b_rationale_78",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "Test DSL code generation for PowerFactory models.",
@@ -4420,8 +4420,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "test dsl code generation for powerfactory models.",
-      "community_name": "ANDES Parser Strategy",
-      "id": "tests_test_strategy_b_rationale_97"
+      "id": "tests_test_strategy_b_rationale_97",
+      "community_name": "TestANDESParserIntegration"
     },
     {
       "label": "dsl_generator.py",
@@ -4431,8 +4431,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "dsl_generator.py",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_dsl_generator"
+      "id": "src_dynaxlate_dsl_generator",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "fortran_parser.py",
@@ -4442,8 +4442,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "fortran_parser.py",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser"
+      "id": "src_dynaxlate_fortran_parser",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "Path",
@@ -4453,8 +4453,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "path",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_py_path"
+      "id": "src_dynaxlate_fortran_parser_py_path",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "test_fortran_udm.py",
@@ -4464,8 +4464,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "test_fortran_udm.py",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm"
+      "id": "tests_test_fortran_udm",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "DSL Generator: emit PowerFactory DSL model definitions from parsed Fortran\u2026",
@@ -4475,8 +4475,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "dsl generator: emit powerfactory dsl model definitions from parsed fortran...",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_dsl_generator_rationale_1"
+      "id": "src_dynaxlate_dsl_generator_rationale_1",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "Fortran UDM Parser: extract structure from PSSE user-defined model source. PSSE\u2026",
@@ -4486,8 +4486,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "fortran udm parser: extract structure from psse user-defined model source. psse...",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_1"
+      "id": "src_dynaxlate_fortran_parser_rationale_1",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "One CON/STATE/VAR/ICON allocation declared in the header comments.",
@@ -4497,8 +4497,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "one con/state/var/icon allocation declared in the header comments.",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_23"
+      "id": "src_dynaxlate_fortran_parser_rationale_23",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "Parsed PSSE Fortran user-defined model.",
@@ -4508,8 +4508,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "parsed psse fortran user-defined model.",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_33"
+      "id": "src_dynaxlate_fortran_parser_rationale_33",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "Fixed-form Fortran: any char in column 6 marks a continuation.",
@@ -4519,8 +4519,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "fixed-form fortran: any char in column 6 marks a continuation.",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_86"
+      "id": "src_dynaxlate_fortran_parser_rationale_86",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "Parse a PSSE Fortran UDM source file into structured form.",
@@ -4530,8 +4530,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "parse a psse fortran udm source file into structured form.",
-      "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_98"
+      "id": "src_dynaxlate_fortran_parser_rationale_98",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "Fortran UDM \u2192 PowerFactory DSL translation tests.",
@@ -4541,8 +4541,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "fortran udm \u2192 powerfactory dsl translation tests.",
-      "community_name": "Fortran UDM Parser",
-      "id": "tests_test_fortran_udm_rationale_1"
+      "id": "tests_test_fortran_udm_rationale_1",
+      "community_name": "parse_fortran_udm"
     },
     {
       "label": "ndarray",
@@ -4552,8 +4552,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "ndarray",
-      "community_name": "Simulation Comparison Framework",
-      "id": "ndarray"
+      "id": "ndarray",
+      "community_name": "comparison.py"
     },
     {
       "label": "comparison.py",
@@ -4563,8 +4563,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "comparison.py",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison"
+      "id": "src_dynaxlate_comparison",
+      "community_name": "comparison.py"
     },
     {
       "label": "test_strategy_a.py",
@@ -4574,8 +4574,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "test_strategy_a.py",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a"
+      "id": "tests_test_strategy_a",
+      "community_name": "comparison.py"
     },
     {
       "label": "Comparison Framework: Compare simulation results between PSSE and PowerFactory.\u2026",
@@ -4585,8 +4585,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "comparison framework: compare simulation results between psse and powerfactory....",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_1"
+      "id": "src_dynaxlate_comparison_rationale_1",
+      "community_name": "comparison.py"
     },
     {
       "label": "Compare two time-series on a common time grid. Uses cubic spline interpolation\u2026",
@@ -4596,8 +4596,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare two time-series on a common time grid. uses cubic spline interpolation...",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_100"
+      "id": "src_dynaxlate_comparison_rationale_100",
+      "community_name": "comparison.py"
     },
     {
       "label": "Compare power flow results between PSSE and PowerFactory.",
@@ -4607,8 +4607,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare power flow results between psse and powerfactory.",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_156"
+      "id": "src_dynaxlate_comparison_rationale_156",
+      "community_name": "comparison.py"
     },
     {
       "label": "Compare eigenvalue sets between PSSE and PowerFactory. Matches eigenvalues by\u2026",
@@ -4618,8 +4618,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare eigenvalue sets between psse and powerfactory. matches eigenvalues by...",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_197"
+      "id": "src_dynaxlate_comparison_rationale_197",
+      "community_name": "comparison.py"
     },
     {
       "label": "Verification tolerance specification.",
@@ -4629,8 +4629,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "verification tolerance specification.",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_20"
+      "id": "src_dynaxlate_comparison_rationale_20",
+      "community_name": "comparison.py"
     },
     {
       "label": "Result of comparing two time-series.",
@@ -4640,8 +4640,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "result of comparing two time-series.",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_42"
+      "id": "src_dynaxlate_comparison_rationale_42",
+      "community_name": "comparison.py"
     },
     {
       "label": "Full comparison report between PSSE and PowerFactory results.",
@@ -4651,8 +4651,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "full comparison report between psse and powerfactory results.",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_55"
+      "id": "src_dynaxlate_comparison_rationale_55",
+      "community_name": "comparison.py"
     },
     {
       "label": "Generate human-readable summary.",
@@ -4662,8 +4662,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "generate human-readable summary.",
-      "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_64"
+      "id": "src_dynaxlate_comparison_rationale_64",
+      "community_name": "comparison.py"
     },
     {
       "label": "Strategy A Test Harness: Native PowerFactory Import + Post-Processing. Tests\u2026",
@@ -4673,8 +4673,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "strategy a test harness: native powerfactory import + post-processing. tests...",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a_rationale_1"
+      "id": "tests_test_strategy_a_rationale_1",
+      "community_name": "comparison.py"
     },
     {
       "label": "Test the comparison/verification framework.",
@@ -4684,8 +4684,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "test the comparison/verification framework.",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a_rationale_210"
+      "id": "tests_test_strategy_a_rationale_210",
+      "community_name": "comparison.py"
     },
     {
       "label": "Identical time-series pass comparison.",
@@ -4695,8 +4695,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "identical time-series pass comparison.",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a_rationale_213"
+      "id": "tests_test_strategy_a_rationale_213",
+      "community_name": "comparison.py"
     },
     {
       "label": "Significantly different signals fail comparison.",
@@ -4706,8 +4706,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "significantly different signals fail comparison.",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a_rationale_223"
+      "id": "tests_test_strategy_a_rationale_223",
+      "community_name": "comparison.py"
     },
     {
       "label": "Power flow comparison works with synthetic data.",
@@ -4717,8 +4717,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "power flow comparison works with synthetic data.",
-      "community_name": "Simulation Comparison Framework",
-      "id": "tests_test_strategy_a_rationale_233"
+      "id": "tests_test_strategy_a_rationale_233",
+      "community_name": "comparison.py"
     },
     {
       "label": "ANDES Parser",
@@ -4726,8 +4726,8 @@
       "source_file": "plans/strategy-b-andes-dsl-generator.md",
       "community": 15,
       "norm_label": "andes parser",
-      "community_name": "Translation Strategy Overview",
-      "id": "andes_parser"
+      "id": "andes_parser",
+      "community_name": "Strategy A: Native Import"
     },
     {
       "label": "IEC 61970-302 (CIM Dynamics)",
@@ -4735,8 +4735,8 @@
       "source_file": "plans/strategy-c-cim-intermediate.md",
       "community": 15,
       "norm_label": "iec 61970-302 (cim dynamics)",
-      "community_name": "Translation Strategy Overview",
-      "id": "cim_dynamics"
+      "id": "cim_dynamics",
+      "community_name": "Strategy A: Native Import"
     },
     {
       "label": "PowerFactory (.pfd/DSL)",
@@ -4744,8 +4744,8 @@
       "source_file": "plans/research.md",
       "community": 15,
       "norm_label": "powerfactory (.pfd/dsl)",
-      "community_name": "Translation Strategy Overview",
-      "id": "powerfactory_format"
+      "id": "powerfactory_format",
+      "community_name": "Strategy A: Native Import"
     },
     {
       "label": "PSSE (.raw/.dyr)",
@@ -4753,8 +4753,8 @@
       "source_file": "plans/research.md",
       "community": 15,
       "norm_label": "psse (.raw/.dyr)",
-      "community_name": "Translation Strategy Overview",
-      "id": "psse_format"
+      "id": "psse_format",
+      "community_name": "Strategy A: Native Import"
     },
     {
       "label": "Critique: PSSE-to-PowerFactory Strategies",
@@ -4763,8 +4763,8 @@
       "rationale": "Critical review of translation strategies A, B, and C by a senior engineer.",
       "community": 15,
       "norm_label": "critique: psse-to-powerfactory strategies",
-      "community_name": "Translation Strategy Overview",
-      "id": "plans_critique"
+      "id": "plans_critique",
+      "community_name": "Strategy A: Native Import"
     },
     {
       "label": "EMT/IBR Context",
@@ -4773,8 +4773,8 @@
       "rationale": "Technical context on Electromagnetic Transient (EMT) and Inverter-Based Resources (IBR).",
       "community": 15,
       "norm_label": "emt/ibr context",
-      "community_name": "Translation Strategy Overview",
-      "id": "plans_emt_ibr_context"
+      "id": "plans_emt_ibr_context",
+      "community_name": "Strategy A: Native Import"
     },
     {
       "label": "Strategy A: Native Import",
@@ -4783,8 +4783,8 @@
       "rationale": "Fastest path using PowerFactory's built-in converter with post-processing.",
       "community": 15,
       "norm_label": "strategy a: native import",
-      "community_name": "Translation Strategy Overview",
-      "id": "plans_strategy_a_native_import"
+      "id": "plans_strategy_a_native_import",
+      "community_name": "Strategy A: Native Import"
     },
     {
       "label": "Strategy B: ANDES-Based Parser",
@@ -4793,8 +4793,8 @@
       "rationale": "Full control via Python parser and DSL code generation.",
       "community": 15,
       "norm_label": "strategy b: andes-based parser",
-      "community_name": "Translation Strategy Overview",
-      "id": "plans_strategy_b_andes_dsl_generator"
+      "id": "plans_strategy_b_andes_dsl_generator",
+      "community_name": "Strategy A: Native Import"
     },
     {
       "label": "Strategy C: CIM Intermediate",
@@ -4803,8 +4803,8 @@
       "rationale": "Standards-based approach using IEC 61970 CIM.",
       "community": 15,
       "norm_label": "strategy c: cim intermediate",
-      "community_name": "Translation Strategy Overview",
-      "id": "plans_strategy_c_cim_intermediate"
+      "id": "plans_strategy_c_cim_intermediate",
+      "community_name": "Strategy A: Native Import"
     },
     {
       "label": "MATPOWER",
@@ -4812,8 +4812,8 @@
       "source_file": "plans/strategy-d-matlab-simulink-translator.md",
       "community": 17,
       "norm_label": "matpower",
-      "community_name": "MATLAB Translation Hub",
-      "id": "matpower"
+      "id": "matpower",
+      "community_name": "Strategy D: MATLAB/Simulink Hub"
     },
     {
       "label": "Fortran UDM Translation",
@@ -4822,8 +4822,8 @@
       "rationale": "The difficulty of translating compiled Fortran User Defined Models.",
       "community": 17,
       "norm_label": "fortran udm translation",
-      "community_name": "MATLAB Translation Hub",
-      "id": "udm_problem"
+      "id": "udm_problem",
+      "community_name": "Strategy D: MATLAB/Simulink Hub"
     },
     {
       "label": "Strategy D: MATLAB/Simulink Hub",
@@ -4832,8 +4832,8 @@
       "rationale": "Universal hub using Simulink for verification and UDM reverse-engineering.",
       "community": 17,
       "norm_label": "strategy d: matlab/simulink hub",
-      "community_name": "MATLAB Translation Hub",
-      "id": "plans_strategy_d_matlab_simulink_translator"
+      "id": "plans_strategy_d_matlab_simulink_translator",
+      "community_name": "Strategy D: MATLAB/Simulink Hub"
     },
     {
       "label": "Research: PSSE \u2194 PowerFactory",
@@ -4842,8 +4842,8 @@
       "rationale": "Initial research on formats, tools, and feasibility.",
       "community": 23,
       "norm_label": "research: psse \u2194 powerfactory",
-      "community_name": "Interoperability Research",
-      "id": "plans_research"
+      "id": "plans_research",
+      "community_name": "Research: PSSE \u2194 PowerFactory"
     },
     {
       "label": "Dynxlate README",
@@ -4852,8 +4852,8 @@
       "rationale": "Project overview and structure.",
       "community": 24,
       "norm_label": "dynxlate readme",
-      "community_name": "Project Documentation",
-      "id": "readme"
+      "id": "readme",
+      "community_name": "Dynxlate README"
     }
   ],
   "links": [
