@@ -1,0 +1,3323 @@
+{
+  "nodes": [
+    {
+      "id": "init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "init_rationale_1",
+      "label": "Dynaxlate \u2014 Dynamic Model Translation between Power System Simulation Formats.\u2026",
+      "file_type": "rationale",
+      "source_file": "__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison",
+      "label": "comparison.py",
+      "file_type": "code",
+      "source_file": "comparison.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_tolerance",
+      "label": "Tolerance",
+      "file_type": "code",
+      "source_file": "comparison.py",
+      "source_location": "L26",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_comparisonmetric",
+      "label": "ComparisonMetric",
+      "file_type": "code",
+      "source_file": "comparison.py",
+      "source_location": "L48",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_comparisonreport",
+      "label": "ComparisonReport",
+      "file_type": "code",
+      "source_file": "comparison.py",
+      "source_location": "L61",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_comparisonreport_summary",
+      "label": ".summary()",
+      "file_type": "code",
+      "source_file": "comparison.py",
+      "source_location": "L70",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_compare_timeseries",
+      "label": "compare_timeseries()",
+      "file_type": "code",
+      "source_file": "comparison.py",
+      "source_location": "L97",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_compare_powerflow",
+      "label": "compare_powerflow()",
+      "file_type": "code",
+      "source_file": "comparison.py",
+      "source_location": "L164",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_compare_eigenvalues",
+      "label": "compare_eigenvalues()",
+      "file_type": "code",
+      "source_file": "comparison.py",
+      "source_location": "L206",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_rationale_1",
+      "label": "Comparison Framework: Compare simulation results between PSSE and PowerFactory.\u2026",
+      "file_type": "rationale",
+      "source_file": "comparison.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_rationale_27",
+      "label": "Verification tolerance specification.",
+      "file_type": "rationale",
+      "source_file": "comparison.py",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_rationale_49",
+      "label": "Result of comparing two time-series.",
+      "file_type": "rationale",
+      "source_file": "comparison.py",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_rationale_62",
+      "label": "Full comparison report between PSSE and PowerFactory results.",
+      "file_type": "rationale",
+      "source_file": "comparison.py",
+      "source_location": "L62",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_rationale_71",
+      "label": "Generate human-readable summary.",
+      "file_type": "rationale",
+      "source_file": "comparison.py",
+      "source_location": "L71",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_rationale_107",
+      "label": "Compare two time-series on a common time grid. Uses cubic spline interpolation\u2026",
+      "file_type": "rationale",
+      "source_file": "comparison.py",
+      "source_location": "L107",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_rationale_170",
+      "label": "Compare power flow results between PSSE and PowerFactory.",
+      "file_type": "rationale",
+      "source_file": "comparison.py",
+      "source_location": "L170",
+      "_origin": "ast"
+    },
+    {
+      "id": "comparison_rationale_211",
+      "label": "Compare eigenvalue sets between PSSE and PowerFactory. Matches eigenvalues by\u2026",
+      "file_type": "rationale",
+      "source_file": "comparison.py",
+      "source_location": "L211",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator",
+      "label": "dsl_generator.py",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslmodel",
+      "label": "DSLModel",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L48",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslmodel_needs_manual_review",
+      "label": ".needs_manual_review()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L59",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslgenerator",
+      "label": "DSLGenerator",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L63",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslgenerator_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L66",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslgenerator_subst_arrays",
+      "label": "._subst_arrays()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L73",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslgenerator_subst_signals",
+      "label": "._subst_signals()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L89",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslgenerator_subst_funcs",
+      "label": "._subst_funcs()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L100",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslgenerator_translate_expr",
+      "label": ".translate_expr()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L105",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslgenerator_translate_limiter",
+      "label": "._translate_limiter()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L111",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslgenerator_translate_stmt",
+      "label": "._translate_stmt()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L145",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_dslgenerator_generate",
+      "label": ".generate()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L166",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_lc",
+      "label": "_lc()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L233",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_translate_udm",
+      "label": "translate_udm()",
+      "file_type": "code",
+      "source_file": "dsl_generator.py",
+      "source_location": "L238",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_rationale_1",
+      "label": "DSL Generator: emit PowerFactory DSL model definitions from parsed Fortran\u2026",
+      "file_type": "rationale",
+      "source_file": "dsl_generator.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_rationale_49",
+      "label": "Generated PowerFactory DSL model.",
+      "file_type": "rationale",
+      "source_file": "dsl_generator.py",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_rationale_64",
+      "label": "Generate PowerFactory DSL source from a parsed Fortran UDM.",
+      "file_type": "rationale",
+      "source_file": "dsl_generator.py",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_rationale_74",
+      "label": "Replace CON/STATE/DSTATE/VAR array refs with declared names.",
+      "file_type": "rationale",
+      "source_file": "dsl_generator.py",
+      "source_location": "L74",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_rationale_90",
+      "label": "Replace PSSE machine quantities QUANT(MC) with DSL signal names.",
+      "file_type": "rationale",
+      "source_file": "dsl_generator.py",
+      "source_location": "L90",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_rationale_112",
+      "label": "Fortran logical-IF limiter -> min/max. IF (X .GT. LIM) X = LIM -> x = min(x,\u2026",
+      "file_type": "rationale",
+      "source_file": "dsl_generator.py",
+      "source_location": "L112",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_rationale_146",
+      "label": "Return (lhs, rhs) in DSL form, or None if not translatable.",
+      "file_type": "rationale",
+      "source_file": "dsl_generator.py",
+      "source_location": "L146",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_rationale_234",
+      "label": "Lowercase identifiers (DSL convention) but keep function names intact.",
+      "file_type": "rationale",
+      "source_file": "dsl_generator.py",
+      "source_location": "L234",
+      "_origin": "ast"
+    },
+    {
+      "id": "dsl_generator_rationale_239",
+      "label": "Convenience: parse a Fortran UDM file and generate its DSL model.",
+      "file_type": "rationale",
+      "source_file": "dsl_generator.py",
+      "source_location": "L239",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser",
+      "label": "dyr_parser.py",
+      "file_type": "code",
+      "source_file": "dyr_parser.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_dynamicmodelentry",
+      "label": "DynamicModelEntry",
+      "file_type": "code",
+      "source_file": "dyr_parser.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_dynamicmodelentry_to_dict",
+      "label": ".to_dict()",
+      "file_type": "code",
+      "source_file": "dyr_parser.py",
+      "source_location": "L22",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_dyrfile",
+      "label": "DYRFile",
+      "file_type": "code",
+      "source_file": "dyr_parser.py",
+      "source_location": "L37",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_dyrfile_get_models_by_type",
+      "label": ".get_models_by_type()",
+      "file_type": "code",
+      "source_file": "dyr_parser.py",
+      "source_location": "L43",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_dyrfile_get_models_by_bus",
+      "label": ".get_models_by_bus()",
+      "file_type": "code",
+      "source_file": "dyr_parser.py",
+      "source_location": "L47",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_dyrfile_get_bus_model_map",
+      "label": ".get_bus_model_map()",
+      "file_type": "code",
+      "source_file": "dyr_parser.py",
+      "source_location": "L51",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_dyrfile_summary",
+      "label": ".summary()",
+      "file_type": "code",
+      "source_file": "dyr_parser.py",
+      "source_location": "L58",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_parse_dyr",
+      "label": "parse_dyr()",
+      "file_type": "code",
+      "source_file": "dyr_parser.py",
+      "source_location": "L68",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_py_path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_rationale_1",
+      "label": "DYR Parser: Extract dynamic model data from PSSE .dyr files. Lightweight parser\u2026",
+      "file_type": "rationale",
+      "source_file": "dyr_parser.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_rationale_15",
+      "label": "A single dynamic model entry from a .dyr file.",
+      "file_type": "rationale",
+      "source_file": "dyr_parser.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_rationale_23",
+      "label": "Convert positional parameters to a named dict using model registry.",
+      "file_type": "rationale",
+      "source_file": "dyr_parser.py",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_rationale_38",
+      "label": "Parsed PSSE .dyr file.",
+      "file_type": "rationale",
+      "source_file": "dyr_parser.py",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_rationale_44",
+      "label": "Get all entries for a specific model type.",
+      "file_type": "rationale",
+      "source_file": "dyr_parser.py",
+      "source_location": "L44",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_rationale_48",
+      "label": "Get all dynamic models connected to a specific bus.",
+      "file_type": "rationale",
+      "source_file": "dyr_parser.py",
+      "source_location": "L48",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_rationale_52",
+      "label": "Get mapping of bus \u2192 list of model types.",
+      "file_type": "rationale",
+      "source_file": "dyr_parser.py",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_rationale_59",
+      "label": "Get summary statistics of the .dyr file.",
+      "file_type": "rationale",
+      "source_file": "dyr_parser.py",
+      "source_location": "L59",
+      "_origin": "ast"
+    },
+    {
+      "id": "dyr_parser_rationale_69",
+      "label": "Parse a PSSE .dyr file into structured data. .dyr format: <bus> '<model_name>'\u2026",
+      "file_type": "rationale",
+      "source_file": "dyr_parser.py",
+      "source_location": "L69",
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser",
+      "label": "fortran_parser.py",
+      "file_type": "code",
+      "source_file": "fortran_parser.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_declaration",
+      "label": "Declaration",
+      "file_type": "code",
+      "source_file": "fortran_parser.py",
+      "source_location": "L22",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_fortranudm",
+      "label": "FortranUDM",
+      "file_type": "code",
+      "source_file": "fortran_parser.py",
+      "source_location": "L32",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_fortranudm_con_name",
+      "label": ".con_name()",
+      "file_type": "code",
+      "source_file": "fortran_parser.py",
+      "source_location": "L43",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_fortranudm_state_name",
+      "label": ".state_name()",
+      "file_type": "code",
+      "source_file": "fortran_parser.py",
+      "source_location": "L49",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_fortranudm_var_name",
+      "label": ".var_name()",
+      "file_type": "code",
+      "source_file": "fortran_parser.py",
+      "source_location": "L55",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_is_comment",
+      "label": "_is_comment()",
+      "file_type": "code",
+      "source_file": "fortran_parser.py",
+      "source_location": "L81",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_join_continuations",
+      "label": "_join_continuations()",
+      "file_type": "code",
+      "source_file": "fortran_parser.py",
+      "source_location": "L85",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_parse_fortran_udm",
+      "label": "parse_fortran_udm()",
+      "file_type": "code",
+      "source_file": "fortran_parser.py",
+      "source_location": "L97",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_py_path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_rationale_1",
+      "label": "Fortran UDM Parser: extract structure from PSSE user-defined model source. PSSE\u2026",
+      "file_type": "rationale",
+      "source_file": "fortran_parser.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_rationale_23",
+      "label": "One CON/STATE/VAR/ICON allocation declared in the header comments.",
+      "file_type": "rationale",
+      "source_file": "fortran_parser.py",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_rationale_33",
+      "label": "Parsed PSSE Fortran user-defined model.",
+      "file_type": "rationale",
+      "source_file": "fortran_parser.py",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_rationale_86",
+      "label": "Fixed-form Fortran: any char in column 6 marks a continuation.",
+      "file_type": "rationale",
+      "source_file": "fortran_parser.py",
+      "source_location": "L86",
+      "_origin": "ast"
+    },
+    {
+      "id": "fortran_parser_rationale_98",
+      "label": "Parse a PSSE Fortran UDM source file into structured form.",
+      "file_type": "rationale",
+      "source_file": "fortran_parser.py",
+      "source_location": "L98",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry",
+      "label": "model_registry.py",
+      "file_type": "code",
+      "source_file": "model_registry.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_parametermapping",
+      "label": "ParameterMapping",
+      "file_type": "code",
+      "source_file": "model_registry.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_modelmapping",
+      "label": "ModelMapping",
+      "file_type": "code",
+      "source_file": "model_registry.py",
+      "source_location": "L27",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_modelmapping_apply",
+      "label": ".apply()",
+      "file_type": "code",
+      "source_file": "model_registry.py",
+      "source_location": "L38",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_load_builtin_registry",
+      "label": "_load_builtin_registry()",
+      "file_type": "code",
+      "source_file": "model_registry.py",
+      "source_location": "L52",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_load_registry",
+      "label": "load_registry()",
+      "file_type": "code",
+      "source_file": "model_registry.py",
+      "source_location": "L275",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_py_path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_get_mapping",
+      "label": "get_mapping()",
+      "file_type": "code",
+      "source_file": "model_registry.py",
+      "source_location": "L315",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_list_supported_models",
+      "label": "list_supported_models()",
+      "file_type": "code",
+      "source_file": "model_registry.py",
+      "source_location": "L320",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_rationale_1",
+      "label": "Model Registry: PSSE \u2194 PowerFactory parameter mapping. YAML-driven mapping\u2026",
+      "file_type": "rationale",
+      "source_file": "model_registry.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_rationale_15",
+      "label": "Single parameter mapping from PSSE to PowerFactory.",
+      "file_type": "rationale",
+      "source_file": "model_registry.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_rationale_28",
+      "label": "Complete model mapping from PSSE to PowerFactory.",
+      "file_type": "rationale",
+      "source_file": "model_registry.py",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_rationale_39",
+      "label": "Transform PSSE parameter values to PowerFactory values.",
+      "file_type": "rationale",
+      "source_file": "model_registry.py",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_rationale_53",
+      "label": "Load built-in model mappings.",
+      "file_type": "rationale",
+      "source_file": "model_registry.py",
+      "source_location": "L53",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_rationale_276",
+      "label": "Load model registry from a YAML file. YAML format per model: psse_model: GENROU\u2026",
+      "file_type": "rationale",
+      "source_file": "model_registry.py",
+      "source_location": "L276",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_rationale_316",
+      "label": "Look up a model mapping by PSSE model name.",
+      "file_type": "rationale",
+      "source_file": "model_registry.py",
+      "source_location": "L316",
+      "_origin": "ast"
+    },
+    {
+      "id": "model_registry_rationale_321",
+      "label": "List all PSSE model names in the registry.",
+      "file_type": "rationale",
+      "source_file": "model_registry.py",
+      "source_location": "L321",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter",
+      "label": "pf_adapter.py",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_pfconnectionconfig",
+      "label": "PFConnectionConfig",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter",
+      "label": "PowerFactoryAdapter",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L28",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L39",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_connect",
+      "label": ".connect()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L45",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_disconnect",
+      "label": ".disconnect()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L72",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_create_project",
+      "label": ".create_project()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L84",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_activate_project",
+      "label": ".activate_project()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L97",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_import_psse",
+      "label": ".import_psse()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L110",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_run_power_flow",
+      "label": ".run_power_flow()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L141",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_run_rms_simulation",
+      "label": ".run_rms_simulation()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L157",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_enter",
+      "label": ".__enter__()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L179",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_powerfactoryadapter_exit",
+      "label": ".__exit__()",
+      "file_type": "code",
+      "source_file": "pf_adapter.py",
+      "source_location": "L183",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_1",
+      "label": "PowerFactory Adapter: Abstraction layer for PowerFactory Python API. Prototype\u2026",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_20",
+      "label": "PowerFactory connection configuration.",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_29",
+      "label": "Abstraction layer for PowerFactory Python API. Handles: - Application\u2026",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_46",
+      "label": "Connect to PowerFactory application. Returns True if connection successful.",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_73",
+      "label": "Disconnect from PowerFactory.",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L73",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_85",
+      "label": "Create a new PowerFactory project.",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L85",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_98",
+      "label": "Activate an existing PowerFactory project.",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L98",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_112",
+      "label": "Import PSSE .raw/.dyr files via PowerFactory's native import. Args: raw_path:\u2026",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L112",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_142",
+      "label": "Run power flow on the active project. Returns bus voltage results.",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L142",
+      "_origin": "ast"
+    },
+    {
+      "id": "pf_adapter_rationale_159",
+      "label": "Run RMS (transient stability) simulation with a fault. Args: fault_bus: Bus\u2026",
+      "file_type": "rationale",
+      "source_file": "pf_adapter.py",
+      "source_location": "L159",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline",
+      "label": "psse_baseline.py",
+      "file_type": "code",
+      "source_file": "psse_baseline.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_simulationresult",
+      "label": "SimulationResult",
+      "file_type": "code",
+      "source_file": "psse_baseline.py",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_powerflowresult",
+      "label": "PowerFlowResult",
+      "file_type": "code",
+      "source_file": "psse_baseline.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_pssebaselinerunner",
+      "label": "PSSEBaselineRunner",
+      "file_type": "code",
+      "source_file": "psse_baseline.py",
+      "source_location": "L33",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_pssebaselinerunner_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "psse_baseline.py",
+      "source_location": "L41",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_py_path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_pssebaselinerunner_run_power_flow",
+      "label": ".run_power_flow()",
+      "file_type": "code",
+      "source_file": "psse_baseline.py",
+      "source_location": "L45",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_pssebaselinerunner_run_dynamic",
+      "label": ".run_dynamic()",
+      "file_type": "code",
+      "source_file": "psse_baseline.py",
+      "source_location": "L61",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_pssebaselinerunner_run_vref_step",
+      "label": ".run_vref_step()",
+      "file_type": "code",
+      "source_file": "psse_baseline.py",
+      "source_location": "L104",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_pssebaselinerunner_compute_eigenvalues",
+      "label": ".compute_eigenvalues()",
+      "file_type": "code",
+      "source_file": "psse_baseline.py",
+      "source_location": "L113",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_rationale_1",
+      "label": "PSSE baseline runner using ANDES. Produces Result Set 1: PSSE simulation\u2026",
+      "file_type": "rationale",
+      "source_file": "psse_baseline.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_rationale_14",
+      "label": "Time-series result from a simulation.",
+      "file_type": "rationale",
+      "source_file": "psse_baseline.py",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_rationale_24",
+      "label": "Power flow result at all buses.",
+      "file_type": "rationale",
+      "source_file": "psse_baseline.py",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_rationale_34",
+      "label": "Run PSSE simulations via ANDES for baseline results. Note: ANDES is NOT a PSSE\u2026",
+      "file_type": "rationale",
+      "source_file": "psse_baseline.py",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_rationale_46",
+      "label": "Run power flow and return bus results.",
+      "file_type": "rationale",
+      "source_file": "psse_baseline.py",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_rationale_64",
+      "label": "Run dynamic simulation with a 3-phase fault disturbance. Args: fault_bus: Bus\u2026",
+      "file_type": "rationale",
+      "source_file": "psse_baseline.py",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_rationale_106",
+      "label": "Run small-signal test: voltage reference step on a generator. This exercises\u2026",
+      "file_type": "rationale",
+      "source_file": "psse_baseline.py",
+      "source_location": "L106",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_rationale_114",
+      "label": "Compute eigenvalues at the operating point for small-signal comparison.",
+      "file_type": "rationale",
+      "source_file": "psse_baseline.py",
+      "source_location": "L114",
+      "_origin": "ast"
+    },
+    {
+      "id": "psse_baseline_rationale_110",
+      "label": "# TODO: implement via ANDES event system",
+      "file_type": "rationale",
+      "source_file": "psse_baseline.py",
+      "source_location": "L110",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "init_rationale_1",
+      "target": "init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison",
+      "target": "comparison_tolerance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison",
+      "target": "comparison_comparisonmetric",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison",
+      "target": "comparison_comparisonreport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_comparisonreport",
+      "target": "comparison_comparisonreport_summary",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison",
+      "target": "comparison_compare_timeseries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_compare_timeseries",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_compare_timeseries",
+      "target": "comparison_comparisonmetric",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison",
+      "target": "comparison_compare_powerflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_compare_powerflow",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_compare_powerflow",
+      "target": "comparison_comparisonmetric",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison",
+      "target": "comparison_compare_eigenvalues",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_compare_eigenvalues",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_compare_eigenvalues",
+      "target": "comparison_comparisonmetric",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_compare_timeseries",
+      "target": "comparison_comparisonmetric",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_compare_powerflow",
+      "target": "comparison_comparisonmetric",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L177",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_compare_eigenvalues",
+      "target": "comparison_comparisonmetric",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L244",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_rationale_1",
+      "target": "comparison",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_rationale_27",
+      "target": "comparison_tolerance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_rationale_49",
+      "target": "comparison_comparisonmetric",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_rationale_62",
+      "target": "comparison_comparisonreport",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_rationale_71",
+      "target": "comparison_comparisonreport_summary",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_rationale_107",
+      "target": "comparison_compare_timeseries",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_rationale_170",
+      "target": "comparison_compare_powerflow",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L170",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "comparison_rationale_211",
+      "target": "comparison_compare_eigenvalues",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "comparison.py",
+      "source_location": "L211",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator",
+      "target": "fortran_parser",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator",
+      "target": "dsl_generator_dslmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslmodel",
+      "target": "dsl_generator_dslmodel_needs_manual_review",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator",
+      "target": "dsl_generator_dslgenerator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator",
+      "target": "dsl_generator_dslgenerator_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_init",
+      "target": "fortran_parser_fortranudm",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator",
+      "target": "dsl_generator_dslgenerator_subst_arrays",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator",
+      "target": "dsl_generator_dslgenerator_subst_signals",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator",
+      "target": "dsl_generator_dslgenerator_subst_funcs",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator",
+      "target": "dsl_generator_dslgenerator_translate_expr",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator",
+      "target": "dsl_generator_dslgenerator_translate_limiter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator",
+      "target": "dsl_generator_dslgenerator_translate_stmt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator",
+      "target": "dsl_generator_dslgenerator_generate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L166",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_generate",
+      "target": "dsl_generator_dslmodel",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L166",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator",
+      "target": "dsl_generator_lc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L233",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator",
+      "target": "dsl_generator_translate_udm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_translate_udm",
+      "target": "dsl_generator_dslmodel",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_translate_expr",
+      "target": "dsl_generator_dslgenerator_subst_arrays",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_translate_expr",
+      "target": "dsl_generator_dslgenerator_subst_signals",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_translate_expr",
+      "target": "dsl_generator_dslgenerator_subst_funcs",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_translate_limiter",
+      "target": "dsl_generator_dslgenerator_translate_expr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_translate_stmt",
+      "target": "dsl_generator_dslgenerator_translate_limiter",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_translate_stmt",
+      "target": "dsl_generator_dslgenerator_translate_expr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_generate",
+      "target": "dsl_generator_dslgenerator_translate_stmt",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_generate",
+      "target": "dsl_generator_lc",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L198",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator_generate",
+      "target": "dsl_generator_dslmodel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L222",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_translate_udm",
+      "target": "dsl_generator_dslgenerator",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L242",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_rationale_1",
+      "target": "dsl_generator",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_rationale_49",
+      "target": "dsl_generator_dslmodel",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_rationale_64",
+      "target": "dsl_generator_dslgenerator",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_rationale_74",
+      "target": "dsl_generator_dslgenerator_subst_arrays",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_rationale_90",
+      "target": "dsl_generator_dslgenerator_subst_signals",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_rationale_112",
+      "target": "dsl_generator_dslgenerator_translate_limiter",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_rationale_146",
+      "target": "dsl_generator_dslgenerator_translate_stmt",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_rationale_234",
+      "target": "dsl_generator_lc",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L234",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_rationale_239",
+      "target": "dsl_generator_translate_udm",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L239",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser",
+      "target": "dyr_parser_dynamicmodelentry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_dynamicmodelentry",
+      "target": "dyr_parser_dynamicmodelentry_to_dict",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser",
+      "target": "dyr_parser_dyrfile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_dyrfile",
+      "target": "dyr_parser_dyrfile_get_models_by_type",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_dyrfile_get_models_by_type",
+      "target": "dyr_parser_dynamicmodelentry",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_dyrfile",
+      "target": "dyr_parser_dyrfile_get_models_by_bus",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_dyrfile_get_models_by_bus",
+      "target": "dyr_parser_dynamicmodelentry",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_dyrfile",
+      "target": "dyr_parser_dyrfile_get_bus_model_map",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_dyrfile",
+      "target": "dyr_parser_dyrfile_summary",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser",
+      "target": "dyr_parser_parse_dyr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_parse_dyr",
+      "target": "dyr_parser_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_parse_dyr",
+      "target": "dyr_parser_dyrfile",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_dyrfile_summary",
+      "target": "dyr_parser_dyrfile_get_models_by_type",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_parse_dyr",
+      "target": "dyr_parser_py_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_parse_dyr",
+      "target": "dyr_parser_dynamicmodelentry",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_parse_dyr",
+      "target": "dyr_parser_dyrfile",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_rationale_1",
+      "target": "dyr_parser",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_rationale_15",
+      "target": "dyr_parser_dynamicmodelentry",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_rationale_23",
+      "target": "dyr_parser_dynamicmodelentry_to_dict",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_rationale_38",
+      "target": "dyr_parser_dyrfile",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_rationale_44",
+      "target": "dyr_parser_dyrfile_get_models_by_type",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_rationale_48",
+      "target": "dyr_parser_dyrfile_get_models_by_bus",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_rationale_52",
+      "target": "dyr_parser_dyrfile_get_bus_model_map",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_rationale_59",
+      "target": "dyr_parser_dyrfile_summary",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_rationale_69",
+      "target": "dyr_parser_parse_dyr",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser",
+      "target": "fortran_parser_declaration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser",
+      "target": "fortran_parser_fortranudm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_fortranudm",
+      "target": "fortran_parser_fortranudm_con_name",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_fortranudm",
+      "target": "fortran_parser_fortranudm_state_name",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_fortranudm",
+      "target": "fortran_parser_fortranudm_var_name",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser",
+      "target": "fortran_parser_is_comment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser",
+      "target": "fortran_parser_join_continuations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser",
+      "target": "fortran_parser_parse_fortran_udm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_parse_fortran_udm",
+      "target": "fortran_parser_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_parse_fortran_udm",
+      "target": "fortran_parser_fortranudm",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_join_continuations",
+      "target": "fortran_parser_is_comment",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_parse_fortran_udm",
+      "target": "fortran_parser_py_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_parse_fortran_udm",
+      "target": "fortran_parser_fortranudm",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_parse_fortran_udm",
+      "target": "fortran_parser_is_comment",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_parse_fortran_udm",
+      "target": "fortran_parser_declaration",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_parse_fortran_udm",
+      "target": "fortran_parser_join_continuations",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_rationale_1",
+      "target": "fortran_parser",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_rationale_23",
+      "target": "fortran_parser_declaration",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_rationale_33",
+      "target": "fortran_parser_fortranudm",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_rationale_86",
+      "target": "fortran_parser_join_continuations",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fortran_parser_rationale_98",
+      "target": "fortran_parser_parse_fortran_udm",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "fortran_parser.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry",
+      "target": "yaml",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry",
+      "target": "model_registry_parametermapping",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry",
+      "target": "model_registry_modelmapping",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_modelmapping",
+      "target": "model_registry_modelmapping_apply",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry",
+      "target": "model_registry_load_builtin_registry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry",
+      "target": "model_registry_load_registry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L275",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_load_registry",
+      "target": "model_registry_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L275",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_load_registry",
+      "target": "model_registry_modelmapping",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L275",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry",
+      "target": "model_registry_get_mapping",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L315",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_get_mapping",
+      "target": "model_registry_modelmapping",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L315",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry",
+      "target": "model_registry_list_supported_models",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L320",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_load_builtin_registry",
+      "target": "model_registry_modelmapping",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_load_builtin_registry",
+      "target": "model_registry_parametermapping",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_load_registry",
+      "target": "model_registry_py_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L294",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_load_registry",
+      "target": "model_registry_modelmapping",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L300",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_load_registry",
+      "target": "model_registry_parametermapping",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L306",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_rationale_1",
+      "target": "model_registry",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_rationale_15",
+      "target": "model_registry_parametermapping",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_rationale_28",
+      "target": "model_registry_modelmapping",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_rationale_39",
+      "target": "model_registry_modelmapping_apply",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_rationale_53",
+      "target": "model_registry_load_builtin_registry",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_rationale_276",
+      "target": "model_registry_load_registry",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L276",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_rationale_316",
+      "target": "model_registry_get_mapping",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L316",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "model_registry_rationale_321",
+      "target": "model_registry_list_supported_models",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "model_registry.py",
+      "source_location": "L321",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter",
+      "target": "pf_adapter_pfconnectionconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter",
+      "target": "pf_adapter_powerfactoryadapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter_init",
+      "target": "pf_adapter_pfconnectionconfig",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_connect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_disconnect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_create_project",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_activate_project",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_import_psse",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_run_power_flow",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_run_rms_simulation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_enter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter",
+      "target": "pf_adapter_powerfactoryadapter_exit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter_init",
+      "target": "pf_adapter_pfconnectionconfig",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter_enter",
+      "target": "pf_adapter_powerfactoryadapter_connect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L180",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_powerfactoryadapter_exit",
+      "target": "pf_adapter_powerfactoryadapter_disconnect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L184",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_1",
+      "target": "pf_adapter",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_20",
+      "target": "pf_adapter_pfconnectionconfig",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_29",
+      "target": "pf_adapter_powerfactoryadapter",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_46",
+      "target": "pf_adapter_powerfactoryadapter_connect",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_73",
+      "target": "pf_adapter_powerfactoryadapter_disconnect",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_85",
+      "target": "pf_adapter_powerfactoryadapter_create_project",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_98",
+      "target": "pf_adapter_powerfactoryadapter_activate_project",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_112",
+      "target": "pf_adapter_powerfactoryadapter_import_psse",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_142",
+      "target": "pf_adapter_powerfactoryadapter_run_power_flow",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pf_adapter_rationale_159",
+      "target": "pf_adapter_powerfactoryadapter_run_rms_simulation",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "pf_adapter.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline",
+      "target": "psse_baseline_simulationresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline",
+      "target": "psse_baseline_powerflowresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline",
+      "target": "psse_baseline_pssebaselinerunner",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner",
+      "target": "psse_baseline_pssebaselinerunner_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner_init",
+      "target": "psse_baseline_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner",
+      "target": "psse_baseline_pssebaselinerunner_run_power_flow",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner_run_power_flow",
+      "target": "psse_baseline_powerflowresult",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner",
+      "target": "psse_baseline_pssebaselinerunner_run_dynamic",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner_run_dynamic",
+      "target": "psse_baseline_simulationresult",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner",
+      "target": "psse_baseline_pssebaselinerunner_run_vref_step",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner_run_vref_step",
+      "target": "psse_baseline_simulationresult",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner",
+      "target": "psse_baseline_pssebaselinerunner_compute_eigenvalues",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner_init",
+      "target": "psse_baseline_py_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner_run_power_flow",
+      "target": "psse_baseline_powerflowresult",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_pssebaselinerunner_run_dynamic",
+      "target": "psse_baseline_simulationresult",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_rationale_1",
+      "target": "psse_baseline",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_rationale_14",
+      "target": "psse_baseline_simulationresult",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_rationale_24",
+      "target": "psse_baseline_powerflowresult",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_rationale_34",
+      "target": "psse_baseline_pssebaselinerunner",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_rationale_46",
+      "target": "psse_baseline_pssebaselinerunner_run_power_flow",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_rationale_64",
+      "target": "psse_baseline_pssebaselinerunner_run_dynamic",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_rationale_106",
+      "target": "psse_baseline_pssebaselinerunner_run_vref_step",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_rationale_114",
+      "target": "psse_baseline_pssebaselinerunner_compute_eigenvalues",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "psse_baseline_rationale_110",
+      "target": "psse_baseline",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "psse_baseline.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator",
+      "target": "fortran_parser_fortranudm",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator",
+      "target": "fortran_parser_parse_fortran_udm",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L240",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser",
+      "target": "model_registry_get_mapping",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dyr_parser.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_translate_udm",
+      "target": "fortran_parser_parse_fortran_udm",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L241",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "dsl_generator_dslgenerator",
+      "target": "fortran_parser_fortranudm",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "dsl_generator.py",
+      "source_location": "L66",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "dyr_parser_dynamicmodelentry_to_dict",
+      "target": "model_registry_get_mapping",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dyr_parser.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
