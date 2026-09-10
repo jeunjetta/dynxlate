@@ -8,6 +8,13 @@ incorporating critique recommendations:
 3. Initial condition verification
 4. Eigenvalue verification (small-signal)
 5. Time-domain verification (large-signal)
+
+Time-domain comparisons validate supplied scalar traces only; they do not
+execute simulators or establish matched units, events, or initial conditions.
+Cubic interpolation supports finite, strictly increasing one-dimensional time
+arrays with at least four samples and matching value lengths. Both traces must
+cover the same start/end times; sampling rates may differ. Invalid inputs raise
+ValueError rather than producing a partial or misleading passing comparison.
 """
 
 import numpy as np
@@ -103,36 +110,43 @@ def compare_timeseries(
     """
     from scipy.interpolate import interp1d
 
-    # Create common time grid
-    t_start = max(time_ref[0], time_test[0])
-    t_end = min(time_ref[-1], time_test[-1])
-    common_time = np.arange(t_start, t_end, common_dt)
+    time_ref, values_ref, time_test, values_test = (
+        np.asarray(array, dtype=float)
+        for array in (time_ref, values_ref, time_test, values_test)
+    )
+    for label, time, values in (
+        ("reference", time_ref, values_ref), ("test", time_test, values_test)
+    ):
+        if time.ndim != 1 or values.ndim != 1 or time.shape != values.shape:
+            raise ValueError(f"{label} time and values must be matching 1-D arrays")
+        if time.size < 4:
+            raise ValueError(f"{label} trace requires at least four samples")
+        if not np.all(np.isfinite(time)) or not np.all(np.isfinite(values)):
+            raise ValueError(f"{label} trace must contain only finite samples")
+        if not np.all(np.diff(time) > 0):
+            raise ValueError(f"{label} time must be strictly increasing")
+    if time_ref[0] != time_test[0] or time_ref[-1] != time_test[-1]:
+        raise ValueError("Traces must cover the same time interval")
+    if not np.isfinite(common_dt) or common_dt <= 0:
+        raise ValueError("common_dt must be finite and positive")
+    if not np.isfinite(tolerance) or tolerance < 0:
+        raise ValueError("tolerance must be finite and non-negative")
+    if not np.isfinite(required_pct) or not 0 < required_pct <= 100:
+        raise ValueError("required_pct must be finite and in (0, 100]")
 
-    # Interpolate both series to common grid
-    f_ref = interp1d(time_ref, values_ref, kind='cubic', bounds_error=False, fill_value=np.nan)
-    f_test = interp1d(time_test, values_test, kind='cubic', bounds_error=False, fill_value=np.nan)
-
+    common_time = np.arange(time_ref[0], time_ref[-1], common_dt)
+    f_ref = interp1d(time_ref, values_ref, kind="cubic", bounds_error=True)
+    f_test = interp1d(time_test, values_test, kind="cubic", bounds_error=True)
     v_ref = f_ref(common_time)
     v_test = f_test(common_time)
-
-    # Remove NaN points
-    valid = ~(np.isnan(v_ref) | np.isnan(v_test))
-    v_ref = v_ref[valid]
-    v_test = v_test[valid]
-    t_valid = common_time[valid]
-
-    if len(v_ref) == 0:
-        return ComparisonMetric(
-            variable_name=variable_name, rmse=np.inf, max_error=np.inf,
-            mean_error=np.inf, time_of_max_error=0.0,
-            pct_within_tolerance=0.0, tolerance=tolerance, passes=False
-        )
+    if not np.all(np.isfinite(v_ref)) or not np.all(np.isfinite(v_test)):
+        raise ValueError("Interpolation produced non-finite samples")
 
     error = np.abs(v_ref - v_test)
     rmse = np.sqrt(np.mean((v_ref - v_test) ** 2))
     max_error = np.max(error)
     mean_error = np.mean(error)
-    time_of_max = t_valid[np.argmax(error)]
+    time_of_max = common_time[np.argmax(error)]
     pct_within = np.mean(error <= tolerance) * 100.0
 
     return ComparisonMetric(

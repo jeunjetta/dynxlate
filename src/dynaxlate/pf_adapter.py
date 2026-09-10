@@ -1,8 +1,9 @@
 """
 PowerFactory Adapter: Abstraction layer for PowerFactory Python API.
 
-Handles application startup/shutdown, project management,
-object creation, and simulation execution.
+Prototype helpers cover application connections, projects, and import calls.
+RMS execution and trace extraction are not implemented: a connection alone
+cannot establish successful simulation or cross-engine equivalence.
 Per critique recommendation: insulate translator from PF API quirks.
 """
 
@@ -164,20 +165,16 @@ class PowerFactoryAdapter:
             tf: Simulation end time (s)
 
         Returns:
-            dict with time-series results
+            Explicit failure: RMS execution and trace extraction are unsupported.
+            Success requires a real run and validated non-empty traces.
         """
         if not self._connected:
-            return {}
+            return {"success": False, "error": "Not connected"}
 
-        try:
-            # Configure simulation
-            # Add fault event
-            # Run simulation
-            # Export results
-            return {"success": True, "note": "RMS simulation API calls need PF-specific implementation"}
-        except Exception as e:
-            logger.error(f"RMS simulation failed: {e}")
-            return {"success": False, "error": str(e)}
+        return {
+            "success": False,
+            "error": "RMS simulation and trace extraction are not implemented",
+        }
 
     def __enter__(self):
         self.connect()
