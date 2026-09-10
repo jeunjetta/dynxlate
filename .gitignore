@@ -1,2 +1,16 @@
-__pycache__/
+*/__pycache__/
 *.pyc
+
+.git/
+*
+
+.pytest_cache/
+*
+
+.venv/
+*
+
+.vscode/
+*
+
+uv.lock
