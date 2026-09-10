@@ -9,6 +9,15 @@ Dynamic model translation between power systems simulation formats.
 
 Translate transient dynamic models (generators, SVCs, inverters, etc.) from PSSE/PSCAD/SSAT into PowerFactory format, then verify by running the same snapshot + disturbance through both engines and comparing results.
 
+## Video Explainer
+
+Watch this short video for a quick overview of the ideal end state of phase 1 (still WIP though!).
+/assets/Automating_Grid_Model_Translation__The_Architecture_of_Dynxlate.mp4
+
+## Slidepack
+
+/assets/Dynxlate_Dynamic_Model_Translation.pdf or pptx
+
 ## Project Structure
 
 ```
