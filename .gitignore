@@ -1,16 +1,11 @@
-*/__pycache__/
+# Generated Python files
+__pycache__/
 *.pyc
-
-.git/
-*
-
 .pytest_cache/
-*
 
+# Local virtual environment and editor settings
 .venv/
-*
-
 .vscode/
-*
 
+# Preserve the existing lockfile policy
 uv.lock
