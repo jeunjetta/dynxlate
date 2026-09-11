@@ -3,8 +3,8 @@
 import numpy as np
 import pytest
 
-from dynaxlate.comparison import compare_timeseries
-from dynaxlate.pf_adapter import PowerFactoryAdapter
+from dynxlate.comparison import compare_timeseries
+from dynxlate.pf_adapter import PowerFactoryAdapter
 
 
 @pytest.mark.parametrize("connected", [False, True])

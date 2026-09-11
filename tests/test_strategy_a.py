@@ -79,12 +79,12 @@ class TestDYRParser:
 
     @pytest.fixture
     def kundur_dyr(self):
-        from dynaxlate.dyr_parser import parse_dyr
+        from dynxlate.dyr_parser import parse_dyr
         return parse_dyr(MODELS_DIR / "kundur_full.dyr")
 
     @pytest.fixture
     def ieee14_dyr(self):
-        from dynaxlate.dyr_parser import parse_dyr
+        from dynxlate.dyr_parser import parse_dyr
         return parse_dyr(MODELS_DIR / "ieee14.dyr")
 
     def test_parser_extracts_models(self, kundur_dyr):
@@ -132,7 +132,7 @@ class TestModelRegistry:
 
     def test_registry_has_standard_models(self):
         """Registry contains all standard PSSE models from test files."""
-        from dynaxlate.model_registry import list_supported_models
+        from dynxlate.model_registry import list_supported_models
         models = list_supported_models()
         expected = ["GENROU", "GENCLS", "ESST3A", "EXDC2", "TGOV1", "IEEEG1", "IEEEST", "ST2CUT"]
         for m in expected:
@@ -140,7 +140,7 @@ class TestModelRegistry:
 
     def test_genrou_mapping(self):
         """GENROU has complete parameter mapping."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         mapping = get_mapping("GENROU")
         assert mapping is not None
         assert mapping.pf_model_class == "ElmSym"
@@ -153,7 +153,7 @@ class TestModelRegistry:
 
     def test_parameter_transform(self):
         """Parameter transformation produces correct values."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         mapping = get_mapping("GENROU")
         psse_values = {"H": 8.0, "D": 0.03, "Xd": 1.8}
         pf_values = mapping.apply(psse_values)
@@ -163,21 +163,21 @@ class TestModelRegistry:
 
     def test_damping_correction_flagged(self):
         """Damping constant correction is flagged."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         mapping = get_mapping("GENROU")
         assert any("Damping" in c or "damping" in c.lower()
                     for c in mapping.corrections)
 
     def test_saturation_correction_flagged(self):
         """Saturation model difference is flagged."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         mapping = get_mapping("GENROU")
         assert any("Saturation" in c or "saturation" in c.lower()
                     for c in mapping.corrections)
 
     def test_sync_models_tagged_rms(self):
         """Synchronous machine models are tagged for RMS simulation."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         for model_name in ["GENROU", "GENCLS", "ESST3A", "TGOV1"]:
             mapping = get_mapping(model_name)
             assert mapping is not None, f"{model_name} not in registry"
@@ -185,7 +185,7 @@ class TestModelRegistry:
 
     def test_ibr_models_tagged_emt(self):
         """IBR models are tagged for EMT simulation (per EMT/IBR context)."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         for model_name in ["REGC_A", "REEC_B"]:
             mapping = get_mapping(model_name)
             assert mapping is not None, f"{model_name} not in registry"
@@ -193,14 +193,14 @@ class TestModelRegistry:
 
     def test_repc_tagged_both(self):
         """REPC_A works in both RMS and EMT domains."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         mapping = get_mapping("REPC_A")
         assert mapping is not None
         assert mapping.sim_domain == "both"
 
     def test_ibr_models_have_ppc_corrections(self):
         """IBR models flag PPC interaction concerns."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         mapping = get_mapping("REPC_A")
         assert any("PPC" in c or "oscillation" in c.lower()
                     for c in mapping.corrections + mapping.known_issues)
@@ -211,7 +211,7 @@ class TestComparisonFramework:
 
     def test_identical_signals_pass(self):
         """Identical time-series pass comparison."""
-        from dynaxlate.comparison import compare_timeseries
+        from dynxlate.comparison import compare_timeseries
         t = np.arange(0, 10, 0.01)
         v = np.sin(2 * np.pi * 50 * t)
         metric = compare_timeseries(t, v, t, v, tolerance=0.01,
@@ -221,7 +221,7 @@ class TestComparisonFramework:
 
     def test_different_signals_fail(self):
         """Significantly different signals fail comparison."""
-        from dynaxlate.comparison import compare_timeseries
+        from dynxlate.comparison import compare_timeseries
         t = np.arange(0, 10, 0.01)
         v1 = np.ones_like(t)
         v2 = np.ones_like(t) + 0.1  # 0.1 pu offset
@@ -231,7 +231,7 @@ class TestComparisonFramework:
 
     def test_powerflow_comparison(self):
         """Power flow comparison works with synthetic data."""
-        from dynaxlate.comparison import compare_powerflow
+        from dynxlate.comparison import compare_powerflow
         vm1 = np.array([1.05, 1.03, 1.01, 0.98, 1.02])
         va1 = np.array([0.0, -2.5, -5.1, -8.3, -3.7])
         vm2 = np.array([1.049, 1.031, 1.009, 0.981, 1.019])
@@ -247,14 +247,14 @@ class TestPowerFactoryAdapter:
 
     def test_adapter_instantiation(self):
         """Adapter can be instantiated without PowerFactory."""
-        from dynaxlate.pf_adapter import PowerFactoryAdapter
+        from dynxlate.pf_adapter import PowerFactoryAdapter
         adapter = PowerFactoryAdapter()
         assert adapter.app is None
         assert not adapter._connected
 
     def test_connect_without_pf_returns_false(self):
         """Connection fails gracefully when PowerFactory is not installed."""
-        from dynaxlate.pf_adapter import PowerFactoryAdapter
+        from dynxlate.pf_adapter import PowerFactoryAdapter
         adapter = PowerFactoryAdapter()
         # This should not raise — it should return False gracefully
         result = adapter.connect()
@@ -262,7 +262,7 @@ class TestPowerFactoryAdapter:
 
     def test_context_manager(self):
         """Context manager works even without PowerFactory."""
-        from dynaxlate.pf_adapter import PowerFactoryAdapter
+        from dynxlate.pf_adapter import PowerFactoryAdapter
         adapter = PowerFactoryAdapter()
         # Should not raise
         with adapter:

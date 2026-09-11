@@ -4,8 +4,8 @@ from pathlib import Path
 
 import pytest
 
-from dynaxlate.fortran_parser import parse_fortran_udm
-from dynaxlate.dsl_generator import DSLGenerator, translate_udm
+from dynxlate.fortran_parser import parse_fortran_udm
+from dynxlate.dsl_generator import DSLGenerator, translate_udm
 
 FORTRAN_DIR = Path(__file__).parent.parent / "models" / "fortran"
 

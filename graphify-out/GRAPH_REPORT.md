@@ -1,4 +1,4 @@
-# Graph Report - dynaxlate  (2026-08-15)
+# Graph Report - dynxlate  (2026-08-15)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
@@ -51,15 +51,15 @@
 
 ## Surprising Connections (you probably didn't know these)
 - `TestIntegrationWithDynaxlate` --uses--> `DSLGenerator`  [INFERRED]
-  tests/test_strategy_d.py → src/dynaxlate/dsl_generator.py
+  tests/test_strategy_d.py → src/dynxlate/dsl_generator.py
 - `TestDSLGenerator` --uses--> `DSLGenerator`  [INFERRED]
-  tests/test_fortran_udm.py → src/dynaxlate/dsl_generator.py
+  tests/test_fortran_udm.py → src/dynxlate/dsl_generator.py
 - `TestPowerFactoryAdapter` --uses--> `PowerFactoryAdapter`  [INFERRED]
-  tests/test_strategy_a.py → src/dynaxlate/pf_adapter.py
+  tests/test_strategy_a.py → src/dynxlate/pf_adapter.py
 - `DSLGenerator` --uses--> `FortranUDM`  [INFERRED]
-  src/dynaxlate/dsl_generator.py → src/dynaxlate/fortran_parser.py
+  src/dynxlate/dsl_generator.py → src/dynxlate/fortran_parser.py
 - `translate_udm()` --calls--> `parse_fortran_udm()`  [EXTRACTED]
-  src/dynaxlate/dsl_generator.py → src/dynaxlate/fortran_parser.py
+  src/dynxlate/dsl_generator.py → src/dynxlate/fortran_parser.py
 
 ## Import Cycles
 - None detected.
@@ -128,7 +128,7 @@ Nodes (7): Test that PSSE transfer function blocks map correctly to Simulink equ
 
 ### Community 14 - "Strategy Integration Tests"
 Cohesion: 0.17
-Nodes (7): Test that Strategy D integrates with the existing dynaxlate codebase., Strategy D uses the existing .dyr parser (or MATLAB equivalent)., Strategy D uses the existing model registry as its parameter map., Model registry has Simulink-relevant parameters., Strategy D's DSL generation can leverage existing code., Strategy D reuses the comparison framework., TestIntegrationWithDynaxlate
+Nodes (7): Test that Strategy D integrates with the existing dynxlate codebase., Strategy D uses the existing .dyr parser (or MATLAB equivalent)., Strategy D uses the existing model registry as its parameter map., Model registry has Simulink-relevant parameters., Strategy D's DSL generation can leverage existing code., Strategy D reuses the comparison framework., TestIntegrationWithDynaxlate
 
 ### Community 15 - "Translation Strategy Overview"
 Cohesion: 0.22
@@ -143,7 +143,7 @@ Cohesion: 0.67
 Nodes (3): MATPOWER, Strategy D: MATLAB/Simulink Hub, Fortran UDM Translation
 
 ## Knowledge Gaps
-- **10 isolated node(s):** `dynaxlate`, `ANDES Parser`, `IEC 61970-302 (CIM Dynamics)`, `PowerFactory (.pfd/DSL)`, `PSSE (.raw/.dyr)` (+5 more)
+- **10 isolated node(s):** `dynxlate`, `ANDES Parser`, `IEC 61970-302 (CIM Dynamics)`, `PowerFactory (.pfd/DSL)`, `PSSE (.raw/.dyr)` (+5 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -162,5 +162,5 @@ _Questions this graph is uniquely positioned to answer:_
   _`DSLGenerator` has 3 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 4 inferred relationships involving `PowerFactoryAdapter` (e.g. with `TestPowerFactoryAdapter` and `.test_adapter_instantiation()`) actually correct?**
   _`PowerFactoryAdapter` has 4 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `dynaxlate`, `ANDES Parser`, `IEC 61970-302 (CIM Dynamics)` to the rest of the system?**
+- **What connects `dynxlate`, `ANDES Parser`, `IEC 61970-302 (CIM Dynamics)` to the rest of the system?**
   _10 weakly-connected nodes found - possible documentation gaps or missing edges._

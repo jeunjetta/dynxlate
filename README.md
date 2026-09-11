@@ -54,3 +54,11 @@ graphify extract . --backend gemini --force   # full re-extraction incl. semanti
 ```
 
 Project homepage: https://github.com/Graphify-Labs/graphify · https://graphify.net
+
+## Python package layout
+
+The checkout is `/home/kar/dev/dynxlate` and the installable package lives in
+`src/dynxlate/`. Keep this package directory: modules use relative imports and
+the wheel exposes the `dynxlate` namespace. Run `uv sync --locked` after moving
+a checkout. Python callers should use `from dynxlate...`, replacing the former
+`dynaxlate` import name.

@@ -3,7 +3,7 @@
 **Source:** EMT Studies Training Pack (from "EMT simulations for IBR grid" channel research)
 
 This document captures the key EMT/IBR insights that directly impact the
-dynaxlate model translation project.
+dynxlate model translation project.
 
 ---
 

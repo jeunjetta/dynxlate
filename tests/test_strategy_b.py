@@ -67,7 +67,7 @@ class TestModelRegistryCompleteness:
     @pytest.fixture
     def all_dyr_models(self):
         """Get all model types from all test .dyr files."""
-        from dynaxlate.dyr_parser import parse_dyr
+        from dynxlate.dyr_parser import parse_dyr
         all_models = set()
         for dyr_file in MODELS_DIR.glob("*.dyr"):
             dyr = parse_dyr(dyr_file)
@@ -76,7 +76,7 @@ class TestModelRegistryCompleteness:
 
     def test_registry_covers_all_test_models(self, all_dyr_models):
         """Every model in test .dyr files has a registry entry (or is explicitly excluded)."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         excluded = {"Toggle"}  # ANDES-specific event model, not a dynamic device model
 
         missing = []
@@ -100,7 +100,7 @@ class TestDSLSyntaxGeneration:
         """Generated DSL code has valid structure."""
         # This tests the DSL syntax — will need to be validated against
         # actual PowerFactory DSL parser
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         mapping = get_mapping("ESST3A")
         assert mapping is not None
 

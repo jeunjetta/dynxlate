@@ -7,7 +7,7 @@ diagram reconstruction.
 
 Note: Full MATLAB/Simulink tests require a MATLAB license. These tests
 validate the conceptual pipeline using Python equivalents (scipy for
-system ID, the existing dynaxlate parsers for PSSE data, and structural
+system ID, the existing dynxlate parsers for PSSE data, and structural
 checks on the strategy document and MATLAB scripts).
 """
 
@@ -478,15 +478,15 @@ class TestMATLABScriptSyntax:
 
 
 # =========================================================================
-# Integration with Existing dynaxlate Code
+# Integration with Existing dynxlate Code
 # =========================================================================
 
-class TestIntegrationWithDynaxlate:
-    """Test that Strategy D integrates with the existing dynaxlate codebase."""
+class TestIntegrationWithDynxlate:
+    """Test that Strategy D integrates with the existing dynxlate codebase."""
 
     def test_dyr_parser_reused(self):
         """Strategy D uses the existing .dyr parser (or MATLAB equivalent)."""
-        from dynaxlate.dyr_parser import parse_dyr
+        from dynxlate.dyr_parser import parse_dyr
         dyr = parse_dyr(MODELS_DIR / "ieee14.dyr")
         assert len(dyr.models) > 0
         assert "GENROU" in dyr.model_types
@@ -494,7 +494,7 @@ class TestIntegrationWithDynaxlate:
 
     def test_model_registry_reused(self):
         """Strategy D uses the existing model registry as its parameter map."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         for model_name in ["GENROU", "ESST3A", "TGOV1", "IEEEST"]:
             mapping = get_mapping(model_name)
             assert mapping is not None, f"{model_name} not in registry"
@@ -503,7 +503,7 @@ class TestIntegrationWithDynaxlate:
 
     def test_model_registry_supports_simulink_params(self):
         """Model registry has Simulink-relevant parameters."""
-        from dynaxlate.model_registry import get_mapping
+        from dynxlate.model_registry import get_mapping
         mapping = get_mapping("GENROU")
         assert mapping is not None
         param_names = {p.psse_name for p in mapping.parameters}
@@ -515,7 +515,7 @@ class TestIntegrationWithDynaxlate:
 
     def test_dsl_generator_reused(self):
         """Strategy D's DSL generation can leverage existing code."""
-        from dynaxlate.dsl_generator import DSLGenerator, translate_udm
+        from dynxlate.dsl_generator import DSLGenerator, translate_udm
         # The generator takes a FortranUDM (UDMs only), but we verify
         # the module is importable and the convenience function exists
         assert translate_udm is not None
@@ -523,7 +523,7 @@ class TestIntegrationWithDynaxlate:
 
     def test_comparison_tool_reused(self):
         """Strategy D reuses the comparison framework."""
-        from dynaxlate.comparison import compare_timeseries
+        from dynxlate.comparison import compare_timeseries
         assert compare_timeseries is not None
 
 

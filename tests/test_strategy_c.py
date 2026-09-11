@@ -18,7 +18,7 @@ class TestCIMGeneration:
 
     @pytest.fixture
     def ieee14_dyr(self):
-        from dynaxlate.dyr_parser import parse_dyr
+        from dynxlate.dyr_parser import parse_dyr
         return parse_dyr(MODELS_DIR / "ieee14.dyr")
 
     def test_cim_xml_structure(self, ieee14_dyr):

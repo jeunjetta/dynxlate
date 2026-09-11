@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "dynaxlate"
+name = "dynxlate"
 version = "0.1.0"
 description = "Dynamic model translation between PSSE/PSCAD/SSAT and PowerFactory formats"
 requires-python = ">=3.13"
@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/dynaxlate"]
+packages = ["src/dynxlate"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

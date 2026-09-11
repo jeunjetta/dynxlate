@@ -35,7 +35,7 @@
     {
       "label": "ModelMapping",
       "file_type": "code",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L27",
       "_callable": true,
       "_callable_class": true,
@@ -43,12 +43,12 @@
       "community": 0,
       "norm_label": "modelmapping",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_modelmapping"
+      "id": "src_dynxlate_model_registry_modelmapping"
     },
     {
       "label": "ParameterMapping",
       "file_type": "code",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L14",
       "_callable": true,
       "_callable_class": true,
@@ -56,7 +56,7 @@
       "community": 0,
       "norm_label": "parametermapping",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_parametermapping"
+      "id": "src_dynxlate_model_registry_parametermapping"
     },
     {
       "label": "TestModelRegistry",
@@ -74,7 +74,7 @@
     {
       "label": "DynamicModelEntry",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L14",
       "_callable": true,
       "_callable_class": true,
@@ -82,12 +82,12 @@
       "community": 1,
       "norm_label": "dynamicmodelentry",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dynamicmodelentry"
+      "id": "src_dynxlate_dyr_parser_dynamicmodelentry"
     },
     {
       "label": "DYRFile",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L37",
       "_callable": true,
       "_callable_class": true,
@@ -95,7 +95,7 @@
       "community": 1,
       "norm_label": "dyrfile",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile"
+      "id": "src_dynxlate_dyr_parser_dyrfile"
     },
     {
       "label": "TestDYRParser",
@@ -113,7 +113,7 @@
     {
       "label": "PowerFlowResult",
       "file_type": "code",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L23",
       "_callable": true,
       "_callable_class": true,
@@ -121,12 +121,12 @@
       "community": 10,
       "norm_label": "powerflowresult",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_powerflowresult"
+      "id": "src_dynxlate_psse_baseline_powerflowresult"
     },
     {
       "label": "PSSEBaselineRunner",
       "file_type": "code",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L33",
       "_callable": true,
       "_callable_class": true,
@@ -134,12 +134,12 @@
       "community": 10,
       "norm_label": "pssebaselinerunner",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner"
+      "id": "src_dynxlate_psse_baseline_pssebaselinerunner"
     },
     {
       "label": "SimulationResult",
       "file_type": "code",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L13",
       "_callable": true,
       "_callable_class": true,
@@ -147,7 +147,7 @@
       "community": 10,
       "norm_label": "simulationresult",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_simulationresult"
+      "id": "src_dynxlate_psse_baseline_simulationresult"
     },
     {
       "label": "TestPSSEBaseline",
@@ -197,9 +197,9 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 14,
-      "norm_label": "testintegrationwithdynaxlate",
+      "norm_label": "testintegrationwithdynxlate",
       "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate"
+      "id": "tests_test_strategy_d_testintegrationwithdynxlate"
     },
     {
       "label": "TestRoundTripNumerics",
@@ -321,7 +321,7 @@
     {
       "label": "DSLGenerator",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L63",
       "_callable": true,
       "_callable_class": true,
@@ -329,12 +329,12 @@
       "community": 5,
       "norm_label": "dslgenerator",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator"
+      "id": "src_dynxlate_dsl_generator_dslgenerator"
     },
     {
       "label": "DSLModel",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L48",
       "_callable": true,
       "_callable_class": true,
@@ -342,7 +342,7 @@
       "community": 5,
       "norm_label": "dslmodel",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslmodel"
+      "id": "src_dynxlate_dsl_generator_dslmodel"
     },
     {
       "label": "TestDSLGenerator",
@@ -360,7 +360,7 @@
     {
       "label": "PFConnectionConfig",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L18",
       "_callable": true,
       "_callable_class": true,
@@ -368,12 +368,12 @@
       "community": 6,
       "norm_label": "pfconnectionconfig",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_pfconnectionconfig"
+      "id": "src_dynxlate_pf_adapter_pfconnectionconfig"
     },
     {
       "label": "PowerFactoryAdapter",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L27",
       "_callable": true,
       "_callable_class": true,
@@ -381,7 +381,7 @@
       "community": 6,
       "norm_label": "powerfactoryadapter",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter"
     },
     {
       "label": "TestPowerFactoryAdapter",
@@ -451,7 +451,7 @@
     {
       "label": "Declaration",
       "file_type": "code",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L22",
       "_callable": true,
       "_callable_class": true,
@@ -459,12 +459,12 @@
       "community": 8,
       "norm_label": "declaration",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_declaration"
+      "id": "src_dynxlate_fortran_parser_declaration"
     },
     {
       "label": "FortranUDM",
       "file_type": "code",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L32",
       "_callable": true,
       "_callable_class": true,
@@ -472,7 +472,7 @@
       "community": 8,
       "norm_label": "fortranudm",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_fortranudm"
+      "id": "src_dynxlate_fortran_parser_fortranudm"
     },
     {
       "label": "TestFortranParser",
@@ -490,7 +490,7 @@
     {
       "label": "ComparisonMetric",
       "file_type": "code",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L41",
       "_callable": true,
       "_callable_class": true,
@@ -498,12 +498,12 @@
       "community": 9,
       "norm_label": "comparisonmetric",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_comparisonmetric"
+      "id": "src_dynxlate_comparison_comparisonmetric"
     },
     {
       "label": "ComparisonReport",
       "file_type": "code",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L54",
       "_callable": true,
       "_callable_class": true,
@@ -511,12 +511,12 @@
       "community": 9,
       "norm_label": "comparisonreport",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_comparisonreport"
+      "id": "src_dynxlate_comparison_comparisonreport"
     },
     {
       "label": "Tolerance",
       "file_type": "code",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L19",
       "_callable": true,
       "_callable_class": true,
@@ -524,7 +524,7 @@
       "community": 9,
       "norm_label": "tolerance",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_tolerance"
+      "id": "src_dynxlate_comparison_tolerance"
     },
     {
       "label": "TestComparisonFramework",
@@ -542,62 +542,62 @@
     {
       "label": "get_mapping()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L315",
       "_callable": true,
       "_origin": "ast",
       "community": 0,
       "norm_label": "get_mapping()",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_get_mapping"
+      "id": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "label": "list_supported_models()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L320",
       "_callable": true,
       "_origin": "ast",
       "community": 0,
       "norm_label": "list_supported_models()",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_list_supported_models"
+      "id": "src_dynxlate_model_registry_list_supported_models"
     },
     {
       "label": "_load_builtin_registry()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L52",
       "_callable": true,
       "_origin": "ast",
       "community": 0,
       "norm_label": "_load_builtin_registry()",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_load_builtin_registry"
+      "id": "src_dynxlate_model_registry_load_builtin_registry"
     },
     {
       "label": "load_registry()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L275",
       "_callable": true,
       "_origin": "ast",
       "community": 0,
       "norm_label": "load_registry()",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_load_registry"
+      "id": "src_dynxlate_model_registry_load_registry"
     },
     {
       "label": ".apply()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L38",
       "_callable": true,
       "_origin": "ast",
       "community": 0,
       "norm_label": ".apply()",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_modelmapping_apply"
+      "id": "src_dynxlate_model_registry_modelmapping_apply"
     },
     {
       "label": ".test_damping_correction_flagged()",
@@ -710,74 +710,74 @@
     {
       "label": ".to_dict()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L22",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "norm_label": ".to_dict()",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dynamicmodelentry_to_dict"
+      "id": "src_dynxlate_dyr_parser_dynamicmodelentry_to_dict"
     },
     {
       "label": ".get_bus_model_map()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L51",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "norm_label": ".get_bus_model_map()",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile_get_bus_model_map"
+      "id": "src_dynxlate_dyr_parser_dyrfile_get_bus_model_map"
     },
     {
       "label": ".get_models_by_bus()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L47",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "norm_label": ".get_models_by_bus()",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_bus"
+      "id": "src_dynxlate_dyr_parser_dyrfile_get_models_by_bus"
     },
     {
       "label": ".get_models_by_type()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L43",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "norm_label": ".get_models_by_type()",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_type"
+      "id": "src_dynxlate_dyr_parser_dyrfile_get_models_by_type"
     },
     {
       "label": ".summary()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L58",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "norm_label": ".summary()",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_dyrfile_summary"
+      "id": "src_dynxlate_dyr_parser_dyrfile_summary"
     },
     {
       "label": "parse_dyr()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L68",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "norm_label": "parse_dyr()",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_parse_dyr"
+      "id": "src_dynxlate_dyr_parser_parse_dyr"
     },
     {
       "label": ".ieee14_dyr()",
@@ -878,62 +878,62 @@
     {
       "label": ".compute_eigenvalues()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L113",
       "_callable": true,
       "_origin": "ast",
       "community": 10,
       "norm_label": ".compute_eigenvalues()",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_compute_eigenvalues"
+      "id": "src_dynxlate_psse_baseline_pssebaselinerunner_compute_eigenvalues"
     },
     {
       "label": ".__init__()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L41",
       "_callable": true,
       "_origin": "ast",
       "community": 10,
       "norm_label": ".__init__()",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_init"
+      "id": "src_dynxlate_psse_baseline_pssebaselinerunner_init"
     },
     {
       "label": ".run_dynamic()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L61",
       "_callable": true,
       "_origin": "ast",
       "community": 10,
       "norm_label": ".run_dynamic()",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_dynamic"
+      "id": "src_dynxlate_psse_baseline_pssebaselinerunner_run_dynamic"
     },
     {
       "label": ".run_power_flow()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L45",
       "_callable": true,
       "_origin": "ast",
       "community": 10,
       "norm_label": ".run_power_flow()",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_power_flow"
+      "id": "src_dynxlate_psse_baseline_pssebaselinerunner_run_power_flow"
     },
     {
       "label": ".run_vref_step()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L104",
       "_callable": true,
       "_origin": "ast",
       "community": 10,
       "norm_label": ".run_vref_step()",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_vref_step"
+      "id": "src_dynxlate_psse_baseline_pssebaselinerunner_run_vref_step"
     },
     {
       "label": ".ieee14_dyr()",
@@ -1173,7 +1173,7 @@
       "community": 14,
       "norm_label": ".test_comparison_tool_reused()",
       "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_comparison_tool_reused"
+      "id": "tests_test_strategy_d_testintegrationwithdynxlate_test_comparison_tool_reused"
     },
     {
       "label": ".test_dsl_generator_reused()",
@@ -1185,7 +1185,7 @@
       "community": 14,
       "norm_label": ".test_dsl_generator_reused()",
       "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dsl_generator_reused"
+      "id": "tests_test_strategy_d_testintegrationwithdynxlate_test_dsl_generator_reused"
     },
     {
       "label": ".test_dyr_parser_reused()",
@@ -1197,7 +1197,7 @@
       "community": 14,
       "norm_label": ".test_dyr_parser_reused()",
       "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dyr_parser_reused"
+      "id": "tests_test_strategy_d_testintegrationwithdynxlate_test_dyr_parser_reused"
     },
     {
       "label": ".test_model_registry_reused()",
@@ -1209,7 +1209,7 @@
       "community": 14,
       "norm_label": ".test_model_registry_reused()",
       "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_reused"
+      "id": "tests_test_strategy_d_testintegrationwithdynxlate_test_model_registry_reused"
     },
     {
       "label": ".test_model_registry_supports_simulink_params()",
@@ -1221,7 +1221,7 @@
       "community": 14,
       "norm_label": ".test_model_registry_supports_simulink_params()",
       "community_name": "Strategy Integration Tests",
-      "id": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_supports_simulink_params"
+      "id": "tests_test_strategy_d_testintegrationwithdynxlate_test_model_registry_supports_simulink_params"
     },
     {
       "label": "._simulate_dsl()",
@@ -1718,122 +1718,122 @@
     {
       "label": ".generate()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L166",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": ".generate()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_generate"
+      "id": "src_dynxlate_dsl_generator_dslgenerator_generate"
     },
     {
       "label": "._subst_arrays()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L73",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": "._subst_arrays()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_subst_arrays"
+      "id": "src_dynxlate_dsl_generator_dslgenerator_subst_arrays"
     },
     {
       "label": "._subst_funcs()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L100",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": "._subst_funcs()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_subst_funcs"
+      "id": "src_dynxlate_dsl_generator_dslgenerator_subst_funcs"
     },
     {
       "label": "._subst_signals()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L89",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": "._subst_signals()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_subst_signals"
+      "id": "src_dynxlate_dsl_generator_dslgenerator_subst_signals"
     },
     {
       "label": ".translate_expr()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L105",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": ".translate_expr()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_translate_expr"
+      "id": "src_dynxlate_dsl_generator_dslgenerator_translate_expr"
     },
     {
       "label": "._translate_limiter()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L111",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": "._translate_limiter()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_translate_limiter"
+      "id": "src_dynxlate_dsl_generator_dslgenerator_translate_limiter"
     },
     {
       "label": "._translate_stmt()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L145",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": "._translate_stmt()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_translate_stmt"
+      "id": "src_dynxlate_dsl_generator_dslgenerator_translate_stmt"
     },
     {
       "label": ".needs_manual_review()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L59",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": ".needs_manual_review()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_dslmodel_needs_manual_review"
+      "id": "src_dynxlate_dsl_generator_dslmodel_needs_manual_review"
     },
     {
       "label": "_lc()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L233",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": "_lc()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_lc"
+      "id": "src_dynxlate_dsl_generator_lc"
     },
     {
       "label": "translate_udm()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L238",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "norm_label": "translate_udm()",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_translate_udm"
+      "id": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "label": ".test_custom_model_name()",
@@ -1958,122 +1958,122 @@
     {
       "label": ".activate_project()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L96",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".activate_project()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_activate_project"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_activate_project"
     },
     {
       "label": ".connect()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L44",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".connect()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_connect"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_connect"
     },
     {
       "label": ".create_project()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L83",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".create_project()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_create_project"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_create_project"
     },
     {
       "label": ".disconnect()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L71",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".disconnect()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_disconnect"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_disconnect"
     },
     {
       "label": ".__enter__()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L182",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".__enter__()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_enter"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_enter"
     },
     {
       "label": ".__exit__()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L186",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".__exit__()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_exit"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_exit"
     },
     {
       "label": ".import_psse()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L109",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".import_psse()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_import_psse"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_import_psse"
     },
     {
       "label": ".__init__()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L38",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".__init__()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_init"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_init"
     },
     {
       "label": ".run_power_flow()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L140",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".run_power_flow()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_power_flow"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_run_power_flow"
     },
     {
       "label": ".run_rms_simulation()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L156",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "norm_label": ".run_rms_simulation()",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_rms_simulation"
+      "id": "src_dynxlate_pf_adapter_powerfactoryadapter_run_rms_simulation"
     },
     {
       "label": ".test_adapter_instantiation()",
@@ -2234,86 +2234,86 @@
     {
       "label": ".__init__()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L66",
       "_callable": true,
       "_origin": "ast",
       "community": 8,
       "norm_label": ".__init__()",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_dsl_generator_dslgenerator_init"
+      "id": "src_dynxlate_dsl_generator_dslgenerator_init"
     },
     {
       "label": ".con_name()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L43",
       "_callable": true,
       "_origin": "ast",
       "community": 8,
       "norm_label": ".con_name()",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_fortranudm_con_name"
+      "id": "src_dynxlate_fortran_parser_fortranudm_con_name"
     },
     {
       "label": ".state_name()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L49",
       "_callable": true,
       "_origin": "ast",
       "community": 8,
       "norm_label": ".state_name()",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_fortranudm_state_name"
+      "id": "src_dynxlate_fortran_parser_fortranudm_state_name"
     },
     {
       "label": ".var_name()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L55",
       "_callable": true,
       "_origin": "ast",
       "community": 8,
       "norm_label": ".var_name()",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_fortranudm_var_name"
+      "id": "src_dynxlate_fortran_parser_fortranudm_var_name"
     },
     {
       "label": "_is_comment()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L81",
       "_callable": true,
       "_origin": "ast",
       "community": 8,
       "norm_label": "_is_comment()",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_is_comment"
+      "id": "src_dynxlate_fortran_parser_is_comment"
     },
     {
       "label": "_join_continuations()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L85",
       "_callable": true,
       "_origin": "ast",
       "community": 8,
       "norm_label": "_join_continuations()",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_join_continuations"
+      "id": "src_dynxlate_fortran_parser_join_continuations"
     },
     {
       "label": "parse_fortran_udm()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L97",
       "_callable": true,
       "_origin": "ast",
       "community": 8,
       "norm_label": "parse_fortran_udm()",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "id": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "label": ".test_clean_models_have_no_warnings()",
@@ -2414,50 +2414,50 @@
     {
       "label": "compare_eigenvalues()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L192",
       "_callable": true,
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare_eigenvalues()",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_compare_eigenvalues"
+      "id": "src_dynxlate_comparison_compare_eigenvalues"
     },
     {
       "label": "compare_powerflow()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L150",
       "_callable": true,
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare_powerflow()",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_compare_powerflow"
+      "id": "src_dynxlate_comparison_compare_powerflow"
     },
     {
       "label": "compare_timeseries()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L90",
       "_callable": true,
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare_timeseries()",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_compare_timeseries"
+      "id": "src_dynxlate_comparison_compare_timeseries"
     },
     {
       "label": ".summary()",
       "file_type": "code",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L63",
       "_callable": true,
       "_origin": "ast",
       "community": 9,
       "norm_label": ".summary()",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_comparisonreport_summary"
+      "id": "src_dynxlate_comparison_comparisonreport_summary"
     },
     {
       "label": ".test_different_signals_fail()",
@@ -2498,13 +2498,13 @@
     {
       "label": "model_registry.py",
       "file_type": "code",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 0,
       "norm_label": "model_registry.py",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry"
+      "id": "src_dynxlate_model_registry"
     },
     {
       "label": "Path",
@@ -2515,95 +2515,95 @@
       "community": 0,
       "norm_label": "path",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_py_path"
+      "id": "src_dynxlate_model_registry_py_path"
     },
     {
       "label": "Model Registry: PSSE \u2194 PowerFactory parameter mapping. YAML-driven mapping\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 0,
       "norm_label": "model registry: psse \u2194 powerfactory parameter mapping. yaml-driven mapping...",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_1"
+      "id": "src_dynxlate_model_registry_rationale_1"
     },
     {
       "label": "Single parameter mapping from PSSE to PowerFactory.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L15",
       "_origin": "ast",
       "community": 0,
       "norm_label": "single parameter mapping from psse to powerfactory.",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_15"
+      "id": "src_dynxlate_model_registry_rationale_15"
     },
     {
       "label": "Load model registry from a YAML file. YAML format per model: psse_model: GENROU\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L276",
       "_origin": "ast",
       "community": 0,
       "norm_label": "load model registry from a yaml file. yaml format per model: psse_model: genrou...",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_276"
+      "id": "src_dynxlate_model_registry_rationale_276"
     },
     {
       "label": "Complete model mapping from PSSE to PowerFactory.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L28",
       "_origin": "ast",
       "community": 0,
       "norm_label": "complete model mapping from psse to powerfactory.",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_28"
+      "id": "src_dynxlate_model_registry_rationale_28"
     },
     {
       "label": "Look up a model mapping by PSSE model name.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L316",
       "_origin": "ast",
       "community": 0,
       "norm_label": "look up a model mapping by psse model name.",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_316"
+      "id": "src_dynxlate_model_registry_rationale_316"
     },
     {
       "label": "List all PSSE model names in the registry.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L321",
       "_origin": "ast",
       "community": 0,
       "norm_label": "list all psse model names in the registry.",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_321"
+      "id": "src_dynxlate_model_registry_rationale_321"
     },
     {
       "label": "Transform PSSE parameter values to PowerFactory values.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L39",
       "_origin": "ast",
       "community": 0,
       "norm_label": "transform psse parameter values to powerfactory values.",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_39"
+      "id": "src_dynxlate_model_registry_rationale_39"
     },
     {
       "label": "Load built-in model mappings.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L53",
       "_origin": "ast",
       "community": 0,
       "norm_label": "load built-in model mappings.",
       "community_name": "Model Parameter Mapping",
-      "id": "src_dynaxlate_model_registry_rationale_53"
+      "id": "src_dynxlate_model_registry_rationale_53"
     },
     {
       "label": "Test the PSSE \u2194 PowerFactory model registry.",
@@ -2718,13 +2718,13 @@
     {
       "label": "dyr_parser.py",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 1,
       "norm_label": "dyr_parser.py",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser"
+      "id": "src_dynxlate_dyr_parser"
     },
     {
       "label": "Path",
@@ -2735,106 +2735,106 @@
       "community": 1,
       "norm_label": "path",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_py_path"
+      "id": "src_dynxlate_dyr_parser_py_path"
     },
     {
       "label": "DYR Parser: Extract dynamic model data from PSSE .dyr files. Lightweight parser\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 1,
       "norm_label": "dyr parser: extract dynamic model data from psse .dyr files. lightweight parser...",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_1"
+      "id": "src_dynxlate_dyr_parser_rationale_1"
     },
     {
       "label": "A single dynamic model entry from a .dyr file.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L15",
       "_origin": "ast",
       "community": 1,
       "norm_label": "a single dynamic model entry from a .dyr file.",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_15"
+      "id": "src_dynxlate_dyr_parser_rationale_15"
     },
     {
       "label": "Convert positional parameters to a named dict using model registry.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L23",
       "_origin": "ast",
       "community": 1,
       "norm_label": "convert positional parameters to a named dict using model registry.",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_23"
+      "id": "src_dynxlate_dyr_parser_rationale_23"
     },
     {
       "label": "Parsed PSSE .dyr file.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L38",
       "_origin": "ast",
       "community": 1,
       "norm_label": "parsed psse .dyr file.",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_38"
+      "id": "src_dynxlate_dyr_parser_rationale_38"
     },
     {
       "label": "Get all entries for a specific model type.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L44",
       "_origin": "ast",
       "community": 1,
       "norm_label": "get all entries for a specific model type.",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_44"
+      "id": "src_dynxlate_dyr_parser_rationale_44"
     },
     {
       "label": "Get all dynamic models connected to a specific bus.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L48",
       "_origin": "ast",
       "community": 1,
       "norm_label": "get all dynamic models connected to a specific bus.",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_48"
+      "id": "src_dynxlate_dyr_parser_rationale_48"
     },
     {
       "label": "Get mapping of bus \u2192 list of model types.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L52",
       "_origin": "ast",
       "community": 1,
       "norm_label": "get mapping of bus \u2192 list of model types.",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_52"
+      "id": "src_dynxlate_dyr_parser_rationale_52"
     },
     {
       "label": "Get summary statistics of the .dyr file.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L59",
       "_origin": "ast",
       "community": 1,
       "norm_label": "get summary statistics of the .dyr file.",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_59"
+      "id": "src_dynxlate_dyr_parser_rationale_59"
     },
     {
       "label": "Parse a PSSE .dyr file into structured data. .dyr format: <bus> '<model_name>'\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L69",
       "_origin": "ast",
       "community": 1,
       "norm_label": "parse a psse .dyr file into structured data. .dyr format: <bus> '<model_name>'...",
       "community_name": "PSSE DYR Parser",
-      "id": "src_dynaxlate_dyr_parser_rationale_69"
+      "id": "src_dynxlate_dyr_parser_rationale_69"
     },
     {
       "label": "IEEE 14-bus .dyr has expected model types.",
@@ -2916,13 +2916,13 @@
     {
       "label": "psse_baseline.py",
       "file_type": "code",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 10,
       "norm_label": "psse_baseline.py",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline"
+      "id": "src_dynxlate_psse_baseline"
     },
     {
       "label": "Path",
@@ -2933,106 +2933,106 @@
       "community": 10,
       "norm_label": "path",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_py_path"
+      "id": "src_dynxlate_psse_baseline_py_path"
     },
     {
       "label": "PSSE baseline runner using ANDES. Produces Result Set 1: PSSE simulation\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 10,
       "norm_label": "psse baseline runner using andes. produces result set 1: psse simulation...",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_1"
+      "id": "src_dynxlate_psse_baseline_rationale_1"
     },
     {
       "label": "Run small-signal test: voltage reference step on a generator. This exercises\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L106",
       "_origin": "ast",
       "community": 10,
       "norm_label": "run small-signal test: voltage reference step on a generator. this exercises...",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_106"
+      "id": "src_dynxlate_psse_baseline_rationale_106"
     },
     {
       "label": "# TODO: implement via ANDES event system",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L110",
       "_origin": "ast",
       "community": 10,
       "norm_label": "# todo: implement via andes event system",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_110"
+      "id": "src_dynxlate_psse_baseline_rationale_110"
     },
     {
       "label": "Compute eigenvalues at the operating point for small-signal comparison.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L114",
       "_origin": "ast",
       "community": 10,
       "norm_label": "compute eigenvalues at the operating point for small-signal comparison.",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_114"
+      "id": "src_dynxlate_psse_baseline_rationale_114"
     },
     {
       "label": "Time-series result from a simulation.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L14",
       "_origin": "ast",
       "community": 10,
       "norm_label": "time-series result from a simulation.",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_14"
+      "id": "src_dynxlate_psse_baseline_rationale_14"
     },
     {
       "label": "Power flow result at all buses.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L24",
       "_origin": "ast",
       "community": 10,
       "norm_label": "power flow result at all buses.",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_24"
+      "id": "src_dynxlate_psse_baseline_rationale_24"
     },
     {
       "label": "Run PSSE simulations via ANDES for baseline results. Note: ANDES is NOT a PSSE\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L34",
       "_origin": "ast",
       "community": 10,
       "norm_label": "run psse simulations via andes for baseline results. note: andes is not a psse...",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_34"
+      "id": "src_dynxlate_psse_baseline_rationale_34"
     },
     {
       "label": "Run power flow and return bus results.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L46",
       "_origin": "ast",
       "community": 10,
       "norm_label": "run power flow and return bus results.",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_46"
+      "id": "src_dynxlate_psse_baseline_rationale_46"
     },
     {
       "label": "Run dynamic simulation with a 3-phase fault disturbance. Args: fault_bus: Bus\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L64",
       "_origin": "ast",
       "community": 10,
       "norm_label": "run dynamic simulation with a 3-phase fault disturbance. args: fault_bus: bus...",
       "community_name": "PSSE Baseline Runner",
-      "id": "src_dynaxlate_psse_baseline_rationale_64"
+      "id": "src_dynxlate_psse_baseline_rationale_64"
     },
     {
       "label": "fixture",
@@ -3255,13 +3255,13 @@
       "id": "tests_test_strategy_d_rationale_256"
     },
     {
-      "label": "Test that Strategy D integrates with the existing dynaxlate codebase.",
+      "label": "Test that Strategy D integrates with the existing dynxlate codebase.",
       "file_type": "rationale",
       "source_file": "tests/test_strategy_d.py",
       "source_location": "L485",
       "_origin": "ast",
       "community": 14,
-      "norm_label": "test that strategy d integrates with the existing dynaxlate codebase.",
+      "norm_label": "test that strategy d integrates with the existing dynxlate codebase.",
       "community_name": "Strategy Integration Tests",
       "id": "tests_test_strategy_d_rationale_485"
     },
@@ -3356,24 +3356,24 @@
     {
       "label": "__init__.py",
       "file_type": "code",
-      "source_file": "src/dynaxlate/__init__.py",
+      "source_file": "src/dynxlate/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 18,
       "norm_label": "__init__.py",
       "community_name": "Package Initialization",
-      "id": "src_dynaxlate_init"
+      "id": "src_dynxlate_init"
     },
     {
       "label": "Dynaxlate \u2014 Dynamic Model Translation between Power System Simulation Formats.\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/__init__.py",
+      "source_file": "src/dynxlate/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 18,
-      "norm_label": "dynaxlate \u2014 dynamic model translation between power system simulation formats....",
+      "norm_label": "dynxlate \u2014 dynamic model translation between power system simulation formats....",
       "community_name": "Package Initialization",
-      "id": "src_dynaxlate_init_rationale_1"
+      "id": "src_dynxlate_init_rationale_1"
     },
     {
       "label": "usrexc.f",
@@ -3596,7 +3596,7 @@
       "id": "models_fortran_usrpss"
     },
     {
-      "label": "dynaxlate",
+      "label": "dynxlate",
       "file_type": "code",
       "type": "package",
       "ecosystem": "python",
@@ -3605,9 +3605,9 @@
       "version": "0.1.0",
       "_origin": "ast",
       "community": 22,
-      "norm_label": "dynaxlate",
+      "norm_label": "dynxlate",
       "community_name": "Dynaxlate Core",
-      "id": "pkg_dynaxlate"
+      "id": "pkg_dynxlate"
     },
     {
       "label": "test_strategy_c.py",
@@ -3986,211 +3986,211 @@
     {
       "label": "Fortran logical-IF limiter -> min/max. IF (X .GT. LIM) X = LIM -> x = min(x,\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L112",
       "_origin": "ast",
       "community": 5,
       "norm_label": "fortran logical-if limiter -> min/max. if (x .gt. lim) x = lim -> x = min(x,...",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_112"
+      "id": "src_dynxlate_dsl_generator_rationale_112"
     },
     {
       "label": "Return (lhs, rhs) in DSL form, or None if not translatable.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L146",
       "_origin": "ast",
       "community": 5,
       "norm_label": "return (lhs, rhs) in dsl form, or none if not translatable.",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_146"
+      "id": "src_dynxlate_dsl_generator_rationale_146"
     },
     {
       "label": "Lowercase identifiers (DSL convention) but keep function names intact.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L234",
       "_origin": "ast",
       "community": 5,
       "norm_label": "lowercase identifiers (dsl convention) but keep function names intact.",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_234"
+      "id": "src_dynxlate_dsl_generator_rationale_234"
     },
     {
       "label": "Convenience: parse a Fortran UDM file and generate its DSL model.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L239",
       "_origin": "ast",
       "community": 5,
       "norm_label": "convenience: parse a fortran udm file and generate its dsl model.",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_239"
+      "id": "src_dynxlate_dsl_generator_rationale_239"
     },
     {
       "label": "Generated PowerFactory DSL model.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L49",
       "_origin": "ast",
       "community": 5,
       "norm_label": "generated powerfactory dsl model.",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_49"
+      "id": "src_dynxlate_dsl_generator_rationale_49"
     },
     {
       "label": "Generate PowerFactory DSL source from a parsed Fortran UDM.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L64",
       "_origin": "ast",
       "community": 5,
       "norm_label": "generate powerfactory dsl source from a parsed fortran udm.",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_64"
+      "id": "src_dynxlate_dsl_generator_rationale_64"
     },
     {
       "label": "Replace CON/STATE/DSTATE/VAR array refs with declared names.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L74",
       "_origin": "ast",
       "community": 5,
       "norm_label": "replace con/state/dstate/var array refs with declared names.",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_74"
+      "id": "src_dynxlate_dsl_generator_rationale_74"
     },
     {
       "label": "Replace PSSE machine quantities QUANT(MC) with DSL signal names.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L90",
       "_origin": "ast",
       "community": 5,
       "norm_label": "replace psse machine quantities quant(mc) with dsl signal names.",
       "community_name": "DSL Code Generator",
-      "id": "src_dynaxlate_dsl_generator_rationale_90"
+      "id": "src_dynxlate_dsl_generator_rationale_90"
     },
     {
       "label": "pf_adapter.py",
       "file_type": "code",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 6,
       "norm_label": "pf_adapter.py",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter"
+      "id": "src_dynxlate_pf_adapter"
     },
     {
       "label": "PowerFactory Adapter: Abstraction layer for PowerFactory Python API. Handles\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 6,
       "norm_label": "powerfactory adapter: abstraction layer for powerfactory python api. handles...",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_1"
+      "id": "src_dynxlate_pf_adapter_rationale_1"
     },
     {
       "label": "Import PSSE .raw/.dyr files via PowerFactory's native import. Args: raw_path:\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L111",
       "_origin": "ast",
       "community": 6,
       "norm_label": "import psse .raw/.dyr files via powerfactory's native import. args: raw_path:...",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_111"
+      "id": "src_dynxlate_pf_adapter_rationale_111"
     },
     {
       "label": "Run power flow on the active project. Returns bus voltage results.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L141",
       "_origin": "ast",
       "community": 6,
       "norm_label": "run power flow on the active project. returns bus voltage results.",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_141"
+      "id": "src_dynxlate_pf_adapter_rationale_141"
     },
     {
       "label": "Run RMS (transient stability) simulation with a fault. Args: fault_bus: Bus\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L158",
       "_origin": "ast",
       "community": 6,
       "norm_label": "run rms (transient stability) simulation with a fault. args: fault_bus: bus...",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_158"
+      "id": "src_dynxlate_pf_adapter_rationale_158"
     },
     {
       "label": "PowerFactory connection configuration.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L19",
       "_origin": "ast",
       "community": 6,
       "norm_label": "powerfactory connection configuration.",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_19"
+      "id": "src_dynxlate_pf_adapter_rationale_19"
     },
     {
       "label": "Abstraction layer for PowerFactory Python API. Handles: - Application\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L28",
       "_origin": "ast",
       "community": 6,
       "norm_label": "abstraction layer for powerfactory python api. handles: - application...",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_28"
+      "id": "src_dynxlate_pf_adapter_rationale_28"
     },
     {
       "label": "Connect to PowerFactory application. Returns True if connection successful.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L45",
       "_origin": "ast",
       "community": 6,
       "norm_label": "connect to powerfactory application. returns true if connection successful.",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_45"
+      "id": "src_dynxlate_pf_adapter_rationale_45"
     },
     {
       "label": "Disconnect from PowerFactory.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L72",
       "_origin": "ast",
       "community": 6,
       "norm_label": "disconnect from powerfactory.",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_72"
+      "id": "src_dynxlate_pf_adapter_rationale_72"
     },
     {
       "label": "Create a new PowerFactory project.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L84",
       "_origin": "ast",
       "community": 6,
       "norm_label": "create a new powerfactory project.",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_84"
+      "id": "src_dynxlate_pf_adapter_rationale_84"
     },
     {
       "label": "Activate an existing PowerFactory project.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L97",
       "_origin": "ast",
       "community": 6,
       "norm_label": "activate an existing powerfactory project.",
       "community_name": "PowerFactory API Adapter",
-      "id": "src_dynaxlate_pf_adapter_rationale_97"
+      "id": "src_dynxlate_pf_adapter_rationale_97"
     },
     {
       "label": "Test PowerFactory adapter (mocked, since PF may not be installed).",
@@ -4426,24 +4426,24 @@
     {
       "label": "dsl_generator.py",
       "file_type": "code",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 8,
       "norm_label": "dsl_generator.py",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_dsl_generator"
+      "id": "src_dynxlate_dsl_generator"
     },
     {
       "label": "fortran_parser.py",
       "file_type": "code",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 8,
       "norm_label": "fortran_parser.py",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser"
+      "id": "src_dynxlate_fortran_parser"
     },
     {
       "label": "Path",
@@ -4454,7 +4454,7 @@
       "community": 8,
       "norm_label": "path",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_py_path"
+      "id": "src_dynxlate_fortran_parser_py_path"
     },
     {
       "label": "test_fortran_udm.py",
@@ -4470,68 +4470,68 @@
     {
       "label": "DSL Generator: emit PowerFactory DSL model definitions from parsed Fortran\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 8,
       "norm_label": "dsl generator: emit powerfactory dsl model definitions from parsed fortran...",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_dsl_generator_rationale_1"
+      "id": "src_dynxlate_dsl_generator_rationale_1"
     },
     {
       "label": "Fortran UDM Parser: extract structure from PSSE user-defined model source. PSSE\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 8,
       "norm_label": "fortran udm parser: extract structure from psse user-defined model source. psse...",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_1"
+      "id": "src_dynxlate_fortran_parser_rationale_1"
     },
     {
       "label": "One CON/STATE/VAR/ICON allocation declared in the header comments.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L23",
       "_origin": "ast",
       "community": 8,
       "norm_label": "one con/state/var/icon allocation declared in the header comments.",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_23"
+      "id": "src_dynxlate_fortran_parser_rationale_23"
     },
     {
       "label": "Parsed PSSE Fortran user-defined model.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L33",
       "_origin": "ast",
       "community": 8,
       "norm_label": "parsed psse fortran user-defined model.",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_33"
+      "id": "src_dynxlate_fortran_parser_rationale_33"
     },
     {
       "label": "Fixed-form Fortran: any char in column 6 marks a continuation.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L86",
       "_origin": "ast",
       "community": 8,
       "norm_label": "fixed-form fortran: any char in column 6 marks a continuation.",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_86"
+      "id": "src_dynxlate_fortran_parser_rationale_86"
     },
     {
       "label": "Parse a PSSE Fortran UDM source file into structured form.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L98",
       "_origin": "ast",
       "community": 8,
       "norm_label": "parse a psse fortran udm source file into structured form.",
       "community_name": "Fortran UDM Parser",
-      "id": "src_dynaxlate_fortran_parser_rationale_98"
+      "id": "src_dynxlate_fortran_parser_rationale_98"
     },
     {
       "label": "Fortran UDM \u2192 PowerFactory DSL translation tests.",
@@ -4558,13 +4558,13 @@
     {
       "label": "comparison.py",
       "file_type": "code",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 9,
       "norm_label": "comparison.py",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison"
+      "id": "src_dynxlate_comparison"
     },
     {
       "label": "test_strategy_a.py",
@@ -4580,90 +4580,90 @@
     {
       "label": "Comparison Framework: Compare simulation results between PSSE and PowerFactory.\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L1",
       "_origin": "ast",
       "community": 9,
       "norm_label": "comparison framework: compare simulation results between psse and powerfactory....",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_1"
+      "id": "src_dynxlate_comparison_rationale_1"
     },
     {
       "label": "Compare two time-series on a common time grid. Uses cubic spline interpolation\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L100",
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare two time-series on a common time grid. uses cubic spline interpolation...",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_100"
+      "id": "src_dynxlate_comparison_rationale_100"
     },
     {
       "label": "Compare power flow results between PSSE and PowerFactory.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L156",
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare power flow results between psse and powerfactory.",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_156"
+      "id": "src_dynxlate_comparison_rationale_156"
     },
     {
       "label": "Compare eigenvalue sets between PSSE and PowerFactory. Matches eigenvalues by\u2026",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L197",
       "_origin": "ast",
       "community": 9,
       "norm_label": "compare eigenvalue sets between psse and powerfactory. matches eigenvalues by...",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_197"
+      "id": "src_dynxlate_comparison_rationale_197"
     },
     {
       "label": "Verification tolerance specification.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L20",
       "_origin": "ast",
       "community": 9,
       "norm_label": "verification tolerance specification.",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_20"
+      "id": "src_dynxlate_comparison_rationale_20"
     },
     {
       "label": "Result of comparing two time-series.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L42",
       "_origin": "ast",
       "community": 9,
       "norm_label": "result of comparing two time-series.",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_42"
+      "id": "src_dynxlate_comparison_rationale_42"
     },
     {
       "label": "Full comparison report between PSSE and PowerFactory results.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L55",
       "_origin": "ast",
       "community": 9,
       "norm_label": "full comparison report between psse and powerfactory results.",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_55"
+      "id": "src_dynxlate_comparison_rationale_55"
     },
     {
       "label": "Generate human-readable summary.",
       "file_type": "rationale",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L64",
       "_origin": "ast",
       "community": 9,
       "norm_label": "generate human-readable summary.",
       "community_name": "Simulation Comparison Framework",
-      "id": "src_dynaxlate_comparison_rationale_64"
+      "id": "src_dynxlate_comparison_rationale_64"
     },
     {
       "label": "Strategy A Test Harness: Native PowerFactory Import + Post-Processing. Tests\u2026",
@@ -4861,265 +4861,265 @@
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L174",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_generate",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_translate_stmt"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_generate",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_translate_stmt"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L198",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_generate",
-      "target": "src_dynaxlate_dsl_generator_lc"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_generate",
+      "target": "src_dynxlate_dsl_generator_lc"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L106",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_translate_expr",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_subst_arrays"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_translate_expr",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_subst_arrays"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L107",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_translate_expr",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_subst_signals"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_translate_expr",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_subst_signals"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L108",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_translate_expr",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_subst_funcs"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_translate_expr",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_subst_funcs"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L142",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_translate_limiter",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_translate_expr"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_translate_limiter",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_translate_expr"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L147",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_translate_stmt",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_translate_limiter"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_translate_stmt",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_translate_limiter"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L158",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_translate_stmt",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_translate_expr"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_translate_stmt",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_translate_expr"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L241",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_translate_udm",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "source": "src_dynxlate_dsl_generator_translate_udm",
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L242",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_translate_udm",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator"
+      "source": "src_dynxlate_dsl_generator_translate_udm",
+      "target": "src_dynxlate_dsl_generator_dslgenerator"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "src_dynaxlate_dyr_parser_dynamicmodelentry_to_dict",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "source": "src_dynxlate_dyr_parser_dynamicmodelentry_to_dict",
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_dyrfile_summary",
-      "target": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_type"
+      "source": "src_dynxlate_dyr_parser_dyrfile_summary",
+      "target": "src_dynxlate_dyr_parser_dyrfile_get_models_by_type"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L111",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_parse_dyr",
-      "target": "src_dynaxlate_dyr_parser_dynamicmodelentry"
+      "source": "src_dynxlate_dyr_parser_parse_dyr",
+      "target": "src_dynxlate_dyr_parser_dynamicmodelentry"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L89",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_join_continuations",
-      "target": "src_dynaxlate_fortran_parser_is_comment"
+      "source": "src_dynxlate_fortran_parser_join_continuations",
+      "target": "src_dynxlate_fortran_parser_is_comment"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_parse_fortran_udm",
-      "target": "src_dynaxlate_fortran_parser_is_comment"
+      "source": "src_dynxlate_fortran_parser_parse_fortran_udm",
+      "target": "src_dynxlate_fortran_parser_is_comment"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L111",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_parse_fortran_udm",
-      "target": "src_dynaxlate_fortran_parser_declaration"
+      "source": "src_dynxlate_fortran_parser_parse_fortran_udm",
+      "target": "src_dynxlate_fortran_parser_declaration"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L122",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_parse_fortran_udm",
-      "target": "src_dynaxlate_fortran_parser_join_continuations"
+      "source": "src_dynxlate_fortran_parser_parse_fortran_udm",
+      "target": "src_dynxlate_fortran_parser_join_continuations"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L55",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_load_builtin_registry",
-      "target": "src_dynaxlate_model_registry_modelmapping"
+      "source": "src_dynxlate_model_registry_load_builtin_registry",
+      "target": "src_dynxlate_model_registry_modelmapping"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_load_builtin_registry",
-      "target": "src_dynaxlate_model_registry_parametermapping"
+      "source": "src_dynxlate_model_registry_load_builtin_registry",
+      "target": "src_dynxlate_model_registry_parametermapping"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L306",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_load_registry",
-      "target": "src_dynaxlate_model_registry_parametermapping"
+      "source": "src_dynxlate_model_registry_load_registry",
+      "target": "src_dynxlate_model_registry_parametermapping"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L183",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter_enter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_connect"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter_enter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_connect"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L187",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter_exit",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_disconnect"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter_exit",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_disconnect"
     },
     {
       "relation": "calls",
@@ -5131,7 +5131,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_custom_model_name",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "calls",
@@ -5143,7 +5143,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_exciter_initial_conditions",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "calls",
@@ -5155,7 +5155,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_exciter_translation",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "calls",
@@ -5167,7 +5167,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_fortran_intrinsics_mapped",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5179,7 +5179,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_fortran_intrinsics_mapped",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator"
+      "target": "src_dynxlate_dsl_generator_dslgenerator"
     },
     {
       "relation": "calls",
@@ -5191,7 +5191,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_governor_continuation_equation",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "calls",
@@ -5203,7 +5203,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_governor_limiters_become_min_max",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "calls",
@@ -5215,7 +5215,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_governor_signals",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "calls",
@@ -5227,7 +5227,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_pss_flags_manual_review",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "calls",
@@ -5239,7 +5239,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_todos_embedded_as_comments",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "calls",
@@ -5251,7 +5251,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_unmapped_machine_quantity_left_intact",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5263,7 +5263,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testdslgenerator_test_unmapped_machine_quantity_left_intact",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator"
+      "target": "src_dynxlate_dsl_generator_dslgenerator"
     },
     {
       "relation": "calls",
@@ -5275,7 +5275,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testfortranparser_test_clean_models_have_no_warnings",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5287,7 +5287,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testfortranparser_test_continuation_lines_joined",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5299,7 +5299,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testfortranparser_test_declaration_units_captured",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5311,7 +5311,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testfortranparser_test_mode_blocks_extracted",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5323,7 +5323,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testfortranparser_test_non_udm_file_warns",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5335,7 +5335,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testfortranparser_test_parses_exciter_declarations",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5347,7 +5347,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testfortranparser_test_skipped_do_body_not_emitted",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5359,7 +5359,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testfortranparser_test_unsupported_constructs_flagged",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "calls",
@@ -5371,7 +5371,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_fortran_udm_testroundtripnumerics_test_step_response_matches",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "calls",
@@ -5581,109 +5581,109 @@
       "relation": "references",
       "context": "generic_arg",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L192",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_compare_eigenvalues",
-      "target": "src_dynaxlate_comparison_comparisonmetric"
+      "source": "src_dynxlate_comparison_compare_eigenvalues",
+      "target": "src_dynxlate_comparison_comparisonmetric"
     },
     {
       "relation": "references",
       "context": "generic_arg",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L150",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_compare_powerflow",
-      "target": "src_dynaxlate_comparison_comparisonmetric"
+      "source": "src_dynxlate_comparison_compare_powerflow",
+      "target": "src_dynxlate_comparison_comparisonmetric"
     },
     {
       "relation": "references",
       "context": "generic_arg",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_bus",
-      "target": "src_dynaxlate_dyr_parser_dynamicmodelentry"
+      "source": "src_dynxlate_dyr_parser_dyrfile_get_models_by_bus",
+      "target": "src_dynxlate_dyr_parser_dynamicmodelentry"
     },
     {
       "relation": "references",
       "context": "generic_arg",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_type",
-      "target": "src_dynaxlate_dyr_parser_dynamicmodelentry"
+      "source": "src_dynxlate_dyr_parser_dyrfile_get_models_by_type",
+      "target": "src_dynxlate_dyr_parser_dynamicmodelentry"
     },
     {
       "relation": "references",
       "context": "generic_arg",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L275",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_load_registry",
-      "target": "src_dynaxlate_model_registry_modelmapping"
+      "source": "src_dynxlate_model_registry_load_registry",
+      "target": "src_dynxlate_model_registry_modelmapping"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator",
-      "target": "src_dynaxlate_fortran_parser_fortranudm"
+      "source": "src_dynxlate_dsl_generator",
+      "target": "src_dynxlate_fortran_parser_fortranudm"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L240",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "source": "src_dynxlate_dsl_generator",
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "source": "src_dynxlate_dyr_parser",
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator",
-      "target": "src_dynaxlate_fortran_parser"
+      "source": "src_dynxlate_dsl_generator",
+      "target": "src_dynxlate_fortran_parser"
     },
     {
       "relation": "imports_from",
@@ -5695,7 +5695,7 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "tests_test_fortran_udm",
-      "target": "src_dynaxlate_fortran_parser"
+      "target": "src_dynxlate_fortran_parser"
     },
     {
       "relation": "imports_from",
@@ -5707,542 +5707,542 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "tests_test_fortran_udm",
-      "target": "src_dynaxlate_dsl_generator"
+      "target": "src_dynxlate_dsl_generator"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L192",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_compare_eigenvalues",
+      "source": "src_dynxlate_comparison_compare_eigenvalues",
       "target": "ndarray"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L150",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_compare_powerflow",
+      "source": "src_dynxlate_comparison_compare_powerflow",
       "target": "ndarray"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L90",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_compare_timeseries",
+      "source": "src_dynxlate_comparison_compare_timeseries",
       "target": "ndarray"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L66",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_init",
-      "target": "src_dynaxlate_fortran_parser_fortranudm"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_init",
+      "target": "src_dynxlate_fortran_parser_fortranudm"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_parse_dyr",
-      "target": "src_dynaxlate_dyr_parser_py_path"
+      "source": "src_dynxlate_dyr_parser_parse_dyr",
+      "target": "src_dynxlate_dyr_parser_py_path"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L97",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_parse_fortran_udm",
-      "target": "src_dynaxlate_fortran_parser_py_path"
+      "source": "src_dynxlate_fortran_parser_parse_fortran_udm",
+      "target": "src_dynxlate_fortran_parser_py_path"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L275",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_load_registry",
-      "target": "src_dynaxlate_model_registry_py_path"
+      "source": "src_dynxlate_model_registry_load_registry",
+      "target": "src_dynxlate_model_registry_py_path"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter_init",
-      "target": "src_dynaxlate_pf_adapter_pfconnectionconfig"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter_init",
+      "target": "src_dynxlate_pf_adapter_pfconnectionconfig"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L41",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_pssebaselinerunner_init",
-      "target": "src_dynaxlate_psse_baseline_py_path"
+      "source": "src_dynxlate_psse_baseline_pssebaselinerunner_init",
+      "target": "src_dynxlate_psse_baseline_py_path"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L90",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_compare_timeseries",
-      "target": "src_dynaxlate_comparison_comparisonmetric"
+      "source": "src_dynxlate_comparison_compare_timeseries",
+      "target": "src_dynxlate_comparison_comparisonmetric"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L166",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator_generate",
-      "target": "src_dynaxlate_dsl_generator_dslmodel"
+      "source": "src_dynxlate_dsl_generator_dslgenerator_generate",
+      "target": "src_dynxlate_dsl_generator_dslmodel"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L238",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_translate_udm",
-      "target": "src_dynaxlate_dsl_generator_dslmodel"
+      "source": "src_dynxlate_dsl_generator_translate_udm",
+      "target": "src_dynxlate_dsl_generator_dslmodel"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_parse_dyr",
-      "target": "src_dynaxlate_dyr_parser_dyrfile"
+      "source": "src_dynxlate_dyr_parser_parse_dyr",
+      "target": "src_dynxlate_dyr_parser_dyrfile"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L97",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_parse_fortran_udm",
-      "target": "src_dynaxlate_fortran_parser_fortranudm"
+      "source": "src_dynxlate_fortran_parser_parse_fortran_udm",
+      "target": "src_dynxlate_fortran_parser_fortranudm"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L315",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_get_mapping",
-      "target": "src_dynaxlate_model_registry_modelmapping"
+      "source": "src_dynxlate_model_registry_get_mapping",
+      "target": "src_dynxlate_model_registry_modelmapping"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_dynamic",
-      "target": "src_dynaxlate_psse_baseline_simulationresult"
+      "source": "src_dynxlate_psse_baseline_pssebaselinerunner_run_dynamic",
+      "target": "src_dynxlate_psse_baseline_simulationresult"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L45",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_power_flow",
-      "target": "src_dynaxlate_psse_baseline_powerflowresult"
+      "source": "src_dynxlate_psse_baseline_pssebaselinerunner_run_power_flow",
+      "target": "src_dynxlate_psse_baseline_powerflowresult"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L104",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_vref_step",
-      "target": "src_dynaxlate_psse_baseline_simulationresult"
+      "source": "src_dynxlate_psse_baseline_pssebaselinerunner_run_vref_step",
+      "target": "src_dynxlate_psse_baseline_simulationresult"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L150",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison",
-      "target": "src_dynaxlate_comparison_compare_powerflow"
+      "source": "src_dynxlate_comparison",
+      "target": "src_dynxlate_comparison_compare_powerflow"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison",
-      "target": "src_dynaxlate_comparison_tolerance"
+      "source": "src_dynxlate_comparison",
+      "target": "src_dynxlate_comparison_tolerance"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L192",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison",
-      "target": "src_dynaxlate_comparison_compare_eigenvalues"
+      "source": "src_dynxlate_comparison",
+      "target": "src_dynxlate_comparison_compare_eigenvalues"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L41",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison",
-      "target": "src_dynaxlate_comparison_comparisonmetric"
+      "source": "src_dynxlate_comparison",
+      "target": "src_dynxlate_comparison_comparisonmetric"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L54",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison",
-      "target": "src_dynaxlate_comparison_comparisonreport"
+      "source": "src_dynxlate_comparison",
+      "target": "src_dynxlate_comparison_comparisonreport"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L90",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison",
-      "target": "src_dynaxlate_comparison_compare_timeseries"
+      "source": "src_dynxlate_comparison",
+      "target": "src_dynxlate_comparison_compare_timeseries"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L233",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator",
-      "target": "src_dynaxlate_dsl_generator_lc"
+      "source": "src_dynxlate_dsl_generator",
+      "target": "src_dynxlate_dsl_generator_lc"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L238",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "source": "src_dynxlate_dsl_generator",
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L48",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator",
-      "target": "src_dynaxlate_dsl_generator_dslmodel"
+      "source": "src_dynxlate_dsl_generator",
+      "target": "src_dynxlate_dsl_generator_dslmodel"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator"
+      "source": "src_dynxlate_dsl_generator",
+      "target": "src_dynxlate_dsl_generator_dslgenerator"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser",
-      "target": "src_dynaxlate_dyr_parser_dynamicmodelentry"
+      "source": "src_dynxlate_dyr_parser",
+      "target": "src_dynxlate_dyr_parser_dynamicmodelentry"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L37",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser",
-      "target": "src_dynaxlate_dyr_parser_dyrfile"
+      "source": "src_dynxlate_dyr_parser",
+      "target": "src_dynxlate_dyr_parser_dyrfile"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser",
-      "target": "src_dynaxlate_dyr_parser_parse_dyr"
+      "source": "src_dynxlate_dyr_parser",
+      "target": "src_dynxlate_dyr_parser_parse_dyr"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser",
-      "target": "src_dynaxlate_fortran_parser_declaration"
+      "source": "src_dynxlate_fortran_parser",
+      "target": "src_dynxlate_fortran_parser_declaration"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser",
-      "target": "src_dynaxlate_fortran_parser_fortranudm"
+      "source": "src_dynxlate_fortran_parser",
+      "target": "src_dynxlate_fortran_parser_fortranudm"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser",
-      "target": "src_dynaxlate_fortran_parser_is_comment"
+      "source": "src_dynxlate_fortran_parser",
+      "target": "src_dynxlate_fortran_parser_is_comment"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L85",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser",
-      "target": "src_dynaxlate_fortran_parser_join_continuations"
+      "source": "src_dynxlate_fortran_parser",
+      "target": "src_dynxlate_fortran_parser_join_continuations"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L97",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "source": "src_dynxlate_fortran_parser",
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry",
-      "target": "src_dynaxlate_model_registry_parametermapping"
+      "source": "src_dynxlate_model_registry",
+      "target": "src_dynxlate_model_registry_parametermapping"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry",
-      "target": "src_dynaxlate_model_registry_modelmapping"
+      "source": "src_dynxlate_model_registry",
+      "target": "src_dynxlate_model_registry_modelmapping"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L275",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry",
-      "target": "src_dynaxlate_model_registry_load_registry"
+      "source": "src_dynxlate_model_registry",
+      "target": "src_dynxlate_model_registry_load_registry"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L315",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "source": "src_dynxlate_model_registry",
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L320",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry",
-      "target": "src_dynaxlate_model_registry_list_supported_models"
+      "source": "src_dynxlate_model_registry",
+      "target": "src_dynxlate_model_registry_list_supported_models"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L52",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry",
-      "target": "src_dynaxlate_model_registry_load_builtin_registry"
+      "source": "src_dynxlate_model_registry",
+      "target": "src_dynxlate_model_registry_load_builtin_registry"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter",
-      "target": "src_dynaxlate_pf_adapter_pfconnectionconfig"
+      "source": "src_dynxlate_pf_adapter",
+      "target": "src_dynxlate_pf_adapter_pfconnectionconfig"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter"
+      "source": "src_dynxlate_pf_adapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline",
-      "target": "src_dynaxlate_psse_baseline_simulationresult"
+      "source": "src_dynxlate_psse_baseline",
+      "target": "src_dynxlate_psse_baseline_simulationresult"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline",
-      "target": "src_dynaxlate_psse_baseline_powerflowresult"
+      "source": "src_dynxlate_psse_baseline",
+      "target": "src_dynxlate_psse_baseline_powerflowresult"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner"
+      "source": "src_dynxlate_psse_baseline",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner"
     },
     {
       "relation": "contains",
@@ -6484,7 +6484,7 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "tests_test_strategy_d",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate"
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate"
     },
     {
       "relation": "contains",
@@ -6511,376 +6511,376 @@
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_comparisonreport",
-      "target": "src_dynaxlate_comparison_comparisonreport_summary"
+      "source": "src_dynxlate_comparison_comparisonreport",
+      "target": "src_dynxlate_comparison_comparisonreport_summary"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L100",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_subst_funcs"
+      "source": "src_dynxlate_dsl_generator_dslgenerator",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_subst_funcs"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_translate_expr"
+      "source": "src_dynxlate_dsl_generator_dslgenerator",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_translate_expr"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L111",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_translate_limiter"
+      "source": "src_dynxlate_dsl_generator_dslgenerator",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_translate_limiter"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L145",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_translate_stmt"
+      "source": "src_dynxlate_dsl_generator_dslgenerator",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_translate_stmt"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L166",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_generate"
+      "source": "src_dynxlate_dsl_generator_dslgenerator",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_generate"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L66",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_init"
+      "source": "src_dynxlate_dsl_generator_dslgenerator",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_init"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L73",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_subst_arrays"
+      "source": "src_dynxlate_dsl_generator_dslgenerator",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_subst_arrays"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L89",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_subst_signals"
+      "source": "src_dynxlate_dsl_generator_dslgenerator",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_subst_signals"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L59",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_dslmodel",
-      "target": "src_dynaxlate_dsl_generator_dslmodel_needs_manual_review"
+      "source": "src_dynxlate_dsl_generator_dslmodel",
+      "target": "src_dynxlate_dsl_generator_dslmodel_needs_manual_review"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_dynamicmodelentry",
-      "target": "src_dynaxlate_dyr_parser_dynamicmodelentry_to_dict"
+      "source": "src_dynxlate_dyr_parser_dynamicmodelentry",
+      "target": "src_dynxlate_dyr_parser_dynamicmodelentry_to_dict"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_dyrfile",
-      "target": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_type"
+      "source": "src_dynxlate_dyr_parser_dyrfile",
+      "target": "src_dynxlate_dyr_parser_dyrfile_get_models_by_type"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_dyrfile",
-      "target": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_bus"
+      "source": "src_dynxlate_dyr_parser_dyrfile",
+      "target": "src_dynxlate_dyr_parser_dyrfile_get_models_by_bus"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L51",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_dyrfile",
-      "target": "src_dynaxlate_dyr_parser_dyrfile_get_bus_model_map"
+      "source": "src_dynxlate_dyr_parser_dyrfile",
+      "target": "src_dynxlate_dyr_parser_dyrfile_get_bus_model_map"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_dyrfile",
-      "target": "src_dynaxlate_dyr_parser_dyrfile_summary"
+      "source": "src_dynxlate_dyr_parser_dyrfile",
+      "target": "src_dynxlate_dyr_parser_dyrfile_summary"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_fortranudm",
-      "target": "src_dynaxlate_fortran_parser_fortranudm_con_name"
+      "source": "src_dynxlate_fortran_parser_fortranudm",
+      "target": "src_dynxlate_fortran_parser_fortranudm_con_name"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L49",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_fortranudm",
-      "target": "src_dynaxlate_fortran_parser_fortranudm_state_name"
+      "source": "src_dynxlate_fortran_parser_fortranudm",
+      "target": "src_dynxlate_fortran_parser_fortranudm_state_name"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L55",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_fortranudm",
-      "target": "src_dynaxlate_fortran_parser_fortranudm_var_name"
+      "source": "src_dynxlate_fortran_parser_fortranudm",
+      "target": "src_dynxlate_fortran_parser_fortranudm_var_name"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_modelmapping",
-      "target": "src_dynaxlate_model_registry_modelmapping_apply"
+      "source": "src_dynxlate_model_registry_modelmapping",
+      "target": "src_dynxlate_model_registry_modelmapping_apply"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L109",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_import_psse"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_import_psse"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L140",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_power_flow"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_run_power_flow"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L156",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_rms_simulation"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_run_rms_simulation"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L182",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_enter"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_enter"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L186",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_exit"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_exit"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_init"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_init"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_connect"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_connect"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L71",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_disconnect"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_disconnect"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L83",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_create_project"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_create_project"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L96",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_powerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_activate_project"
+      "source": "src_dynxlate_pf_adapter_powerfactoryadapter",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_activate_project"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L104",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_pssebaselinerunner",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_vref_step"
+      "source": "src_dynxlate_psse_baseline_pssebaselinerunner",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner_run_vref_step"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L113",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_pssebaselinerunner",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner_compute_eigenvalues"
+      "source": "src_dynxlate_psse_baseline_pssebaselinerunner",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner_compute_eigenvalues"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L41",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_pssebaselinerunner",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner_init"
+      "source": "src_dynxlate_psse_baseline_pssebaselinerunner",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner_init"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L45",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_pssebaselinerunner",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_power_flow"
+      "source": "src_dynxlate_psse_baseline_pssebaselinerunner",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner_run_power_flow"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_pssebaselinerunner",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_dynamic"
+      "source": "src_dynxlate_psse_baseline_pssebaselinerunner",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner_run_dynamic"
     },
     {
       "relation": "method",
@@ -7693,8 +7693,8 @@
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "tests_test_strategy_d_testintegrationwithdynaxlate",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dyr_parser_reused"
+      "source": "tests_test_strategy_d_testintegrationwithdynxlate",
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_dyr_parser_reused"
     },
     {
       "relation": "method",
@@ -7704,8 +7704,8 @@
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "tests_test_strategy_d_testintegrationwithdynaxlate",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_reused"
+      "source": "tests_test_strategy_d_testintegrationwithdynxlate",
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_model_registry_reused"
     },
     {
       "relation": "method",
@@ -7715,8 +7715,8 @@
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "tests_test_strategy_d_testintegrationwithdynaxlate",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_supports_simulink_params"
+      "source": "tests_test_strategy_d_testintegrationwithdynxlate",
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_model_registry_supports_simulink_params"
     },
     {
       "relation": "method",
@@ -7726,8 +7726,8 @@
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "tests_test_strategy_d_testintegrationwithdynaxlate",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dsl_generator_reused"
+      "source": "tests_test_strategy_d_testintegrationwithdynxlate",
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_dsl_generator_reused"
     },
     {
       "relation": "method",
@@ -7737,8 +7737,8 @@
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "tests_test_strategy_d_testintegrationwithdynaxlate",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_comparison_tool_reused"
+      "source": "tests_test_strategy_d_testintegrationwithdynxlate",
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_comparison_tool_reused"
     },
     {
       "relation": "method",
@@ -8150,651 +8150,651 @@
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_rationale_1",
-      "target": "src_dynaxlate_comparison"
+      "source": "src_dynxlate_comparison_rationale_1",
+      "target": "src_dynxlate_comparison"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L100",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_rationale_100",
-      "target": "src_dynaxlate_comparison_compare_timeseries"
+      "source": "src_dynxlate_comparison_rationale_100",
+      "target": "src_dynxlate_comparison_compare_timeseries"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L156",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_rationale_156",
-      "target": "src_dynaxlate_comparison_compare_powerflow"
+      "source": "src_dynxlate_comparison_rationale_156",
+      "target": "src_dynxlate_comparison_compare_powerflow"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L197",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_rationale_197",
-      "target": "src_dynaxlate_comparison_compare_eigenvalues"
+      "source": "src_dynxlate_comparison_rationale_197",
+      "target": "src_dynxlate_comparison_compare_eigenvalues"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_rationale_20",
-      "target": "src_dynaxlate_comparison_tolerance"
+      "source": "src_dynxlate_comparison_rationale_20",
+      "target": "src_dynxlate_comparison_tolerance"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L42",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_rationale_42",
-      "target": "src_dynaxlate_comparison_comparisonmetric"
+      "source": "src_dynxlate_comparison_rationale_42",
+      "target": "src_dynxlate_comparison_comparisonmetric"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L55",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_rationale_55",
-      "target": "src_dynaxlate_comparison_comparisonreport"
+      "source": "src_dynxlate_comparison_rationale_55",
+      "target": "src_dynxlate_comparison_comparisonreport"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/comparison.py",
+      "source_file": "src/dynxlate/comparison.py",
       "source_location": "L64",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_comparison_rationale_64",
-      "target": "src_dynaxlate_comparison_comparisonreport_summary"
+      "source": "src_dynxlate_comparison_rationale_64",
+      "target": "src_dynxlate_comparison_comparisonreport_summary"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_rationale_1",
-      "target": "src_dynaxlate_dsl_generator"
+      "source": "src_dynxlate_dsl_generator_rationale_1",
+      "target": "src_dynxlate_dsl_generator"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L112",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_rationale_112",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_translate_limiter"
+      "source": "src_dynxlate_dsl_generator_rationale_112",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_translate_limiter"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L146",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_rationale_146",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_translate_stmt"
+      "source": "src_dynxlate_dsl_generator_rationale_146",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_translate_stmt"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L234",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_rationale_234",
-      "target": "src_dynaxlate_dsl_generator_lc"
+      "source": "src_dynxlate_dsl_generator_rationale_234",
+      "target": "src_dynxlate_dsl_generator_lc"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L239",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_rationale_239",
-      "target": "src_dynaxlate_dsl_generator_translate_udm"
+      "source": "src_dynxlate_dsl_generator_rationale_239",
+      "target": "src_dynxlate_dsl_generator_translate_udm"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L49",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_rationale_49",
-      "target": "src_dynaxlate_dsl_generator_dslmodel"
+      "source": "src_dynxlate_dsl_generator_rationale_49",
+      "target": "src_dynxlate_dsl_generator_dslmodel"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L64",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_rationale_64",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator"
+      "source": "src_dynxlate_dsl_generator_rationale_64",
+      "target": "src_dynxlate_dsl_generator_dslgenerator"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L74",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_rationale_74",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_subst_arrays"
+      "source": "src_dynxlate_dsl_generator_rationale_74",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_subst_arrays"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L90",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dsl_generator_rationale_90",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator_subst_signals"
+      "source": "src_dynxlate_dsl_generator_rationale_90",
+      "target": "src_dynxlate_dsl_generator_dslgenerator_subst_signals"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_rationale_1",
-      "target": "src_dynaxlate_dyr_parser"
+      "source": "src_dynxlate_dyr_parser_rationale_1",
+      "target": "src_dynxlate_dyr_parser"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_rationale_15",
-      "target": "src_dynaxlate_dyr_parser_dynamicmodelentry"
+      "source": "src_dynxlate_dyr_parser_rationale_15",
+      "target": "src_dynxlate_dyr_parser_dynamicmodelentry"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_rationale_23",
-      "target": "src_dynaxlate_dyr_parser_dynamicmodelentry_to_dict"
+      "source": "src_dynxlate_dyr_parser_rationale_23",
+      "target": "src_dynxlate_dyr_parser_dynamicmodelentry_to_dict"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_rationale_38",
-      "target": "src_dynaxlate_dyr_parser_dyrfile"
+      "source": "src_dynxlate_dyr_parser_rationale_38",
+      "target": "src_dynxlate_dyr_parser_dyrfile"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_rationale_44",
-      "target": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_type"
+      "source": "src_dynxlate_dyr_parser_rationale_44",
+      "target": "src_dynxlate_dyr_parser_dyrfile_get_models_by_type"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L48",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_rationale_48",
-      "target": "src_dynaxlate_dyr_parser_dyrfile_get_models_by_bus"
+      "source": "src_dynxlate_dyr_parser_rationale_48",
+      "target": "src_dynxlate_dyr_parser_dyrfile_get_models_by_bus"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L52",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_rationale_52",
-      "target": "src_dynaxlate_dyr_parser_dyrfile_get_bus_model_map"
+      "source": "src_dynxlate_dyr_parser_rationale_52",
+      "target": "src_dynxlate_dyr_parser_dyrfile_get_bus_model_map"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L59",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_rationale_59",
-      "target": "src_dynaxlate_dyr_parser_dyrfile_summary"
+      "source": "src_dynxlate_dyr_parser_rationale_59",
+      "target": "src_dynxlate_dyr_parser_dyrfile_summary"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/dyr_parser.py",
+      "source_file": "src/dynxlate/dyr_parser.py",
       "source_location": "L69",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_dyr_parser_rationale_69",
-      "target": "src_dynaxlate_dyr_parser_parse_dyr"
+      "source": "src_dynxlate_dyr_parser_rationale_69",
+      "target": "src_dynxlate_dyr_parser_parse_dyr"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_rationale_1",
-      "target": "src_dynaxlate_fortran_parser"
+      "source": "src_dynxlate_fortran_parser_rationale_1",
+      "target": "src_dynxlate_fortran_parser"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_rationale_23",
-      "target": "src_dynaxlate_fortran_parser_declaration"
+      "source": "src_dynxlate_fortran_parser_rationale_23",
+      "target": "src_dynxlate_fortran_parser_declaration"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_rationale_33",
-      "target": "src_dynaxlate_fortran_parser_fortranudm"
+      "source": "src_dynxlate_fortran_parser_rationale_33",
+      "target": "src_dynxlate_fortran_parser_fortranudm"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L86",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_rationale_86",
-      "target": "src_dynaxlate_fortran_parser_join_continuations"
+      "source": "src_dynxlate_fortran_parser_rationale_86",
+      "target": "src_dynxlate_fortran_parser_join_continuations"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/fortran_parser.py",
+      "source_file": "src/dynxlate/fortran_parser.py",
       "source_location": "L98",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_fortran_parser_rationale_98",
-      "target": "src_dynaxlate_fortran_parser_parse_fortran_udm"
+      "source": "src_dynxlate_fortran_parser_rationale_98",
+      "target": "src_dynxlate_fortran_parser_parse_fortran_udm"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/__init__.py",
+      "source_file": "src/dynxlate/__init__.py",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_init_rationale_1",
-      "target": "src_dynaxlate_init"
+      "source": "src_dynxlate_init_rationale_1",
+      "target": "src_dynxlate_init"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_rationale_1",
-      "target": "src_dynaxlate_model_registry"
+      "source": "src_dynxlate_model_registry_rationale_1",
+      "target": "src_dynxlate_model_registry"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_rationale_15",
-      "target": "src_dynaxlate_model_registry_parametermapping"
+      "source": "src_dynxlate_model_registry_rationale_15",
+      "target": "src_dynxlate_model_registry_parametermapping"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L276",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_rationale_276",
-      "target": "src_dynaxlate_model_registry_load_registry"
+      "source": "src_dynxlate_model_registry_rationale_276",
+      "target": "src_dynxlate_model_registry_load_registry"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_rationale_28",
-      "target": "src_dynaxlate_model_registry_modelmapping"
+      "source": "src_dynxlate_model_registry_rationale_28",
+      "target": "src_dynxlate_model_registry_modelmapping"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L316",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_rationale_316",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "source": "src_dynxlate_model_registry_rationale_316",
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L321",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_rationale_321",
-      "target": "src_dynaxlate_model_registry_list_supported_models"
+      "source": "src_dynxlate_model_registry_rationale_321",
+      "target": "src_dynxlate_model_registry_list_supported_models"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L39",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_rationale_39",
-      "target": "src_dynaxlate_model_registry_modelmapping_apply"
+      "source": "src_dynxlate_model_registry_rationale_39",
+      "target": "src_dynxlate_model_registry_modelmapping_apply"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/model_registry.py",
+      "source_file": "src/dynxlate/model_registry.py",
       "source_location": "L53",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_model_registry_rationale_53",
-      "target": "src_dynaxlate_model_registry_load_builtin_registry"
+      "source": "src_dynxlate_model_registry_rationale_53",
+      "target": "src_dynxlate_model_registry_load_builtin_registry"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_1",
-      "target": "src_dynaxlate_pf_adapter"
+      "source": "src_dynxlate_pf_adapter_rationale_1",
+      "target": "src_dynxlate_pf_adapter"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L111",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_111",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_import_psse"
+      "source": "src_dynxlate_pf_adapter_rationale_111",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_import_psse"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L141",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_141",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_power_flow"
+      "source": "src_dynxlate_pf_adapter_rationale_141",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_run_power_flow"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L158",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_158",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_run_rms_simulation"
+      "source": "src_dynxlate_pf_adapter_rationale_158",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_run_rms_simulation"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_19",
-      "target": "src_dynaxlate_pf_adapter_pfconnectionconfig"
+      "source": "src_dynxlate_pf_adapter_rationale_19",
+      "target": "src_dynxlate_pf_adapter_pfconnectionconfig"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_28",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter"
+      "source": "src_dynxlate_pf_adapter_rationale_28",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L45",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_45",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_connect"
+      "source": "src_dynxlate_pf_adapter_rationale_45",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_connect"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L72",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_72",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_disconnect"
+      "source": "src_dynxlate_pf_adapter_rationale_72",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_disconnect"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L84",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_84",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_create_project"
+      "source": "src_dynxlate_pf_adapter_rationale_84",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_create_project"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/pf_adapter.py",
+      "source_file": "src/dynxlate/pf_adapter.py",
       "source_location": "L97",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_pf_adapter_rationale_97",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter_activate_project"
+      "source": "src_dynxlate_pf_adapter_rationale_97",
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter_activate_project"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_rationale_1",
-      "target": "src_dynaxlate_psse_baseline"
+      "source": "src_dynxlate_psse_baseline_rationale_1",
+      "target": "src_dynxlate_psse_baseline"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L106",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_rationale_106",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_vref_step"
+      "source": "src_dynxlate_psse_baseline_rationale_106",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner_run_vref_step"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L110",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_rationale_110",
-      "target": "src_dynaxlate_psse_baseline"
+      "source": "src_dynxlate_psse_baseline_rationale_110",
+      "target": "src_dynxlate_psse_baseline"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L114",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_rationale_114",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner_compute_eigenvalues"
+      "source": "src_dynxlate_psse_baseline_rationale_114",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner_compute_eigenvalues"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_rationale_14",
-      "target": "src_dynaxlate_psse_baseline_simulationresult"
+      "source": "src_dynxlate_psse_baseline_rationale_14",
+      "target": "src_dynxlate_psse_baseline_simulationresult"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_rationale_24",
-      "target": "src_dynaxlate_psse_baseline_powerflowresult"
+      "source": "src_dynxlate_psse_baseline_rationale_24",
+      "target": "src_dynxlate_psse_baseline_powerflowresult"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L34",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_rationale_34",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner"
+      "source": "src_dynxlate_psse_baseline_rationale_34",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L46",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_rationale_46",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_power_flow"
+      "source": "src_dynxlate_psse_baseline_rationale_46",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner_run_power_flow"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "src/dynaxlate/psse_baseline.py",
+      "source_file": "src/dynxlate/psse_baseline.py",
       "source_location": "L64",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "src_dynaxlate_psse_baseline_rationale_64",
-      "target": "src_dynaxlate_psse_baseline_pssebaselinerunner_run_dynamic"
+      "source": "src_dynxlate_psse_baseline_rationale_64",
+      "target": "src_dynxlate_psse_baseline_pssebaselinerunner_run_dynamic"
     },
     {
       "relation": "rationale_for",
@@ -9828,7 +9828,7 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "tests_test_strategy_d_rationale_485",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate"
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate"
     },
     {
       "relation": "rationale_for",
@@ -9839,7 +9839,7 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "tests_test_strategy_d_rationale_488",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dyr_parser_reused"
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_dyr_parser_reused"
     },
     {
       "relation": "rationale_for",
@@ -9850,7 +9850,7 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "tests_test_strategy_d_rationale_496",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_reused"
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_model_registry_reused"
     },
     {
       "relation": "rationale_for",
@@ -9861,7 +9861,7 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "tests_test_strategy_d_rationale_505",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_supports_simulink_params"
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_model_registry_supports_simulink_params"
     },
     {
       "relation": "rationale_for",
@@ -9872,7 +9872,7 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "tests_test_strategy_d_rationale_517",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dsl_generator_reused"
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_dsl_generator_reused"
     },
     {
       "relation": "rationale_for",
@@ -9883,7 +9883,7 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "tests_test_strategy_d_rationale_525",
-      "target": "tests_test_strategy_d_testintegrationwithdynaxlate_test_comparison_tool_reused"
+      "target": "tests_test_strategy_d_testintegrationwithdynxlate_test_comparison_tool_reused"
     },
     {
       "relation": "rationale_for",
@@ -10075,13 +10075,13 @@
     {
       "relation": "uses",
       "confidence": "INFERRED",
-      "source_file": "src/dynaxlate/dsl_generator.py",
+      "source_file": "src/dynxlate/dsl_generator.py",
       "source_location": "L66",
       "weight": 0.8,
       "_origin": "ast",
       "confidence_score": 0.5,
-      "source": "src_dynaxlate_dsl_generator_dslgenerator",
-      "target": "src_dynaxlate_fortran_parser_fortranudm"
+      "source": "src_dynxlate_dsl_generator_dslgenerator",
+      "target": "src_dynxlate_fortran_parser_fortranudm"
     },
     {
       "relation": "uses",
@@ -10092,7 +10092,7 @@
       "_origin": "ast",
       "confidence_score": 0.5,
       "source": "tests_test_fortran_udm_testdslgenerator",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator"
+      "target": "src_dynxlate_dsl_generator_dslgenerator"
     },
     {
       "relation": "uses",
@@ -10103,7 +10103,7 @@
       "_origin": "ast",
       "confidence_score": 0.5,
       "source": "tests_test_strategy_a_testpowerfactoryadapter",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter"
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter"
     },
     {
       "relation": "uses",
@@ -10113,8 +10113,8 @@
       "weight": 0.8,
       "_origin": "ast",
       "confidence_score": 0.5,
-      "source": "tests_test_strategy_d_testintegrationwithdynaxlate",
-      "target": "src_dynaxlate_dsl_generator_dslgenerator"
+      "source": "tests_test_strategy_d_testintegrationwithdynxlate",
+      "target": "src_dynxlate_dsl_generator_dslgenerator"
     },
     {
       "relation": "calls",
@@ -10126,7 +10126,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testcomparisonframework_test_different_signals_fail",
-      "target": "src_dynaxlate_comparison_compare_timeseries"
+      "target": "src_dynxlate_comparison_compare_timeseries"
     },
     {
       "relation": "calls",
@@ -10138,7 +10138,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testcomparisonframework_test_identical_signals_pass",
-      "target": "src_dynaxlate_comparison_compare_timeseries"
+      "target": "src_dynxlate_comparison_compare_timeseries"
     },
     {
       "relation": "calls",
@@ -10150,7 +10150,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testcomparisonframework_test_powerflow_comparison",
-      "target": "src_dynaxlate_comparison_compare_powerflow"
+      "target": "src_dynxlate_comparison_compare_powerflow"
     },
     {
       "relation": "calls",
@@ -10162,7 +10162,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testdyrparser_ieee14_dyr",
-      "target": "src_dynaxlate_dyr_parser_parse_dyr"
+      "target": "src_dynxlate_dyr_parser_parse_dyr"
     },
     {
       "relation": "calls",
@@ -10174,7 +10174,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testdyrparser_kundur_dyr",
-      "target": "src_dynaxlate_dyr_parser_parse_dyr"
+      "target": "src_dynxlate_dyr_parser_parse_dyr"
     },
     {
       "relation": "calls",
@@ -10186,7 +10186,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testmodelregistry_test_damping_correction_flagged",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10198,7 +10198,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testmodelregistry_test_genrou_mapping",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10210,7 +10210,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testmodelregistry_test_ibr_models_have_ppc_corrections",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10222,7 +10222,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testmodelregistry_test_ibr_models_tagged_emt",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10234,7 +10234,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testmodelregistry_test_parameter_transform",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10246,7 +10246,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testmodelregistry_test_registry_has_standard_models",
-      "target": "src_dynaxlate_model_registry_list_supported_models"
+      "target": "src_dynxlate_model_registry_list_supported_models"
     },
     {
       "relation": "calls",
@@ -10258,7 +10258,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testmodelregistry_test_repc_tagged_both",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10270,7 +10270,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testmodelregistry_test_saturation_correction_flagged",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10282,7 +10282,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testmodelregistry_test_sync_models_tagged_rms",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10294,7 +10294,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testpowerfactoryadapter_test_adapter_instantiation",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter"
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter"
     },
     {
       "relation": "calls",
@@ -10306,7 +10306,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testpowerfactoryadapter_test_connect_without_pf_returns_false",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter"
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter"
     },
     {
       "relation": "calls",
@@ -10318,7 +10318,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_a_testpowerfactoryadapter_test_context_manager",
-      "target": "src_dynaxlate_pf_adapter_powerfactoryadapter"
+      "target": "src_dynxlate_pf_adapter_powerfactoryadapter"
     },
     {
       "relation": "calls",
@@ -10330,7 +10330,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_b_testdslsyntaxgeneration_test_dsl_output_format",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10342,7 +10342,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_b_testmodelregistrycompleteness_all_dyr_models",
-      "target": "src_dynaxlate_dyr_parser_parse_dyr"
+      "target": "src_dynxlate_dyr_parser_parse_dyr"
     },
     {
       "relation": "calls",
@@ -10354,7 +10354,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_b_testmodelregistrycompleteness_test_registry_covers_all_test_models",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10366,7 +10366,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_strategy_c_testcimgeneration_ieee14_dyr",
-      "target": "src_dynaxlate_dyr_parser_parse_dyr"
+      "target": "src_dynxlate_dyr_parser_parse_dyr"
     },
     {
       "relation": "calls",
@@ -10377,8 +10377,8 @@
       "source_location": "L490",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "tests_test_strategy_d_testintegrationwithdynaxlate_test_dyr_parser_reused",
-      "target": "src_dynaxlate_dyr_parser_parse_dyr"
+      "source": "tests_test_strategy_d_testintegrationwithdynxlate_test_dyr_parser_reused",
+      "target": "src_dynxlate_dyr_parser_parse_dyr"
     },
     {
       "relation": "calls",
@@ -10389,8 +10389,8 @@
       "source_location": "L499",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_reused",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "source": "tests_test_strategy_d_testintegrationwithdynxlate_test_model_registry_reused",
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "calls",
@@ -10401,8 +10401,8 @@
       "source_location": "L507",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "tests_test_strategy_d_testintegrationwithdynaxlate_test_model_registry_supports_simulink_params",
-      "target": "src_dynaxlate_model_registry_get_mapping"
+      "source": "tests_test_strategy_d_testintegrationwithdynxlate_test_model_registry_supports_simulink_params",
+      "target": "src_dynxlate_model_registry_get_mapping"
     },
     {
       "relation": "conceptually_related_to",
