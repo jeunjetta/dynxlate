@@ -22,15 +22,40 @@ Watch this short video for a quick overview of the ideal end state of phase 1 (s
 
 ```
 dynxlate/
-├── plans/           # Research, links, and implementation strategies
-├── src/             # Translation code
-├── tests/           # Test harnesses
-├── models/          # Example models (IEEE, WECC, generic)
-│   ├── psse/       # .raw + .dyr files
-│   ├── pscad/      # PSCAD case files
-│   └── powerfactory/ # Translated .pfd / DSL / DPL
-└── results/         # Simulation comparison outputs
+├── plans/           	# Research, links, and implementation strategies
+│       research.md
+│       critique.md
+│       emt-ibr-context.md
+│       strategy-a-native-import.md
+│       strategy-b-andes-dsl-generator.md
+│       strategy-c-cim-intermediate.md
+│       strategy-d-matlab-simulink-translator.md
+├── src/             	# Translation code
+│   └───dynaxlate
+│           comparison.py
+│           dsl_generator.py
+│           dyr_parser.py
+│           fortran_parser.py
+│           model_registry.py
+│           pf_adapter.py
+│           psse_baseline.py
+│           __init__.py
+├── tests/           	# UDM, validation and strategy test suites
+├───assets
+│       Automating_Grid_Model_Translation__The_Architecture_of_Dynxlate.mp4
+│       Dynxlate_Dynamic_Model_Translation.pdf
+│       Dynxlate_Dynamic_Model_Translation.pptx
+│       Dynxlate_Folder_Snapshot.png
+│       Pandapower_for_Modeling_Analysis_and_Optimization_of_Electric_Power_Systems.pdf
+├───graphify-out		# architecture analysis and code graphs
+├── models/          	# Example models (IEEE, WECC, generic)
+│   ├── psse/       	# .raw + .dyr files
+│   ├── fortran/      	# usrexc.f, usrgov.f, usrpss.f
+│   └── powerfactory/ 	# Translated .pfd / DSL / DPL
+└── results/         	# Simulation comparison outputs
 ```
+
+"dynxlate/assets/dynxlate_folder_snapshot.png"
 
 ---
 
